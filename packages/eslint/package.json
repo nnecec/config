@@ -1,0 +1,32 @@
+{
+  "name": "@nnecec/eslint-config",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "nnecec(https://github.com/nnecec/)",
+  "main": "base.js",
+  "files": [
+    "base.js",
+    "react.js",
+    "typescript.js",
+    "README.md"
+  ],
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.21.0",
+    "@typescript-eslint/parser": "^5.21.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "7.29.4",
+    "eslint-plugin-react-hooks": "^4.5.0",
+    "eslint-plugin-unicorn": "^42.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.14.0",
+    "typescript": "^4.6.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
