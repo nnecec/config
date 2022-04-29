@@ -1,0 +1,20 @@
+{
+  "name": "@nnecec/tsconfig",
+  "entries": [
+    {
+      "date": "Fri, 29 Apr 2022 07:48:02 GMT",
+      "tag": "@nnecec/tsconfig_v0.0.2",
+      "version": "0.0.2",
+      "comments": {
+        "patch": [
+          {
+            "author": "nnecec@outlook.com",
+            "package": "@nnecec/tsconfig",
+            "commit": "035b3dd2add56d483813ea09c3e85007f7dd6663",
+            "comment": "update tsconfig"
+          }
+        ]
+      }
+    }
+  ]
+}
