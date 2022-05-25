@@ -2,7 +2,6 @@
 
 ## Features
 
-- Standard style
 - Include prettier-plugin-tailwindcss
 
 ## Usage
