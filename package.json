@@ -15,13 +15,11 @@
     "publish": "beachball publish"
   },
   "devDependencies": {
-    "@nnecec/eslint-config": "workspace:*",
-    "@nnecec/prettier-config": "workspace:*",
     "beachball": "^2.22.3",
     "eslint": "^8.16.0",
     "prettier": "^2.6.2",
-    "turbo": "^1.2.11",
-    "typescript": "^4.6.4"
+    "turbo": "^1.2.14",
+    "typescript": "^4.7.2"
   },
   "engines": {
     "node": ">=14.0.0",
