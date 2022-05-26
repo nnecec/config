@@ -1,17 +1,20 @@
+/**
+ * @type {import('eslint').Linter.Config}
+ */
 module.exports = {
   extends: [
-    "plugin:react/recommended",
-    "plugin:react-hooks/recommended",
-    "@nnecec/eslint-config/base",
-    "@nnecec/eslint-config/typescript",
+    'plugin:react/recommended',
+    'plugin:react-hooks/recommended',
+    '@nnecec/eslint-config/base',
+    '@nnecec/eslint-config/typescript'
   ],
   settings: {
     react: {
-      version: "18.0",
-    },
+      version: '18.0'
+    }
   },
   rules: {
-    "jsx-quotes": ["error", "prefer-double"],
-    "react/react-in-jsx-scope": "off",
-  },
-};
+    'jsx-quotes': ['error', 'prefer-double'],
+    'react/react-in-jsx-scope': 'off'
+  }
+}
