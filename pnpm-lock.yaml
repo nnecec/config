@@ -51,11 +51,18 @@ importers:
 
   packages/prettier:
     specifiers:
+      '@nnecec/tsconfig': workspace:*
+      '@types/prettier': ^2.6.1
       prettier: ^2.6.2
       prettier-plugin-tailwindcss: ^0.1.11
+      typescript: ^4.7.2
     dependencies:
       prettier: 2.6.2
       prettier-plugin-tailwindcss: 0.1.11_prettier@2.6.2
+    devDependencies:
+      '@nnecec/tsconfig': link:../tsconfig
+      '@types/prettier': 2.6.1
+      typescript: 4.7.2
 
   packages/tsconfig:
     specifiers: {}
@@ -148,6 +155,10 @@ packages:
 
   /@types/parse-json/4.0.0:
     resolution: {integrity: sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA==}
+    dev: true
+
+  /@types/prettier/2.6.1:
+    resolution: {integrity: sha512-XFjFHmaLVifrAKaZ+EKghFHtHSUonyw8P2Qmy2/+osBnrKbH9UYtlK10zg8/kCt47MFilll/DEDKy3DHfJ0URw==}
     dev: true
 
   /@typescript-eslint/eslint-plugin/5.25.0_jorowkvdqu6pwramweg5le7ncu:
@@ -2846,6 +2857,12 @@ packages:
 
   /typescript/4.6.4:
     resolution: {integrity: sha512-9ia/jWHIEbo49HfjrLGfKbZSuWo9iTMwXO+Ca3pRsSpbsMbc7/IU8NKdCZVRRBafVPGnoJeFL76ZOAA84I9fEg==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: true
+
+  /typescript/4.7.2:
+    resolution: {integrity: sha512-Mamb1iX2FDUpcTRzltPxgWMKy3fhg0TN378ylbktPGPK/99KbDtMQ4W1hwgsbPAsG3a0xKa1vmw4VKZQbkvz5A==}
     engines: {node: '>=4.2.0'}
     hasBin: true
     dev: true

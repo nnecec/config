@@ -4,13 +4,16 @@
   "author": "nnecec(https://github.com/nnecec/)",
   "main": "index.js",
   "files": [
-    "index.json",
+    "index.js",
     "README.md"
   ],
   "prettier": "@nnecec/prettier-config",
   "dependencies": {
     "prettier": "^2.6.2",
     "prettier-plugin-tailwindcss": "^0.1.11"
+  },
+  "devDependencies": {
+    "@types/prettier": "^2.6.1"
   },
   "publishConfig": {
     "access": "public"
