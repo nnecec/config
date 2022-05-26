@@ -2,5 +2,26 @@
 
 ## Features
 
-- Basic eslint config for React, TypeScript , etc.
-- Support Prettier
+- Include React, TypeScript, etc.
+- Support Prettier.
+- eslint-plugin-unicorn optional.
+
+## Usage
+
+Install:
+
+```bash
+$ npm install --save-dev eslint @nnecec/eslint-config
+```
+
+Edit `.eslintrc.js`:
+
+```js
+module.exports = {
+  extends: ['@nnecec/eslint-config']
+  // or
+  extends: ['@nnecec/eslint-config/react']
+  // or
+  extends: ['@nnecec/eslint-config/typescript']
+}
+```

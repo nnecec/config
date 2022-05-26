@@ -1,19 +1,30 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
-  "display": "Base",
   "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
     "composite": false,
     "declaration": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "inlineSources": false,
     "isolatedModules": true,
+    "lib": ["DOM", "DOM.Iterable", "ES2020"],
     "moduleResolution": "node",
+    "noEmitOnError": true,
     "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
     "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "pretty": true,
+    "resolveJsonModule": false,
     "skipLibCheck": true,
     "strict": true,
+    "stripInternal": true,
+    "useDefineForClassFields": true,
     "useUnknownInCatchVariables": false
   },
+  "display": "Base",
   "exclude": ["node_modules"]
 }
