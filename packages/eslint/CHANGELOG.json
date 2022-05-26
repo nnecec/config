@@ -2,6 +2,21 @@
   "name": "@nnecec/eslint-config",
   "entries": [
     {
+      "date": "Thu, 26 May 2022 07:57:49 GMT",
+      "tag": "@nnecec/eslint-config_v0.0.3",
+      "version": "0.0.3",
+      "comments": {
+        "patch": [
+          {
+            "author": "nnecec@outlook.com",
+            "package": "@nnecec/eslint-config",
+            "commit": "42d3f469dda3c372cf4777b0d6d5f5cc93ae1ada",
+            "comment": "update eslint config"
+          }
+        ]
+      }
+    },
+    {
       "date": "Tue, 24 May 2022 02:28:19 GMT",
       "tag": "@nnecec/eslint-config_v0.0.2",
       "version": "0.0.2",
