@@ -17,8 +17,3 @@ export function findGitRoot(cwd) {
 export function findPackageRoot(cwd) {
   return searchUp('package.json', cwd)
 }
-
-export function isChildOf(child, parent) {
-  const relativePath = path.relative(child, parent)
-  return /^[.\/\\]+$/.test(relativePath)
-}
