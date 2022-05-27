@@ -3,5 +3,5 @@ export function searchUp(pathName: string) {
 }
 
 export function checkPath(path: string) {
-  return /^[.\/\\]+$/.test(path)
+  return /^[./\\]+$/.test(path)
 }

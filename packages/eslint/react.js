@@ -5,8 +5,8 @@ module.exports = {
   extends: [
     'plugin:react/recommended',
     'plugin:react-hooks/recommended',
-    '@nnecec/eslint-config/base',
-    '@nnecec/eslint-config/typescript'
+    './base',
+    './typescript'
   ],
   settings: {
     react: {

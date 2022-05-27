@@ -1,4 +1,4 @@
-function App() {
+export function App() {
   const printEvent = e => {
     console.log(e)
   }
@@ -6,7 +6,7 @@ function App() {
   return (
     <div>
       <button onClick={printEvent}>Click me</button>
-      <a href='www.baidu.com'>baidu</a>
+      <a href="www.baidu.com">baidu</a>
     </div>
   )
 }

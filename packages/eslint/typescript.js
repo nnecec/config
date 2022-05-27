@@ -5,7 +5,7 @@ module.exports = {
   extends: [
     'plugin:import/typescript',
     'plugin:@typescript-eslint/recommended',
-    '@nnecec/eslint-config/base'
+    './base'
   ],
   settings: {
     'import/resolver': {
@@ -17,6 +17,8 @@ module.exports = {
     '@typescript-eslint/no-use-before-define': [
       'error',
       { functions: false, classes: false, variables: true }
-    ]
+    ],
+    'no-unused-vars': 'off',
+    '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_' }]
   }
 }
