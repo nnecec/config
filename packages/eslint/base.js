@@ -22,7 +22,6 @@ module.exports = {
     'yarn.lock',
     '__snapshots__',
     '!.github',
-    '!.vitepress',
     '!.vscode'
   ],
   settings: {
@@ -32,13 +31,19 @@ module.exports = {
   },
   overrides: [
     {
-      files: ['scripts/**/*.*', 'cli.*'],
+      files: ['scripts/**/*.*'],
       rules: {
         'no-console': 'off'
       }
     },
     {
-      files: ['*.test.ts', '*.test.js', '*.spec.ts', '*.spec.js'],
+      files: [
+        '__tests__/**/*.*',
+        '*.test.ts',
+        '*.test.js',
+        '*.spec.ts',
+        '*.spec.js'
+      ],
       rules: {
         'no-unused-expressions': 'off'
       }
