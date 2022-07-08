@@ -8,6 +8,7 @@ module.exports = {
     node: true
   },
   extends: ['standard', 'plugin:import/recommended', 'prettier'],
+  plugins: ['unicorn', 'simple-import-sort'],
   ignorePatterns: [
     '*.min.*',
     'CHANGELOG.md',
@@ -47,9 +48,55 @@ module.exports = {
       rules: {
         'no-unused-expressions': 'off'
       }
+    },
+    {
+      files: ['*.js', '*.jsx', '*.ts', '*.tsx'],
+      rules: {
+        'simple-import-sort/imports': [
+          'error',
+          {
+            groups: [
+              // Packages `react` related packages come first.
+              ['^react', '^@?\\w'],
+              // Side effect imports.
+              ['^\\u0000'],
+              // Internal packages.
+              ['^(lib|components|pages|types|utils)(/.*|$)'],
+              // Parent imports. Put `..` last.
+              ['^\\.\\.(?!/?$)', '^\\.\\./?$'],
+              // Other relative imports. Put same-folder imports and `.` last.
+              ['^\\./(?=.*/)(?!/?$)', '^\\.(?!/?$)', '^\\./?$'],
+              // Style imports.
+              ['^.+\\.?(css)$']
+            ]
+          }
+        ]
+      }
     }
   ],
   rules: {
-    'no-unused-vars': 'warn'
+    // common
+    'no-unused-vars': 'warn',
+    'no-use-before-define': [
+      'error',
+      { functions: false, classes: false, variables: true }
+    ],
+
+    // unicorns
+    'unicorn/error-message': 'error',
+    'unicorn/escape-case': 'error',
+    'unicorn/no-instanceof-array': 'error',
+    'unicorn/no-new-buffer': 'error',
+    'unicorn/no-unsafe-regex': 'off',
+    'unicorn/number-literal-case': 'error',
+    'unicorn/prefer-includes': 'error',
+    'unicorn/prefer-starts-ends-with': 'error',
+    'unicorn/prefer-text-content': 'error',
+    'unicorn/prefer-type-error': 'error',
+    'unicorn/throw-new-error': 'error',
+
+    // imports
+    'simple-import-sort/imports': 'error',
+    'simple-import-sort/exports': 'error'
   }
 }
