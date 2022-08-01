@@ -3,9 +3,9 @@
  */
 module.exports = {
   extends: [
+    './base',
     'plugin:import/typescript',
-    'plugin:@typescript-eslint/recommended',
-    './base'
+    'plugin:@typescript-eslint/recommended'
   ],
   settings: {
     'import/resolver': {

@@ -1,0 +1,3 @@
+{
+  "extends": ["@nnecec/eslint-config/react"]
+}

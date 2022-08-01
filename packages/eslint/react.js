@@ -3,10 +3,10 @@
  */
 module.exports = {
   extends: [
-    'plugin:react/recommended',
-    'plugin:react-hooks/recommended',
     './base',
-    './typescript'
+    './typescript',
+    'plugin:react/recommended',
+    'plugin:react-hooks/recommended'
   ],
   settings: {
     react: {
