@@ -2,6 +2,21 @@
   "name": "@nnecec/eslint-config",
   "entries": [
     {
+      "date": "Mon, 01 Aug 2022 07:24:20 GMT",
+      "tag": "@nnecec/eslint-config_v0.0.7",
+      "version": "0.0.7",
+      "comments": {
+        "patch": [
+          {
+            "author": "nnecec@outlook.com",
+            "package": "@nnecec/eslint-config",
+            "commit": "30b46e97fa502fa6b4021190092a47bd4e261de6",
+            "comment": "fix(eslint): extends order"
+          }
+        ]
+      }
+    },
+    {
       "date": "Fri, 08 Jul 2022 03:01:57 GMT",
       "tag": "@nnecec/eslint-config_v0.0.6",
       "version": "0.0.6",

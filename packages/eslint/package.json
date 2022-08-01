@@ -1,6 +1,6 @@
 {
   "name": "@nnecec/eslint-config",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "license": "MIT",
   "author": "nnecec(https://github.com/nnecec/)",
   "main": "base.js",
