@@ -1,4 +1,0 @@
-{
-  "root": true,
-  "extends": ["@remix-run/eslint-config", "@nnecec/eslint-config/react"]
-}
