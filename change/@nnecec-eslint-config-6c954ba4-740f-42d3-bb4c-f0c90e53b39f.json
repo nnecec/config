@@ -1,0 +1,10 @@
+{
+  "type": "patch",
+  "comment": {
+    "title": "",
+    "value": ""
+  },
+  "packageName": "@nnecec/eslint-config",
+  "email": "nnecec@outlook.com",
+  "dependentChangeType": "patch"
+}
