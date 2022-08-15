@@ -2,6 +2,21 @@
   "name": "@nnecec/prettier-config",
   "entries": [
     {
+      "date": "Mon, 15 Aug 2022 03:10:26 GMT",
+      "tag": "@nnecec/prettier-config_v0.0.6",
+      "version": "0.0.6",
+      "comments": {
+        "patch": [
+          {
+            "author": "nnecec@outlook.com",
+            "package": "@nnecec/prettier-config",
+            "commit": "ca0e6c5a366a4cdf46829e4b5534a293f922babd",
+            "comment": "feat: update deps"
+          }
+        ]
+      }
+    },
+    {
       "date": "Fri, 08 Jul 2022 03:01:57 GMT",
       "tag": "@nnecec/prettier-config_v0.0.5",
       "version": "0.0.5",

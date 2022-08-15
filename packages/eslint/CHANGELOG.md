@@ -1,8 +1,16 @@
 # Change Log - @nnecec/eslint-config
 
-This log was last generated on Mon, 01 Aug 2022 07:24:20 GMT and should not be manually modified.
+This log was last generated on Mon, 15 Aug 2022 03:10:26 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 0.0.8
+
+Mon, 15 Aug 2022 03:10:26 GMT
+
+### Patches
+
+- [object Object] (nnecec@outlook.com)
 
 ## 0.0.7
 
