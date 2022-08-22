@@ -22,8 +22,7 @@
     "skipLibCheck": true,
     "strict": true,
     "stripInternal": true,
-    "useDefineForClassFields": true,
-    "useUnknownInCatchVariables": false
+    "useDefineForClassFields": true
   },
   "display": "Base",
   "exclude": ["node_modules"]
