@@ -4,14 +4,14 @@ importers:
 
   .:
     specifiers:
-      beachball: ^2.30.0
-      eslint: ^8.22.0
-      prettier: ^2.7.1
-      react: ^18.2.0
-      turbo: ^1.4.3
-      typescript: ^4.7.4
+      beachball: 2.30.1
+      eslint: 8.22.0
+      prettier: 2.7.1
+      react: 18.2.0
+      turbo: 1.4.3
+      typescript: 4.7.4
     devDependencies:
-      beachball: 2.30.0
+      beachball: 2.30.1
       eslint: 8.22.0
       prettier: 2.7.1
       react: 18.2.0
@@ -21,9 +21,9 @@ importers:
   fixtures:
     specifiers:
       '@nnecec/eslint-config': '*'
-      '@types/react': ^18.0.17
-      '@types/react-dom': ^18.0.6
-      eslint: ^8.22.0
+      '@types/react': 18.0.17
+      '@types/react-dom': 18.0.6
+      eslint: 8.22.0
     dependencies:
       '@nnecec/eslint-config': link:../packages/eslint
     devDependencies:
@@ -35,7 +35,7 @@ importers:
     specifiers:
       '@typescript-eslint/eslint-plugin': ^5.33.0
       '@typescript-eslint/parser': ^5.33.0
-      eslint: ^8.22.0
+      eslint: 8.22.0
       eslint-config-prettier: ^8.5.0
       eslint-config-standard: ^17.0.0
       eslint-plugin-import: ^2.26.0
@@ -45,7 +45,7 @@ importers:
       eslint-plugin-react-hooks: ^4.6.0
       eslint-plugin-simple-import-sort: ^7.0.0
       eslint-plugin-unicorn: ^43.0.2
-      typescript: ^4.7.4
+      typescript: 4.7.4
     dependencies:
       '@typescript-eslint/eslint-plugin': 5.33.0_yy5c4q6zhpajzhorvwhnwvctfe
       '@typescript-eslint/parser': 5.33.0_4rv7y5c6xz3vfxwhbrcxxi73bq
@@ -64,7 +64,7 @@ importers:
 
   packages/prettier:
     specifiers:
-      '@types/prettier': ^2.7.0
+      '@types/prettier': 2.7.0
       prettier: ^2.7.1
       prettier-plugin-tailwindcss: ^0.1.13
     dependencies:
@@ -395,8 +395,8 @@ packages:
   /balanced-match/1.0.2:
     resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==}
 
-  /beachball/2.30.0:
-    resolution: {integrity: sha512-HGWNuwMXAlNlmOZfE7h8neV+NFjoocNDMUaFcoGOtJlMMcdhs1lamGvBRGZmurI6Mrs8VmAujmpr053dotZevw==}
+  /beachball/2.30.1:
+    resolution: {integrity: sha512-v3qzZ5a7gFTVOQ6P4Q6uUK5QJWD897bAVqkilh5JpKNpsP/v9XgMMFZe6xzCkKQqux6+QW0SJlQRqnD/MPi3ZQ==}
     engines: {node: '>=12.0.0'}
     hasBin: true
     dependencies:
@@ -492,7 +492,7 @@ packages:
     resolution: {integrity: sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==}
 
   /concat-map/0.0.1:
-    resolution: {integrity: sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=}
+    resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
 
   /cosmiconfig/7.0.1:
     resolution: {integrity: sha512-a1YWNUV2HwGimB7dU2s1wUMurNKjpx60HxBB6xUM8Re+2s1g1IIfJvFR0/iCF+XHdE0GMTKTuLR32UQff4TEyQ==}
