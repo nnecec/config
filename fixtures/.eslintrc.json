@@ -1,3 +1,8 @@
 {
-  "extends": ["@nnecec/eslint-config/react"]
+  "extends": [
+    // "@remix-run/eslint-config",
+    // "@remix-run/eslint-config/node",
+    "@nnecec/eslint-config/react",
+    "@nnecec/eslint-config/typescript"
+  ]
 }
