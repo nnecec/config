@@ -11,7 +11,7 @@
 Install:
 
 ```bash
-$ npm install --save-dev eslint @nnecec/eslint-config
+npm install --save-dev eslint @nnecec/eslint-config
 ```
 
 Edit `.eslintrc.js`:
@@ -20,8 +20,9 @@ Edit `.eslintrc.js`:
 module.exports = {
   extends: ['@nnecec/eslint-config']
   // or
-  extends: ['@nnecec/eslint-config/react']
-  // or
-  extends: ['@nnecec/eslint-config/typescript']
+  extends: [
+    '@nnecec/eslint-config/react',
+    '@nnecec/eslint-config/typescript'
+  ]
 }
 ```
