@@ -11,21 +11,18 @@
     "README.md"
   ],
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.40.0",
-    "@typescript-eslint/parser": "^5.40.0",
+    "@typescript-eslint/eslint-plugin": "^5.46.0",
+    "@typescript-eslint/parser": "^5.46.0",
     "eslint-config-prettier": "^8.5.0",
-    "eslint-config-standard": "^17.0.0",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-n": "^15.3.0",
-    "eslint-plugin-promise": "^6.0.1",
-    "eslint-plugin-react": "7.31.10",
+    "eslint-plugin-react": "7.31.11",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-simple-import-sort": "^8.0.0",
-    "eslint-plugin-unicorn": "^44.0.2"
+    "eslint-plugin-tailwindcss": "^3.7.1",
+    "eslint-plugin-unicorn": "^45.0.1"
   },
   "devDependencies": {
-    "eslint": "^8.25.0",
-    "typescript": "^4.8.4"
+    "eslint": "^8.29.0",
+    "typescript": "^4.9.4"
   },
   "publishConfig": {
     "access": "public"

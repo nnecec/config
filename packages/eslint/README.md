@@ -4,7 +4,7 @@
 
 - Include React, TypeScript, etc.
 - Support Prettier.
-- eslint-plugin-unicorn optional.
+- Optional: eslint-plugin-unicorn.
 
 ## Usage
 
@@ -20,9 +20,8 @@ Edit `.eslintrc.js`:
 module.exports = {
   extends: ['@nnecec/eslint-config']
   // or
-  extends: [
-    '@nnecec/eslint-config/react',
-    '@nnecec/eslint-config/typescript'
-  ]
+  extends: ['@nnecec/eslint-config/typescript']
+  // or
+  extends: ['@nnecec/eslint-config/react']
 }
 ```

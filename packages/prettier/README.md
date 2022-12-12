@@ -2,7 +2,6 @@
 
 ## Features
 
-- Include prettier-plugin-tailwindcss
 - No semi, single-quota
 
 ## Usage
