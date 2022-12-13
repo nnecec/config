@@ -1,0 +1,7 @@
+{
+  "type": "minor",
+  "comment": "refactor(eslint): remove standard",
+  "packageName": "@nnecec/tsconfig",
+  "email": "nnecec@outlook.com",
+  "dependentChangeType": "patch"
+}
