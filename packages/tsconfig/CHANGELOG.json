@@ -2,6 +2,21 @@
   "name": "@nnecec/tsconfig",
   "entries": [
     {
+      "date": "Tue, 13 Dec 2022 01:56:49 GMT",
+      "tag": "@nnecec/tsconfig_v0.1.0",
+      "version": "0.1.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "nnecec@outlook.com",
+            "package": "@nnecec/tsconfig",
+            "commit": "a6ec2458827f0ce0172fda359dc3e7d284c57ddb",
+            "comment": "refactor(eslint): remove standard"
+          }
+        ]
+      }
+    },
+    {
       "date": "Mon, 22 Aug 2022 08:20:02 GMT",
       "tag": "@nnecec/tsconfig_v0.0.3",
       "version": "0.0.3",

@@ -2,6 +2,21 @@
   "name": "@nnecec/prettier-config",
   "entries": [
     {
+      "date": "Tue, 13 Dec 2022 01:56:49 GMT",
+      "tag": "@nnecec/prettier-config_v0.1.0",
+      "version": "0.1.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "nnecec@outlook.com",
+            "package": "@nnecec/prettier-config",
+            "commit": "a6ec2458827f0ce0172fda359dc3e7d284c57ddb",
+            "comment": "refactor(eslint): remove standard"
+          }
+        ]
+      }
+    },
+    {
       "date": "Mon, 15 Aug 2022 03:10:26 GMT",
       "tag": "@nnecec/prettier-config_v0.0.6",
       "version": "0.0.6",

@@ -1,7 +1,0 @@
-{
-  "type": "minor",
-  "comment": "refactor(eslint): remove standard",
-  "packageName": "@nnecec/prettier-config",
-  "email": "nnecec@outlook.com",
-  "dependentChangeType": "patch"
-}

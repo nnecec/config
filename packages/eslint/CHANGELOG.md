@@ -1,8 +1,16 @@
 # Change Log - @nnecec/eslint-config
 
-This log was last generated on Tue, 11 Oct 2022 09:48:49 GMT and should not be manually modified.
+This log was last generated on Tue, 13 Dec 2022 01:56:49 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 0.1.0
+
+Tue, 13 Dec 2022 01:56:49 GMT
+
+### Minor changes
+
+- refactor(eslint): remove standard (nnecec@outlook.com)
 
 ## 0.0.9
 

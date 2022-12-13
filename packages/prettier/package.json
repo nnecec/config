@@ -1,6 +1,6 @@
 {
   "name": "@nnecec/prettier-config",
-  "version": "0.0.6",
+  "version": "0.1.0",
   "author": "nnecec(https://github.com/nnecec/)",
   "main": "index.js",
   "files": [
