@@ -2,9 +2,10 @@
 
 ## Features
 
-- Include React, TypeScript, etc.
-- Support Prettier.
-- Optional: eslint-plugin-unicorn.
+- Base on Standard, unicorn.
+- Sort package.json.
+- Sort import dependencies in js/ts.
+- Optional: Tailwind
 
 ## Usage
 
@@ -18,7 +19,7 @@ Edit `.eslintrc.js`:
 
 ```js
 module.exports = {
-  extends: ['@nnecec/eslint-config']
+  extends: ['@nnecec/eslint-config'],
   // or
   extends: ['@nnecec/eslint-config/typescript']
   // or

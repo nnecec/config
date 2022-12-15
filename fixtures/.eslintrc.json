@@ -1,8 +1,9 @@
 {
   "root": true,
   "extends": [
-    "@remix-run/eslint-config",
-    "@remix-run/eslint-config/node",
-    "@nnecec/eslint-config/react"
+    // "@remix-run/eslint-config",
+    // "@remix-run/eslint-config/node",
+    "@nnecec/eslint-config/react-universal"
+    // "@antfu"
   ]
 }

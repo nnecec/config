@@ -4,7 +4,6 @@
 module.exports = {
   extends: [
     './typescript',
-    'plugin:tailwindcss/recommended',
     'plugin:react/recommended',
     'plugin:react-hooks/recommended',
   ],

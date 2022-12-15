@@ -1,7 +1,6 @@
 # @nnecec/config
 
 - [@nnecec/eslint-config](./packages/eslint/)
-- [@nnecec/prettier-config](./packages/prettier/)
 - [@nnecec/tsconfig](./packages/tsconfig/)
 
 ## Reference
