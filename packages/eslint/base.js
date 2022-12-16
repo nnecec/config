@@ -12,7 +12,6 @@ module.exports = {
     'standard',
     'plugin:import/recommended',
     'plugin:eslint-comments/recommended',
-    'plugin:yml/standard',
     'plugin:markdown/recommended',
     'plugin:unicorn/recommended',
   ],
@@ -32,7 +31,7 @@ module.exports = {
     '!.github',
     '!.vscode',
   ],
-  plugins: ['html', 'unicorn', 'simple-import-sort', 'json-files'],
+  plugins: ['unicorn', 'simple-import-sort', 'json-files'],
   settings: {
     'import/resolver': {
       node: { extensions: ['.js', '.mjs'] },
@@ -43,13 +42,6 @@ module.exports = {
       files: ['package.json'],
       rules: {
         'json-files/sort-package-json': 'error',
-      },
-    },
-    {
-      files: ['*.yaml', '*.yml'],
-      parser: 'yaml-eslint-parser',
-      rules: {
-        'spaced-comment': 'off',
       },
     },
     {
@@ -125,6 +117,7 @@ module.exports = {
 
     // common
     'no-console': 'error',
+    'arrow-parens': ['error', 'as-needed'],
     'comma-dangle': ['error', {
       arrays: 'always-multiline',
       objects: 'always-multiline',

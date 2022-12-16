@@ -16,7 +16,7 @@ on:
     # The branches below must be a subset of the branches above
     branches: [main]
   schedule:
-    - cron: '21 16 * * 6'
+    - cron: "21 16 * * 6"
 
 jobs:
   eslint:
@@ -37,7 +37,7 @@ jobs:
         with:
           node-version: 16.x
           registry-url: https://registry.npmjs.org/
-          cache: 'pnpm'
+          cache: "pnpm"
 
       - name: Install deps
         run: pnpm install

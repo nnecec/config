@@ -1,3 +1,7 @@
 {
-  "extends": ["./packages/eslint/typescript"]
+  "extends": [
+    "./packages/eslint"
+  ],
+  "ignorePatterns": ["./fixtures"],
+  "root": true
 }

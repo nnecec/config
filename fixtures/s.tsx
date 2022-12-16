@@ -3,10 +3,11 @@ import React, { useState } from 'react'
 import { searchUp } from './t'
 
 export function App () {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState<number>(0)
 
   const printEvent = e => {
-    searchUp(e, count)
+    searchUp(count)
+    console.log(e)
   }
 
   return (
