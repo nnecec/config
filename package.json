@@ -1,6 +1,10 @@
 {
   "name": "@nnecec/config",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nnecec/config.git"
+  },
   "author": "nnecec(https://github.com/nnecec/)",
   "scripts": {
     "beachball": "beachball",
