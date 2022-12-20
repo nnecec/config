@@ -1,0 +1,7 @@
+{
+  "type": "patch",
+  "comment": "chore: update package.json",
+  "packageName": "@nnecec/eslint-config",
+  "email": "nnecec@outlook.com",
+  "dependentChangeType": "patch"
+}
