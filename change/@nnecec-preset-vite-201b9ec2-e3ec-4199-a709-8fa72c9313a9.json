@@ -1,0 +1,9 @@
+{
+  "type": "minor",
+  "comment": {
+    "title": ""
+  },
+  "packageName": "@nnecec/preset-vite",
+  "email": "nnecec@outlook.com",
+  "dependentChangeType": "patch"
+}
