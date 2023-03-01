@@ -2,11 +2,7 @@
  * @type {import('eslint').Linter.Config}
  */
 module.exports = {
-  extends: [
-    './base.js',
-    'plugin:import/typescript',
-    'plugin:@typescript-eslint/recommended',
-  ],
+  extends: ['./base.js', 'plugin:import/typescript', 'plugin:@typescript-eslint/recommended'],
   parser: '@typescript-eslint/parser',
   plugins: ['@typescript-eslint'],
   settings: {

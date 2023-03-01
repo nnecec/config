@@ -10,6 +10,7 @@ module.exports = {
   reportUnusedDisableDirectives: true,
   extends: [
     'standard',
+    'prettier',
     'plugin:import/recommended',
     'plugin:eslint-comments/recommended',
     'plugin:markdown/recommended',
@@ -118,13 +119,16 @@ module.exports = {
     // common
     'no-console': 'error',
     'arrow-parens': ['error', 'as-needed'],
-    'comma-dangle': ['error', {
-      arrays: 'always-multiline',
-      objects: 'always-multiline',
-      imports: 'always-multiline',
-      exports: 'always-multiline',
-      functions: 'always-multiline',
-    }],
+    'comma-dangle': [
+      'error',
+      {
+        arrays: 'always-multiline',
+        objects: 'always-multiline',
+        imports: 'always-multiline',
+        exports: 'always-multiline',
+        functions: 'always-multiline',
+      },
+    ],
 
     'no-multiple-empty-lines': ['error', { max: 1, maxBOF: 0, maxEOF: 0 }],
     'unicorn/prevent-abbreviations': 'off',

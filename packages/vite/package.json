@@ -1,0 +1,17 @@
+{
+  "name": "@nnecec/preset-vite",
+  "version": "0.1.0",
+  "author": "nnecec(https://github.com/nnecec/)",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "README.md"
+  ],
+  "prettier": "@nnecec/preset-vite",
+  "dependencies": {
+    "vite": "^4.1.4"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

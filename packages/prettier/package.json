@@ -1,0 +1,19 @@
+{
+  "name": "@nnecec/prettier-config",
+  "version": "0.1.0",
+  "author": "nnecec(https://github.com/nnecec/)",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "README.md"
+  ],
+  "dependencies": {
+    "prettier": "^2.8.4"
+  },
+  "devDependencies": {
+    "@types/prettier": "^2.7.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
