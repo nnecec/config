@@ -1,32 +1,26 @@
-# `tsconfig`
-
-These are base shared `tsconfig.json`s from which all other `tsconfig.json`'s inherit from.
+# `@nnecec/preset-vite`
 
 ## Features
 
--
+- Integrate @vite/plugin-react, support TypeScript.
+- Analyze output assets with `process.env.BUILD_ANALYSE=true`.
+- `src/` alias `~/`
 
 ## Usage
 
 Install:
 
 ```bash
-$ npm install --save-dev typescript @nnecec/tsconfig
+$ npm install --save-dev vite @nnecec/preset-vite
 ```
 
-Edit `tsconfig.json`:
+Edit `vite.config.js`:
 
-```json
-{
-  "extends": "@nnecec/tsconfig",
-  "compilerOptions": {
-    "outDir": "dist"
-  }
-}
-// or
-{
-  "extends":"@nnecec/tsconfig/react",
-  // or
-  "extends":"@nnecec/tsconfig/commonjs",
-}
+```js
+import preset from '@nnecec/preset-vite'
+import { defineConfig } from 'vite'
+
+export default defineConfig({
+  plugins: [preset()],
+})
 ```
