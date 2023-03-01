@@ -2,6 +2,21 @@
   "name": "@nnecec/eslint-config",
   "entries": [
     {
+      "date": "Tue, 20 Dec 2022 06:51:35 GMT",
+      "tag": "@nnecec/eslint-config_v0.1.1",
+      "version": "0.1.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "nnecec@outlook.com",
+            "package": "@nnecec/eslint-config",
+            "commit": "1f4da96d444e6ab0fdd1af64206215407de59033",
+            "comment": "chore: update package.json"
+          }
+        ]
+      }
+    },
+    {
       "date": "Tue, 13 Dec 2022 01:56:49 GMT",
       "tag": "@nnecec/eslint-config_v0.1.0",
       "version": "0.1.0",
