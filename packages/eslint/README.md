@@ -4,8 +4,8 @@
 
 - Base on Standard, unicorn.
 - Sort package.json.
-- Sort import dependencies in js/ts.
-- Optional: Tailwind
+- Sort `import` in js/ts.
+- Optional: Tailwind.css
 
 ## Usage
 
@@ -21,8 +21,13 @@ Edit `.eslintrc.js`:
 module.exports = {
   extends: ['@nnecec/eslint-config'],
   // or
-  extends: ['@nnecec/eslint-config/typescript']
-  // or
-  extends: ['@nnecec/eslint-config/react']
+  extends: ['@nnecec/eslint-config/typescript'],
 }
 ```
+
+Options
+
+- @nnecec/eslint-config: Base config, includes Standard, Prettier, ImportSort, unicorn.
+- @nnecec/eslint-config/typescript: includes Base and TypeScript config.
+- @nnecec/eslint-config/react: includes TypeScript config and React config.
+- @nnecec/eslint-config/react-universal: includes React config and Tailwind.

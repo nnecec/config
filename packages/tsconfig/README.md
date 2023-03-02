@@ -1,10 +1,10 @@
-# `tsconfig`
+# `@nnecec/tsconfig`
 
 These are base shared `tsconfig.json`s from which all other `tsconfig.json`'s inherit from.
 
 ## Features
 
--
+- Target: ES2020
 
 ## Usage
 
