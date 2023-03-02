@@ -1,32 +1,15 @@
-# `tsconfig`
-
-These are base shared `tsconfig.json`s from which all other `tsconfig.json`'s inherit from.
-
-## Features
-
--
+# `@nnecec/prettier-config`
 
 ## Usage
 
 Install:
 
 ```bash
-$ npm install --save-dev typescript @nnecec/tsconfig
+$ npm install --save-dev @nnecec/prettier-config
 ```
 
-Edit `tsconfig.json`:
+create `.prettierrc`
 
 ```json
-{
-  "extends": "@nnecec/tsconfig",
-  "compilerOptions": {
-    "outDir": "dist"
-  }
-}
-// or
-{
-  "extends":"@nnecec/tsconfig/react",
-  // or
-  "extends":"@nnecec/tsconfig/commonjs",
-}
+"@nnecec/prettier-config"
 ```
