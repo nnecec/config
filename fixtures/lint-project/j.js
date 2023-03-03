@@ -6,7 +6,7 @@ const obj = {
   microsoft: 1,
 }
 
-export function searchUp (pathName, cwd) {
+export function searchUp(pathName, cwd) {
   const root = path.parse(cwd).root
   const file = fs.readFileSync(pathName)
   console.log(obj, root, file)
@@ -14,10 +14,10 @@ export function searchUp (pathName, cwd) {
   return null
 }
 
-export function findGitRoot (cwd) {
+export function findGitRoot(cwd) {
   return searchUp('.git', cwd)
 }
 
-export function findPackageRoot (cwd) {
+export function findPackageRoot(cwd) {
   return searchUp('package.json', cwd)
 }

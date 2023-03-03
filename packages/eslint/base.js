@@ -95,7 +95,8 @@ module.exports = {
               // Side effect imports.
               ['^\\u0000'],
               // Internal packages.
-              ['^(lib|components|pages|types|utils)(/.*|$)'],
+              ['^(@|~)(/.*|$)'],
+              ['^(libs?|components?|pages|types|utils)(/.*|$)'],
               // Parent imports. Put `..` last.
               ['^\\.\\.(?!/?$)', '^\\.\\./?$'],
               // Other relative imports. Put same-folder imports and `.` last.
@@ -109,9 +110,10 @@ module.exports = {
     },
   ],
   rules: {
+    // import
     'simple-import-sort/imports': 'error',
     'simple-import-sort/exports': 'error',
-    'import/order': 'error',
+    'import/order': 'off',
     'import/no-mutable-exports': 'error',
     'import/no-unresolved': 'off',
     'import/no-absolute-path': 'off',
@@ -119,18 +121,10 @@ module.exports = {
     // common
     'no-console': 'error',
     'arrow-parens': ['error', 'as-needed'],
-    'comma-dangle': [
-      'error',
-      {
-        arrays: 'always-multiline',
-        objects: 'always-multiline',
-        imports: 'always-multiline',
-        exports: 'always-multiline',
-        functions: 'always-multiline',
-      },
-    ],
-
+    'comma-dangle': ['error', 'always-multiline'],
     'no-multiple-empty-lines': ['error', { max: 1, maxBOF: 0, maxEOF: 0 }],
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn
     'unicorn/prevent-abbreviations': 'off',
     'unicorn/no-null': 'warn',
     'unicorn/prefer-module': 'off',
