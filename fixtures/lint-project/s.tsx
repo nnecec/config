@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { Router } from 'react-router-dom'
-import type { LoaderFunction, MetaFunction } from '@remix-run/node'
-import { json } from '@remix-run/node'
+import { json, LoaderFunction, MetaFunction } from '@remix-run/node'
 import { useLoaderData } from '@remix-run/react'
 import { Button } from 'antd'
 import path from 'node:path'

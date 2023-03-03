@@ -24,5 +24,11 @@ module.exports = {
       'error',
       { 'ts-ignore': 'allow-with-description' },
     ],
+    '@typescript-eslint/consistent-type-imports': [
+      'error',
+      {
+        prefer: 'type-imports',
+      },
+    ],
   },
 }
