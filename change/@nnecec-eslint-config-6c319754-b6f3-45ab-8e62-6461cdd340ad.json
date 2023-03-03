@@ -1,0 +1,7 @@
+{
+  "type": "patch",
+  "comment": "feat: type imports, self-closing-comp",
+  "packageName": "@nnecec/eslint-config",
+  "email": "nnecec@outlook.com",
+  "dependentChangeType": "patch"
+}
