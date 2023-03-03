@@ -2,6 +2,21 @@
   "name": "@nnecec/eslint-config",
   "entries": [
     {
+      "date": "Fri, 03 Mar 2023 09:08:38 GMT",
+      "tag": "@nnecec/eslint-config_v0.2.2",
+      "version": "0.2.2",
+      "comments": {
+        "patch": [
+          {
+            "author": "nnecec@outlook.com",
+            "package": "@nnecec/eslint-config",
+            "commit": "6df87115789fcdb029241f3c87a4238c6ed0a23a",
+            "comment": "feat: type imports, self-closing-comp"
+          }
+        ]
+      }
+    },
+    {
       "date": "Fri, 03 Mar 2023 07:50:35 GMT",
       "tag": "@nnecec/eslint-config_v0.2.1",
       "version": "0.2.1",
