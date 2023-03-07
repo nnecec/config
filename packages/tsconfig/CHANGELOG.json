@@ -2,6 +2,21 @@
   "name": "@nnecec/tsconfig",
   "entries": [
     {
+      "date": "Tue, 07 Mar 2023 03:52:12 GMT",
+      "tag": "@nnecec/tsconfig_v0.1.1",
+      "version": "0.1.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "nnecec@outlook.com",
+            "package": "@nnecec/tsconfig",
+            "commit": "8dea43894838a569c6094cdca6f1fa7731907553",
+            "comment": "fix esModuleInterop"
+          }
+        ]
+      }
+    },
+    {
       "date": "Tue, 13 Dec 2022 01:56:49 GMT",
       "tag": "@nnecec/tsconfig_v0.1.0",
       "version": "0.1.0",

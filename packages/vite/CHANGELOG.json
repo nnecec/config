@@ -1,0 +1,20 @@
+{
+  "name": "@nnecec/preset-vite",
+  "entries": [
+    {
+      "date": "Tue, 07 Mar 2023 03:52:12 GMT",
+      "tag": "@nnecec/preset-vite_v0.1.0",
+      "version": "0.1.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "nnecec@outlook.com",
+            "package": "@nnecec/preset-vite",
+            "commit": "8dea43894838a569c6094cdca6f1fa7731907553",
+            "comment": "move to ts"
+          }
+        ]
+      }
+    }
+  ]
+}
