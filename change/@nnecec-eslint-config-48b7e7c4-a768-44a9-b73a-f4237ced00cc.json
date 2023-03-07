@@ -1,0 +1,7 @@
+{
+  "type": "patch",
+  "comment": "hoist node to first",
+  "packageName": "@nnecec/eslint-config",
+  "email": "nnecec@outlook.com",
+  "dependentChangeType": "patch"
+}

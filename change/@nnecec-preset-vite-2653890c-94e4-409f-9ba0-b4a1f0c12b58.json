@@ -1,0 +1,7 @@
+{
+  "type": "minor",
+  "comment": "move to ts",
+  "packageName": "@nnecec/preset-vite",
+  "email": "nnecec@outlook.com",
+  "dependentChangeType": "patch"
+}
