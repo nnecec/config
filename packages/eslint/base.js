@@ -72,6 +72,8 @@ module.exports = {
           'error',
           {
             groups: [
+              // Node.js builtins prefixed with `node:`.
+              ['^node:'],
               // Packages `react` related packages come first.
               ['^react', '^@?\\w'],
               // Side effect imports.
@@ -99,6 +101,9 @@ module.exports = {
     'import/no-mutable-exports': 'error',
     'import/no-unresolved': 'off',
     'import/no-absolute-path': 'off',
+    "import/first": "error",
+    "import/newline-after-import": "error",
+    "import/no-duplicates": "error",
 
     // common
     'no-console': 'error',

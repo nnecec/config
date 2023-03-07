@@ -1,10 +1,11 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
   "compilerOptions": {
+    "module": "ES2020",
+    "target": "ES2020",
     "allowSyntheticDefaultImports": true,
-    "composite": false,
+    "composite": true,
     "declaration": true,
-    "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "isolatedModules": true,
     "lib": [
@@ -15,6 +16,7 @@
     ],
     "moduleResolution": "node",
     "noEmitOnError": true,
+		"noFallthroughCasesInSwitch": true,
     "noImplicitOverride": true,
     "noImplicitReturns": true,
     "noPropertyAccessFromIndexSignature": true,
@@ -22,12 +24,11 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "pretty": true,
+		"resolveJsonModule": false,
     "skipLibCheck": true,
     "strict": true,
     "stripInternal": true,
-    "useDefineForClassFields": true,
-    "module": "ES2020",
-    "target": "ES2020"
+    "useDefineForClassFields": true
   },
   "display": "Base",
   "exclude": [
