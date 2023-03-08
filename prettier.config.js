@@ -1,3 +1,3 @@
 module.exports = {
-  ...require("./packages/prettier"),
-};
+  ...require('./packages/prettier'),
+}

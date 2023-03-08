@@ -1,10 +1,11 @@
 {
+  "name": "vite-project",
   "version": "0.0.0",
   "private": true,
-  "name": "vite-project",
   "scripts": {
-    "build": "tsc && vite build",
+    "build": "vite build",
     "dev": "vite",
+    "lint": "tsc",
     "preview": "vite preview"
   },
   "dependencies": {

@@ -2,10 +2,12 @@
  * @type {import('prettier').Config}
  */
 module.exports = {
-  semi: false,
-  tabWidth: 2,
-  singleQuote: true,
   arrowParens: 'avoid',
-  trailingComma: 'all',
   jsxSingleQuote: false,
+  printWidth: 100,
+  quoteProps: 'as-needed',
+  semi: false,
+  singleQuote: true,
+  tabWidth: 2,
+  trailingComma: 'all',
 }
