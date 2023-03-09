@@ -1,8 +1,16 @@
 # Change Log - @nnecec/eslint-config
 
-This log was last generated on Tue, 07 Mar 2023 03:52:12 GMT and should not be manually modified.
+This log was last generated on Thu, 09 Mar 2023 15:38:59 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 0.2.4
+
+Thu, 09 Mar 2023 15:38:59 GMT
+
+### Patches
+
+- feat(eslint): move import type to bottom (nnecec@outlook.com)
 
 ## 0.2.3
 

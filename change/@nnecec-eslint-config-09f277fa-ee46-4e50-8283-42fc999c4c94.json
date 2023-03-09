@@ -1,7 +1,0 @@
-{
-  "type": "patch",
-  "comment": "feat(eslint): move import type to bottom",
-  "packageName": "@nnecec/eslint-config",
-  "email": "nnecec@outlook.com",
-  "dependentChangeType": "patch"
-}
