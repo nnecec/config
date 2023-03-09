@@ -1,4 +1,4 @@
-import React, { ReactElement,useState } from 'react'
+import React, { useState } from 'react'
 
 import { searchUp } from './t'
 
@@ -12,7 +12,7 @@ export function App () {
   return (
     <div>
       <div />
-      <button onClick={ printEvent }>Click me</button>
+      <button onClick={printEvent}>Click me</button>
       <a href="www.baidu.com">baidu</a>
       <div>
         { count }

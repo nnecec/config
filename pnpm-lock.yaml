@@ -85,7 +85,7 @@ importers:
       eslint-plugin-tailwindcss: ^3.10.1
       eslint-plugin-unicorn: ^46.0.0
       typescript: ^4.9.5
-      yaml-eslint-parser: ^1.1.0
+      yaml-eslint-parser: ^1.2.0
     dependencies:
       '@typescript-eslint/eslint-plugin': 5.54.1_mlk7dnz565t663n4razh6a6v6i
       '@typescript-eslint/parser': 5.54.1_ycpbpc6yetojsgtrx3mwntkhsu
@@ -104,7 +104,7 @@ importers:
       eslint-plugin-simple-import-sort: 10.0.0_eslint@8.35.0
       eslint-plugin-tailwindcss: 3.10.1
       eslint-plugin-unicorn: 46.0.0_eslint@8.35.0
-      yaml-eslint-parser: 1.1.0
+      yaml-eslint-parser: 1.2.0
     devDependencies:
       typescript: 4.9.5
 
@@ -162,7 +162,7 @@ packages:
       eslint-plugin-unused-imports: 2.0.0_vkrezerrv4xnu4uoc4gpfx7tv4
       eslint-plugin-yml: 1.5.0_eslint@8.35.0
       jsonc-eslint-parser: 2.1.0
-      yaml-eslint-parser: 1.1.0
+      yaml-eslint-parser: 1.2.0
     transitivePeerDependencies:
       - '@typescript-eslint/eslint-plugin'
       - '@typescript-eslint/parser'
@@ -2405,7 +2405,7 @@ packages:
       eslint: 8.35.0
       lodash: 4.17.21
       natural-compare: 1.4.0
-      yaml-eslint-parser: 1.1.0
+      yaml-eslint-parser: 1.2.0
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -4392,6 +4392,15 @@ packages:
 
   /yaml-eslint-parser/1.1.0:
     resolution: {integrity: sha512-b464Q1fYiX1oYx2kE8k4mEp6S9Prk+tfDsY/IPxQ0FCjEuj3AKko5Skf3/yQJeYTTDyjDE+aWIJemnv29HvEWQ==}
+    engines: {node: ^14.17.0 || >=16.0.0}
+    dependencies:
+      eslint-visitor-keys: 3.3.0
+      lodash: 4.17.21
+      yaml: 2.2.1
+    dev: true
+
+  /yaml-eslint-parser/1.2.0:
+    resolution: {integrity: sha512-OmuvQd5lyIJWfFALc39K5fGqp0aWNc+EtyhVgcQIPZaUKMnTb7An3RMp+QJizJ/x0F4kpgTNe6BL/ctdvoIwIg==}
     engines: {node: ^14.17.0 || >=16.0.0}
     dependencies:
       eslint-visitor-keys: 3.3.0
