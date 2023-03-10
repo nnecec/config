@@ -5,7 +5,7 @@
 - [@nnecec/prettier-config](./packages/prettier/)
 - [@nnecec/preset-vite](./packages/vite/)
 
-## Reference
+## Credits
 
 Thanks:
 
