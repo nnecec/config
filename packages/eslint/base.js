@@ -81,10 +81,14 @@ module.exports = {
               // Internal packages.
               ['^(@|~)(/.*|$)'],
               ['^(libs?|components?|pages|types|utils)(/.*|$)'],
+              // external lib types
+              ['^node:.*\\u0000$', '^@?\\w.*\\u0000$'],
               // Parent imports. Put `..` last.
               ['^\\.\\.(?!/?$)', '^\\.\\./?$'],
               // Other relative imports. Put same-folder imports and `.` last.
               ['^\\./(?=.*/)(?!/?$)', '^\\.(?!/?$)', '^\\./?$'],
+              // internal lib types
+              ['^[^.].*\\u0000$', '^\\..*\\u0000$'],
               // Style imports.
               ['^.+\\.?(css)$'],
             ],
@@ -101,9 +105,9 @@ module.exports = {
     'import/no-mutable-exports': 'error',
     'import/no-unresolved': 'off',
     'import/no-absolute-path': 'off',
-    "import/first": "error",
-    "import/newline-after-import": "error",
-    "import/no-duplicates": "error",
+    'import/first': 'error',
+    'import/newline-after-import': 'error',
+    'import/no-duplicates': 'error',
 
     // common
     'no-console': 'error',

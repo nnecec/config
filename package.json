@@ -11,8 +11,8 @@
     "fixtures/*"
   ],
   "scripts": {
-    "beachball": "beachball",
     "build": "turbo run build",
+    "changelog": "beachball",
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
     "release": "beachball publish"
