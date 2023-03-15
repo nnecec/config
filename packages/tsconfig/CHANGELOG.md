@@ -1,8 +1,16 @@
 # Change Log - @nnecec/tsconfig
 
-This log was last generated on Tue, 07 Mar 2023 03:52:12 GMT and should not be manually modified.
+This log was last generated on Wed, 15 Mar 2023 08:02:49 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 0.1.2
+
+Wed, 15 Mar 2023 08:02:49 GMT
+
+### Patches
+
+- feat(tsconfig): composite: false (nnecec@outlook.com)
 
 ## 0.1.1
 
