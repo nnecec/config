@@ -13,7 +13,6 @@ module.exports = {
     'prettier',
     'plugin:import/recommended',
     'plugin:eslint-comments/recommended',
-    'plugin:markdown/recommended',
     'plugin:unicorn/recommended',
   ],
   ignorePatterns: [

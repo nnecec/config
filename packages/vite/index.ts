@@ -1,14 +1,13 @@
 import { join } from 'node:path'
 import { cwd, env } from 'node:process'
-import { UserConfig } from 'vite'
-import reactRefresh from '@vitejs/plugin-react'
-import tsconfigPaths from 'vite-tsconfig-paths'
-import { visualizer } from 'rollup-plugin-visualizer'
 
-export default ({
-  jsxRuntime = 'automatic' as 'automatic' | 'classic',
-  base = '',
-} = {}) => {
+import reactRefresh from '@vitejs/plugin-react'
+import { visualizer } from 'rollup-plugin-visualizer'
+import tsconfigPaths from 'vite-tsconfig-paths'
+
+import type { UserConfig } from 'vite'
+
+export default ({ jsxRuntime = 'automatic' as 'automatic' | 'classic', base = '' } = {}) => {
   return [
     {
       name: '@nnecec/preset-vite:config',
@@ -29,7 +28,7 @@ export default ({
     },
     tsconfigPaths(),
     reactRefresh({ jsxRuntime }),
-    env['BUILD_ANALYSE'] === 'true' &&
+    env.BUILD_ANALYSE === 'true' &&
       visualizer({
         filename: './build/stats.html',
       }),
