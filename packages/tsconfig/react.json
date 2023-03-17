@@ -3,7 +3,6 @@
   "display": "React",
   "extends": "./base.json",
   "compilerOptions": {
-    "jsx": "react-jsx",
-    "esModuleInterop": true
+    "jsx": "react-jsx" 
   }
 }
