@@ -9,6 +9,7 @@
     "module": "ESNext",
     "moduleResolution": "node",
     "noEmitOnError": true,
+    "noErrorTruncation": true,
     "noFallthroughCasesInSwitch": true,
     "noImplicitOverride": true,
     "noImplicitReturns": true,
