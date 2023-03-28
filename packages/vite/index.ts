@@ -1,4 +1,4 @@
-import { join } from 'node:path'
+import { isAbsolute, join } from 'node:path'
 import { cwd, env } from 'node:process'
 
 import reactRefresh from '@vitejs/plugin-react'
@@ -22,6 +22,15 @@ export default ({ jsxRuntime = 'automatic' as 'automatic' | 'classic', base = ''
             outDir: './build',
             sourcemap: userConfig.build?.sourcemap ?? 'hidden',
             manifest: true,
+            rollupOptions: {
+              external: (id: string) => {
+                // library mode exclude dependencies from rollup
+                if (userConfig.build?.lib !== undefined) {
+                  return false
+                }
+                return !id.startsWith('.') && !isAbsolute(id)
+              },
+            },
           },
         }
       },

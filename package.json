@@ -15,15 +15,15 @@
     "changelog": "beachball",
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
-    "release": "beachball publish"
+    "release": "npm run build & beachball publish"
   },
   "devDependencies": {
-    "beachball": "^2.31.11",
-    "eslint": "^8.35.0",
-    "prettier": "^2.8.4",
+    "beachball": "^2.31.12",
+    "eslint": "^8.36.0",
+    "prettier": "^2.8.7",
     "react": "^18.2.0",
-    "turbo": "^1.8.3",
-    "typescript": "^4.9.5"
+    "turbo": "^1.8.6",
+    "typescript": "^5.0.2"
   },
   "packageManager": "pnpm@7.8.0",
   "engines": {
