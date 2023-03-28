@@ -2,6 +2,21 @@
   "name": "@nnecec/preset-vite",
   "entries": [
     {
+      "date": "Tue, 28 Mar 2023 07:10:52 GMT",
+      "tag": "@nnecec/preset-vite_v0.1.4",
+      "version": "0.1.4",
+      "comments": {
+        "patch": [
+          {
+            "author": "nnecec@outlook.com",
+            "package": "@nnecec/preset-vite",
+            "commit": "67619ce765c1396f59a9569532f284fee55e84bf",
+            "comment": "exclude dependencies at library mode"
+          }
+        ]
+      }
+    },
+    {
       "date": "Wed, 08 Mar 2023 03:31:55 GMT",
       "tag": "@nnecec/preset-vite_v0.1.1",
       "version": "0.1.1",

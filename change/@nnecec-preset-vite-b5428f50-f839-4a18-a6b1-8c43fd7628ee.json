@@ -1,7 +1,0 @@
-{
-  "type": "patch",
-  "comment": "exclude dependencies at library mode",
-  "packageName": "@nnecec/preset-vite",
-  "email": "nnecec@outlook.com",
-  "dependentChangeType": "patch"
-}

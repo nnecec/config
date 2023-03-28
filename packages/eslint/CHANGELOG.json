@@ -2,6 +2,21 @@
   "name": "@nnecec/eslint-config",
   "entries": [
     {
+      "date": "Tue, 28 Mar 2023 07:10:52 GMT",
+      "tag": "@nnecec/eslint-config_v0.2.5",
+      "version": "0.2.5",
+      "comments": {
+        "patch": [
+          {
+            "author": "nnecec@outlook.com",
+            "package": "@nnecec/eslint-config",
+            "commit": "67619ce765c1396f59a9569532f284fee55e84bf",
+            "comment": "feat: update deps"
+          }
+        ]
+      }
+    },
+    {
       "date": "Thu, 09 Mar 2023 15:38:59 GMT",
       "tag": "@nnecec/eslint-config_v0.2.4",
       "version": "0.2.4",
