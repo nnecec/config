@@ -11,3 +11,4 @@ Thanks:
 
 - [antfu/eslint-config](https://github.com/antfu/eslint-config)
 - [sindresorhus/tsconfig](https://github.com/sindresorhus/tsconfig)
+- [antfu/vscode-settings](https://github.com/antfu/vscode-settings)
