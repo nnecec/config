@@ -114,6 +114,8 @@ module.exports = {
     'comma-dangle': ['error', 'always-multiline'],
     'no-multiple-empty-lines': ['error', { max: 1, maxBOF: 0, maxEOF: 0 }],
     'eslint-comments/disable-enable-pair': ['error', { allowWholeFile: true }],
+    // allow unstable_x
+    camelcase: ['error', { allow: ['unstable_'] }],
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn
     'unicorn/prevent-abbreviations': 'off',
