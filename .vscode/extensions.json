@@ -1,1 +1,12 @@
-{}
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "GitHub.github-vscode-theme",
+    "eamodio.gitlens",
+    "esbenp.prettier-vscode",
+    "bradlc.vscode-tailwindcss",
+    "vscode-icons-team.vscode-icons",
+    "streetsidesoftware.code-spell-checker",
+    "aaron-bond.better-comments"
+  ]
+}
