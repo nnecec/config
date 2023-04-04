@@ -113,6 +113,7 @@ module.exports = {
     'arrow-parens': ['error', 'as-needed'],
     'comma-dangle': ['error', 'always-multiline'],
     'no-multiple-empty-lines': ['error', { max: 1, maxBOF: 0, maxEOF: 0 }],
+    'eslint-comments/disable-enable-pair': ['error', { allowWholeFile: true }],
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn
     'unicorn/prevent-abbreviations': 'off',
