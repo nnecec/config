@@ -1,8 +1,16 @@
 # Change Log - @nnecec/eslint-config
 
-This log was last generated on Tue, 28 Mar 2023 07:10:52 GMT and should not be manually modified.
+This log was last generated on Wed, 05 Apr 2023 17:40:20 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 0.2.6
+
+Wed, 05 Apr 2023 17:40:20 GMT
+
+### Patches
+
+- feat: allow 'unstable_whatever' (nnecec@outlook.com)
 
 ## 0.2.5
 
