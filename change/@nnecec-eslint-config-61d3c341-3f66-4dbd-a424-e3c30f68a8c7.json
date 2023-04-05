@@ -1,0 +1,7 @@
+{
+  "type": "patch",
+  "comment": "feat: allow 'unstable_whatever'",
+  "packageName": "@nnecec/eslint-config",
+  "email": "nnecec@outlook.com",
+  "dependentChangeType": "patch"
+}
