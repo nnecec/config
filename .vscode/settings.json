@@ -136,7 +136,6 @@
   "workbench.editor.limit.enabled": true,
   "workbench.editor.limit.perEditorGroup": true,
   "workbench.editor.limit.value": 5,
-  "workbench.editor.tabCloseButton": "left",
   "workbench.iconTheme": "vscode-icons",
   "workbench.list.smoothScrolling": true,
   "workbench.tree.expandMode": "singleClick"
