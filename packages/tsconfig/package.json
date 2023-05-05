@@ -1,11 +1,12 @@
 {
   "name": "@nnecec/tsconfig",
   "version": "0.1.4",
-  "main": "base.json",
+  "main": "tsconfig.json",
   "files": [
-    "base.json",
+    "tsconfig.json",
+    "commonjs.json",
     "react.json",
-    "README.md"
+    "readme.md"
   ],
   "publishConfig": {
     "access": "public"

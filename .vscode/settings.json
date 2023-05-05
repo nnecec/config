@@ -87,7 +87,6 @@
   "terminal.integrated.tabs.enabled": true,
   "window.autoDetectColorScheme": true, // this is great, macOS only
   "window.restoreWindows": "folders",
-  "workbench.colorTheme": "GitHub Dark Default",
   "workbench.editor.closeOnFileDelete": true,
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.editor.limit.enabled": true,
@@ -95,5 +94,8 @@
   "workbench.editor.limit.value": 5,
   "workbench.iconTheme": "vscode-icons",
   "workbench.list.smoothScrolling": true,
-  "workbench.tree.expandMode": "singleClick"
+  "workbench.tree.expandMode": "singleClick",
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  }
 }

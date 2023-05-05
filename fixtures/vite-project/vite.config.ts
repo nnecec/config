@@ -1,10 +1,6 @@
 import preset from '@nnecec/preset-vite'
-import { defineConfig } from 'vite'
+import { UserConfig } from 'vite'
 
-// https://vitejs.dev/config/
-export default defineConfig({
+export default {
   plugins: [preset()],
-  css: {
-    postcss: require('./postcss.config.js'),
-  },
-})
+} satisfies UserConfig
