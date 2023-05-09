@@ -29,7 +29,7 @@
     "enable": true
   },
   "eslint.format.enable": true,
-  "eslint.quiet": true,
+  "eslint.ignoreUntitled": true,
   "eslint.validate": [
     "javascript",
     "typescript",

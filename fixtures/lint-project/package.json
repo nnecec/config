@@ -1,19 +1,19 @@
 {
-  "private": true,
   "name": "fixture",
+  "private": true,
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.38.6",
+    "@antfu/eslint-config-ts": "^0.38.6",
+    "@nnecec/eslint-config": "workspace:*",
+    "@remix-run/eslint-config": "^1.16.0",
+    "@types/react": "^18.2.6",
+    "@types/react-dom": "^18.2.4",
+    "eslint": "^8.40.0",
+    "tailwindcss": "^3.3.2",
+    "typescript": "^5.0.4"
+  },
   "engines": {
     "node": ">=14.0.0",
     "npm": ">=7.0.0"
-  },
-  "devDependencies": {
-    "@antfu/eslint-config": "^0.38.5",
-    "@antfu/eslint-config-ts": "^0.38.5",
-    "@nnecec/eslint-config": "workspace:*",
-    "@remix-run/eslint-config": "^1.16.0",
-    "@types/react": "^18.2.5",
-    "@types/react-dom": "^18.2.3",
-    "eslint": "^8.39.0",
-    "tailwindcss": "^3.3.2",
-    "typescript": "^5.0.4"
   }
 }

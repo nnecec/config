@@ -2,11 +2,7 @@
  * @type {import('eslint').Linter.Config}
  */
 module.exports = {
-  extends: [
-    './typescript',
-    'plugin:react/recommended',
-    'plugin:react-hooks/recommended',
-  ],
+  extends: ['./typescript', 'plugin:react/recommended', 'plugin:react-hooks/recommended'],
   settings: {
     react: {
       version: 'detect',

@@ -1,9 +1,17 @@
-import React, { useState } from 'react'
+import React, { useMemo, useState } from 'react'
 
 import { searchUp } from './t'
 
-export function App () {
+const useDiv = () => {
+  return {
+    className: 'p-2',
+  }
+}
+
+export function App() {
   const [count, setCount] = useState(0)
+
+  const countPlus = useMemo(() => count + 1, [])
 
   const printEvent = e => {
     searchUp(e, count)
@@ -11,12 +19,13 @@ export function App () {
 
   return (
     <div>
-      <div />
+      <div {...useDiv()} />
       <button onClick={printEvent}>Click me</button>
       <a href="www.baidu.com">baidu</a>
+      <div>{countPlus}</div>
       <div>
-        { count }
-        <button onClick={ () => setCount(count + 1) }>+1</button>
+        {count}
+        <button onClick={() => setCount(count + 1)}>+1</button>
       </div>
     </div>
   )
