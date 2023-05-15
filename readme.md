@@ -4,6 +4,7 @@
 - [@nnecec/tsconfig](./packages/tsconfig/)
 - [@nnecec/prettier-config](./packages/prettier/)
 - [@nnecec/preset-vite](./packages/vite/)
+- [VSCode settings](./.vscode/settings.json/)
 
 ## Credits
 
