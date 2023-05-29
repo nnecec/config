@@ -79,7 +79,7 @@ module.exports = {
               ['^\\u0000'],
               // Internal packages.
               ['^(@|~)(/.*|$)'],
-              ['^(libs?|components?|pages|types|utils)(/.*|$)'],
+              ['^(libs|components|pages|types|utils|app)(/.*|$)'],
               // external lib types
               ['^node:.*\\u0000$', '^@?\\w.*\\u0000$'],
               // Parent imports. Put `..` last.

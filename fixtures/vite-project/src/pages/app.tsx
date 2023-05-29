@@ -1,5 +1,6 @@
-import type { ReactElement } from 'react'
 import { useState } from 'react'
+
+import type { ReactElement } from 'react'
 
 import reactLogo from './react.svg'
 
@@ -7,7 +8,8 @@ function App(): ReactElement {
   const [count, setCount] = useState(0)
 
   return (
-    <div className="App">
+    <div>
+      <header className="pt-header">header</header>
       <div>
         <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
           <img src="/vite.svg" className="logo" alt="Vite logo" />
@@ -18,9 +20,7 @@ function App(): ReactElement {
       </div>
       <h1 className="text-9xl">Vite + React</h1>
       <div className="p-8">
-        <button onClick={() => setCount(count => count + 1)}>
-          count is {count}
-        </button>
+        <button onClick={() => setCount(count => count + 1)}>count is {count}</button>
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
