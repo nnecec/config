@@ -2,6 +2,21 @@
   "name": "@nnecec/eslint-config",
   "entries": [
     {
+      "date": "Mon, 29 May 2023 05:26:05 GMT",
+      "tag": "@nnecec/eslint-config_v0.3.0",
+      "version": "0.3.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "nnecec@outlook.com",
+            "package": "@nnecec/eslint-config",
+            "commit": "04dcbf4417e2d12ffe73a2825c68ebc11a6a35ae",
+            "comment": "update eslint-plugin-n & eslint-plugin-tailwindcss"
+          }
+        ]
+      }
+    },
+    {
       "date": "Tue, 09 May 2023 02:11:55 GMT",
       "tag": "@nnecec/eslint-config_v0.2.7",
       "version": "0.2.7",

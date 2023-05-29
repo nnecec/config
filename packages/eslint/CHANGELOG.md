@@ -1,8 +1,16 @@
 # Change Log - @nnecec/eslint-config
 
-This log was last generated on Tue, 09 May 2023 02:11:55 GMT and should not be manually modified.
+This log was last generated on Mon, 29 May 2023 05:26:05 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 0.3.0
+
+Mon, 29 May 2023 05:26:05 GMT
+
+### Minor changes
+
+- update eslint-plugin-n & eslint-plugin-tailwindcss (nnecec@outlook.com)
 
 ## 0.2.7
 

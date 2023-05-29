@@ -2,6 +2,21 @@
   "name": "@nnecec/preset-vite",
   "entries": [
     {
+      "date": "Mon, 29 May 2023 05:26:05 GMT",
+      "tag": "@nnecec/preset-vite_v0.1.6",
+      "version": "0.1.6",
+      "comments": {
+        "patch": [
+          {
+            "author": "nnecec@outlook.com",
+            "package": "@nnecec/preset-vite",
+            "commit": "04dcbf4417e2d12ffe73a2825c68ebc11a6a35ae",
+            "comment": "update vite"
+          }
+        ]
+      }
+    },
+    {
       "date": "Tue, 09 May 2023 02:11:55 GMT",
       "tag": "@nnecec/preset-vite_v0.1.5",
       "version": "0.1.5",
