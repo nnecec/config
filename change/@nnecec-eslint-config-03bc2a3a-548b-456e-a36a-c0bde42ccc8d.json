@@ -1,0 +1,7 @@
+{
+  "type": "minor",
+  "comment": "update eslint-plugin-n & eslint-plugin-tailwindcss",
+  "packageName": "@nnecec/eslint-config",
+  "email": "nnecec@outlook.com",
+  "dependentChangeType": "patch"
+}
