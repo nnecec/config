@@ -3,6 +3,7 @@
   "display": "CommonJS",
   "extends": "./tsconfig.json",
   "compilerOptions": {
+    "lib": ["ES2020"],
     "module": "Node16",
     "target": "ES2020"
   }

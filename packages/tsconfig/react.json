@@ -3,6 +3,7 @@
   "display": "React",
   "extends": "./tsconfig.json",
   "compilerOptions": {
-    "jsx": "react-jsx" 
+    "jsx": "react-jsx",
+    "lib": ["DOM", "ES2019"]
   }
 }

@@ -1,11 +1,11 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
   "compilerOptions": {
+    "composite": false,
     "declaration": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "isolatedModules": true,
-    "lib": ["DOM", "DOM.Iterable", "ESNext"],
     "module": "ESNext",
     "moduleResolution": "node",
     "noEmitOnError": true,
@@ -16,11 +16,9 @@
     "noUncheckedIndexedAccess": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "pretty": true,
     "resolveJsonModule": false,
     "skipLibCheck": true,
     "strict": true,
-    "stripInternal": true,
     "target": "ESNext",
     "useDefineForClassFields": true
   },
