@@ -2,6 +2,21 @@
   "name": "@nnecec/tsconfig",
   "entries": [
     {
+      "date": "Thu, 08 Jun 2023 07:34:26 GMT",
+      "tag": "@nnecec/tsconfig_v0.1.5",
+      "version": "0.1.5",
+      "comments": {
+        "patch": [
+          {
+            "author": "nnecec@outlook.com",
+            "package": "@nnecec/tsconfig",
+            "commit": "6dfa3fd33fd96a354c6b987fbd89364a485ff3c0",
+            "comment": "fix(tsconfig): split lib"
+          }
+        ]
+      }
+    },
+    {
       "date": "Tue, 28 Mar 2023 07:10:52 GMT",
       "tag": "@nnecec/tsconfig_v0.1.4",
       "version": "0.1.4",

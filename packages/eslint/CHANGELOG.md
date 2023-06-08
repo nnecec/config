@@ -1,8 +1,16 @@
 # Change Log - @nnecec/eslint-config
 
-This log was last generated on Mon, 29 May 2023 05:26:05 GMT and should not be manually modified.
+This log was last generated on Thu, 08 Jun 2023 07:34:26 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 0.3.1
+
+Thu, 08 Jun 2023 07:34:26 GMT
+
+### Patches
+
+- enable jsx-no-leaked-render (nnecec@outlook.com)
 
 ## 0.3.0
 

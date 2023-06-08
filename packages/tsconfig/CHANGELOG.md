@@ -1,8 +1,16 @@
 # Change Log - @nnecec/tsconfig
 
-This log was last generated on Tue, 28 Mar 2023 07:10:52 GMT and should not be manually modified.
+This log was last generated on Thu, 08 Jun 2023 07:34:26 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 0.1.5
+
+Thu, 08 Jun 2023 07:34:26 GMT
+
+### Patches
+
+- fix(tsconfig): split lib (nnecec@outlook.com)
 
 ## 0.1.4
 

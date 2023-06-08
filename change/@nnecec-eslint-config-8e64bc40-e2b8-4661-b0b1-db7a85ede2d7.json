@@ -1,7 +1,0 @@
-{
-  "type": "patch",
-  "comment": "enable jsx-no-leaked-render",
-  "packageName": "@nnecec/eslint-config",
-  "email": "nnecec@outlook.com",
-  "dependentChangeType": "patch"
-}
