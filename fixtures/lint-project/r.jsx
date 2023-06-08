@@ -22,7 +22,7 @@ export function App() {
       <div {...useDiv()} />
       <button onClick={printEvent}>Click me</button>
       <a href="www.baidu.com">baidu</a>
-      <div>{countPlus}</div>
+      {countPlus ? <div>{countPlus}</div> : null}
       <div>
         {count}
         <button onClick={() => setCount(count + 1)}>+1</button>

@@ -18,5 +18,6 @@ module.exports = {
         html: true,
       },
     ],
+    'react/jsx-no-leaked-render': 'error',
   },
 }
