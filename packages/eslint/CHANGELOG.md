@@ -1,8 +1,16 @@
 # Change Log - @nnecec/eslint-config
 
-This log was last generated on Fri, 09 Jun 2023 02:45:00 GMT and should not be manually modified.
+This log was last generated on Fri, 09 Jun 2023 02:58:09 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 0.4.1
+
+Fri, 09 Jun 2023 02:58:09 GMT
+
+### Patches
+
+- fix sort imports (nnecec@outlook.com)
 
 ## 0.4.0
 
