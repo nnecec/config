@@ -1,30 +1,15 @@
-import type { LoaderFunction } from '@remix-run/node'
-import type { ChangeEvent, PropsWithChildren } from 'react'
-
-import { json, MetaFunction } from '@remix-run/node'
-import { useLoaderData } from '@remix-run/react'
-import { Button } from 'antd'
-import { SITE_CONFIG } from 'components/constants'
 import React, { useState } from 'react'
 import { Router } from 'react-router-dom'
+import { Button } from 'antd'
 
-import type { Test } from './t'
+import type { ChangeEvent, PropsWithChildren } from 'react'
 
 import { searchUp } from './t'
 
+import type { Test } from './t'
+
 interface Props {
   defaultValue: number
-}
-export const loader: LoaderFunction = () => {}
-
-if ([
-  'admin',
-  'developer',
-  'maintainer',
-  'observer',
-  'owner',
-].includes(user.role)) {
-  return response.json({ allowed: true })
 }
 
 export function App(props: PropsWithChildren<Props>) {

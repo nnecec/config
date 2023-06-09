@@ -6,7 +6,6 @@
     "@antfu/eslint-config-ts": "^0.39.5",
     "@nnecec/eslint-config": "workspace:*",
     "@nnecec/tsconfig": "workspace:*",
-    "@remix-run/eslint-config": "^1.17.0",
     "@types/react": "^18.2.9",
     "@types/react-dom": "^18.2.4",
     "eslint": "^8.42.0",

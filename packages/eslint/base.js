@@ -13,7 +13,7 @@ module.exports = {
     'plugin:import/recommended',
     'plugin:eslint-comments/recommended',
     'plugin:unicorn/recommended',
-    "plugin:perfectionist/recommended-natural",
+    'plugin:perfectionist/recommended-natural',
   ],
   ignorePatterns: [
     '*.min.*',
@@ -109,8 +109,9 @@ module.exports = {
     // common
     'no-console': 'error',
     'no-multiple-empty-lines': ['error', { max: 1, maxBOF: 0, maxEOF: 0 }],
-    'simple-import-sort/exports': 'error',
     // import
+    'perfectionist/sort-imports': 'off',
+    'simple-import-sort/exports': 'error',
     'simple-import-sort/imports': 'error',
 
     'unicorn/no-null': 'warn',
