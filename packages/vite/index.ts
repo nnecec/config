@@ -10,18 +10,12 @@ import type { UserConfig } from 'vite'
 export default ({ jsxRuntime = 'automatic' as 'automatic' | 'classic', base = '' } = {}) => {
   return [
     {
-      name: '@nnecec/preset-vite:config',
       config(userConfig: UserConfig): UserConfig {
         return {
           base: userConfig.base || base || '/',
-          resolve: {
-            alias: [{ find: '~', replacement: join(cwd(), './src') }],
-          },
           build: {
-            target: 'es2020',
-            outDir: './build',
-            sourcemap: userConfig.build?.sourcemap ?? 'hidden',
             manifest: true,
+            outDir: './build',
             rollupOptions: {
               external: (id: string) => {
                 // library mode exclude dependencies from rollup
@@ -31,9 +25,15 @@ export default ({ jsxRuntime = 'automatic' as 'automatic' | 'classic', base = ''
                 return !id.startsWith('.') && !isAbsolute(id)
               },
             },
+            sourcemap: userConfig.build?.sourcemap ?? 'hidden',
+            target: 'es2020',
+          },
+          resolve: {
+            alias: [{ find: '~', replacement: join(cwd(), './src') }],
           },
         }
       },
+      name: '@nnecec/preset-vite:config',
     },
     tsconfigPaths(),
     reactRefresh({ jsxRuntime }),
