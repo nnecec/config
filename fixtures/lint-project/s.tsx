@@ -18,6 +18,9 @@ export function App(props: PropsWithChildren<Props>) {
 
   const printEvent = (e: ChangeEvent<HTMLInputElement>) => {
     searchUp(e.target.value)
+    const a =
+      '0123456789' + '0123456789' + '0123456789' + '0123456789' + '0123456789' + '0123456789' + '0123456789' + '0123456789' + '0123456789' + '0123456789'
+    const b = '0123456789' + '0123456789' + '0123456789' + '0123456789' + '0123456789'
   }
 
   return (

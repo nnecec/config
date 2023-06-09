@@ -11,6 +11,18 @@ export function searchUp(pathName, cwd) {
   const file = fs.readFileSync(pathName)
   console.log(obj, root, file)
 
+  const a =
+    '0123456789' +
+    '0123456789' +
+    '0123456789' +
+    '0123456789' +
+    '0123456789' +
+    '0123456789' +
+    '0123456789' +
+    '0123456789' +
+    '0123456789'
+  const b = '0123456789' + '0123456789' + '0123456789' + '0123456789' + '0123456789' + '0123456789'
+
   return null
 }
 
