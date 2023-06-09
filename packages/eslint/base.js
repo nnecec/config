@@ -3,17 +3,17 @@
  */
 module.exports = {
   env: {
-    es6: true,
     browser: true,
+    es6: true,
     node: true,
   },
-  reportUnusedDisableDirectives: true,
   extends: [
     'standard',
     'prettier',
     'plugin:import/recommended',
     'plugin:eslint-comments/recommended',
     'plugin:unicorn/recommended',
+    "plugin:perfectionist/recommended-natural",
   ],
   ignorePatterns: [
     '*.min.*',
@@ -31,18 +31,12 @@ module.exports = {
     '!.github',
     '!.vscode',
   ],
-  plugins: ['unicorn', 'simple-import-sort', 'json-files'],
-  settings: {
-    'import/resolver': {
-      node: { extensions: ['.js', '.mjs'] },
-    },
-  },
   overrides: [
     {
       files: ['package.json'],
       rules: {
-        'json-files/sort-package-json': 'error',
         'json-files/require-unique-dependency-names': 'error',
+        'json-files/sort-package-json': 'error',
       },
     },
     {
@@ -60,8 +54,8 @@ module.exports = {
     {
       files: ['*.test.ts', '*.test.js', '*.spec.ts', '*.spec.js'],
       rules: {
-        'no-unused-expressions': 'off',
         'no-only-tests/no-only-tests': 'error',
+        'no-unused-expressions': 'off',
       },
     },
     {
@@ -96,30 +90,37 @@ module.exports = {
       },
     },
   ],
+  plugins: ['unicorn', 'simple-import-sort', 'json-files'],
+  reportUnusedDisableDirectives: true,
   rules: {
-    // import
-    'simple-import-sort/imports': 'error',
-    'simple-import-sort/exports': 'error',
-    'import/order': 'off',
-    'import/no-mutable-exports': 'error',
-    'import/no-unresolved': 'off',
-    'import/no-absolute-path': 'off',
-    'import/first': 'error',
-    'import/newline-after-import': 'error',
-    'import/no-duplicates': 'error',
-
-    // common
-    'no-console': 'error',
     'arrow-parens': ['error', 'as-needed'],
-    'comma-dangle': ['error', 'always-multiline'],
-    'no-multiple-empty-lines': ['error', { max: 1, maxBOF: 0, maxEOF: 0 }],
-    'eslint-comments/disable-enable-pair': ['error', { allowWholeFile: true }],
     // allow unstable_x
     camelcase: ['error', { allow: ['unstable_'] }],
+    'comma-dangle': ['error', 'always-multiline'],
+    'eslint-comments/disable-enable-pair': ['error', { allowWholeFile: true }],
+    'import/first': 'error',
+    'import/newline-after-import': 'error',
+    'import/no-absolute-path': 'off',
+    'import/no-duplicates': 'error',
+    'import/no-mutable-exports': 'error',
 
-    // https://github.com/sindresorhus/eslint-plugin-unicorn
-    'unicorn/prevent-abbreviations': 'off',
+    'import/no-unresolved': 'off',
+    'import/order': 'off',
+    // common
+    'no-console': 'error',
+    'no-multiple-empty-lines': ['error', { max: 1, maxBOF: 0, maxEOF: 0 }],
+    'simple-import-sort/exports': 'error',
+    // import
+    'simple-import-sort/imports': 'error',
+
     'unicorn/no-null': 'warn',
     'unicorn/prefer-module': 'off',
+    // https://github.com/sindresorhus/eslint-plugin-unicorn
+    'unicorn/prevent-abbreviations': 'off',
+  },
+  settings: {
+    'import/resolver': {
+      node: { extensions: ['.js', '.mjs'] },
+    },
   },
 }
