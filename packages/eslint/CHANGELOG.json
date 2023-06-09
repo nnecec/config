@@ -2,6 +2,21 @@
   "name": "@nnecec/eslint-config",
   "entries": [
     {
+      "date": "Fri, 09 Jun 2023 02:45:00 GMT",
+      "tag": "@nnecec/eslint-config_v0.4.0",
+      "version": "0.4.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "nnecec@outlook.com",
+            "package": "@nnecec/eslint-config",
+            "commit": "85cd8b5f72b21007949b1a1afcfce7114b0da8a8",
+            "comment": "add eslint-plugin-perfectionist:recommended-natural"
+          }
+        ]
+      }
+    },
+    {
       "date": "Thu, 08 Jun 2023 07:34:26 GMT",
       "tag": "@nnecec/eslint-config_v0.3.1",
       "version": "0.3.1",

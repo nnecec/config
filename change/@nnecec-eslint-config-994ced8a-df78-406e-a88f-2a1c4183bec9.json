@@ -1,7 +1,0 @@
-{
-  "type": "minor",
-  "comment": "add eslint-plugin-perfectionist:recommended-natural",
-  "packageName": "@nnecec/eslint-config",
-  "email": "nnecec@outlook.com",
-  "dependentChangeType": "patch"
-}

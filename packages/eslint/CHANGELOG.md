@@ -1,8 +1,16 @@
 # Change Log - @nnecec/eslint-config
 
-This log was last generated on Thu, 08 Jun 2023 07:34:26 GMT and should not be manually modified.
+This log was last generated on Fri, 09 Jun 2023 02:45:00 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 0.4.0
+
+Fri, 09 Jun 2023 02:45:00 GMT
+
+### Minor changes
+
+- add eslint-plugin-perfectionist:recommended-natural (nnecec@outlook.com)
 
 ## 0.3.1
 
