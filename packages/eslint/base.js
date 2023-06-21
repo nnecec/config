@@ -9,11 +9,10 @@ module.exports = {
   },
   extends: [
     'standard',
-    'prettier',
     'plugin:import/recommended',
-    'plugin:eslint-comments/recommended',
     'plugin:unicorn/recommended',
     'plugin:perfectionist/recommended-natural',
+    'prettier',
   ],
   ignorePatterns: [
     '*.min.*',
@@ -97,7 +96,6 @@ module.exports = {
     // allow unstable_x
     camelcase: ['error', { allow: ['unstable_'] }],
     'comma-dangle': ['error', 'always-multiline'],
-    'eslint-comments/disable-enable-pair': ['error', { allowWholeFile: true }],
     'import/first': 'error',
     'import/newline-after-import': 'error',
     'import/no-absolute-path': 'off',
