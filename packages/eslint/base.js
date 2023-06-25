@@ -112,9 +112,9 @@ module.exports = {
     'simple-import-sort/exports': 'error',
     'simple-import-sort/imports': 'error',
 
-    'unicorn/no-null': 'warn',
-    'unicorn/prefer-module': 'off',
     // https://github.com/sindresorhus/eslint-plugin-unicorn
+    'unicorn/no-null': 'off',
+    'unicorn/prefer-module': 'off',
     'unicorn/prevent-abbreviations': 'off',
   },
   settings: {
