@@ -1,7 +1,0 @@
-{
-  "type": "patch",
-  "comment": "feat(prettier): proseWrap: never for .md",
-  "packageName": "@nnecec/prettier-config",
-  "email": "nnecec@outlook.com",
-  "dependentChangeType": "patch"
-}

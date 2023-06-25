@@ -1,7 +1,0 @@
-{
-  "type": "patch",
-  "comment": "feat(eslint): remove eslint-comments",
-  "packageName": "@nnecec/eslint-config",
-  "email": "nnecec@outlook.com",
-  "dependentChangeType": "patch"
-}

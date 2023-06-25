@@ -2,6 +2,27 @@
   "name": "@nnecec/eslint-config",
   "entries": [
     {
+      "date": "Sun, 25 Jun 2023 02:20:13 GMT",
+      "tag": "@nnecec/eslint-config_v0.4.2",
+      "version": "0.4.2",
+      "comments": {
+        "patch": [
+          {
+            "author": "nnecec@outlook.com",
+            "package": "@nnecec/eslint-config",
+            "commit": "f91b461400d4a8c3813e21e1203286bd0c59907b",
+            "comment": "off no-null"
+          },
+          {
+            "author": "nnecec@outlook.com",
+            "package": "@nnecec/eslint-config",
+            "commit": "76fb8fac6750fae33ad914fc2606f34de5daf971",
+            "comment": "feat(eslint): remove eslint-comments"
+          }
+        ]
+      }
+    },
+    {
       "date": "Fri, 09 Jun 2023 02:58:09 GMT",
       "tag": "@nnecec/eslint-config_v0.4.1",
       "version": "0.4.1",

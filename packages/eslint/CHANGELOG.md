@@ -1,8 +1,17 @@
 # Change Log - @nnecec/eslint-config
 
-This log was last generated on Fri, 09 Jun 2023 02:58:09 GMT and should not be manually modified.
+This log was last generated on Sun, 25 Jun 2023 02:20:13 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 0.4.2
+
+Sun, 25 Jun 2023 02:20:13 GMT
+
+### Patches
+
+- off no-null (nnecec@outlook.com)
+- feat(eslint): remove eslint-comments (nnecec@outlook.com)
 
 ## 0.4.1
 
