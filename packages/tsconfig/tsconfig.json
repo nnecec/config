@@ -19,6 +19,7 @@
     "resolveJsonModule": false,
     "skipLibCheck": true,
     "strict": true,
+    "strictPropertyInitialization": false,
     "target": "ESNext",
     "useDefineForClassFields": true
   },
