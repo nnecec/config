@@ -1,0 +1,7 @@
+{
+  "type": "patch",
+  "comment": "feat(tsconfig): strictPropertyInitialization: false",
+  "packageName": "@nnecec/tsconfig",
+  "email": "nnecec@outlook.com",
+  "dependentChangeType": "patch"
+}
