@@ -2,6 +2,29 @@
   "name": "@nnecec/eslint-config",
   "entries": [
     {
+      "date": "Mon, 03 Jul 2023 10:52:34 GMT",
+      "tag": "@nnecec/eslint-config_v0.5.0",
+      "version": "0.5.0",
+      "comments": {
+        "patch": [
+          {
+            "author": "nnecec@outlook.com",
+            "package": "@nnecec/eslint-config",
+            "commit": "515ad268c30d4e8b6527562ff3a719af1a37c4a1",
+            "comment": "feat: update deps"
+          }
+        ],
+        "minor": [
+          {
+            "author": "nnecec@outlook.com",
+            "package": "@nnecec/eslint-config",
+            "commit": "d8391c1ae373d8ce46029d187dd5b96ca6011011",
+            "comment": "feat(eslint): replace eslint-plugin-import with eslint-plugin-i"
+          }
+        ]
+      }
+    },
+    {
       "date": "Sun, 25 Jun 2023 02:20:13 GMT",
       "tag": "@nnecec/eslint-config_v0.4.2",
       "version": "0.4.2",

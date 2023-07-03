@@ -1,8 +1,20 @@
 # Change Log - @nnecec/eslint-config
 
-This log was last generated on Sun, 25 Jun 2023 02:20:13 GMT and should not be manually modified.
+This log was last generated on Mon, 03 Jul 2023 10:52:34 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 0.5.0
+
+Mon, 03 Jul 2023 10:52:34 GMT
+
+### Minor changes
+
+- feat(eslint): replace eslint-plugin-import with eslint-plugin-i (nnecec@outlook.com)
+
+### Patches
+
+- feat: update deps (nnecec@outlook.com)
 
 ## 0.4.2
 

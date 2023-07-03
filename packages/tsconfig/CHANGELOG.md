@@ -1,8 +1,16 @@
 # Change Log - @nnecec/tsconfig
 
-This log was last generated on Thu, 08 Jun 2023 07:34:26 GMT and should not be manually modified.
+This log was last generated on Mon, 03 Jul 2023 10:52:34 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 0.1.6
+
+Mon, 03 Jul 2023 10:52:34 GMT
+
+### Patches
+
+- feat(tsconfig): strictPropertyInitialization: false (nnecec@outlook.com)
 
 ## 0.1.5
 
