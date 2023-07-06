@@ -21,7 +21,7 @@
   "devDependencies": {
     "beachball": "^2.33.3",
     "eslint": "^8.44.0",
-    "prettier": "^2.8.8",
+    "prettier": "^3.0.0",
     "react": "^18.2.0",
     "turbo": "^1.10.7",
     "typescript": "^5.1.6"

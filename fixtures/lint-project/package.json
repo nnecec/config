@@ -2,8 +2,8 @@
   "name": "fixture",
   "private": true,
   "devDependencies": {
-    "@antfu/eslint-config": "^0.39.6",
-    "@antfu/eslint-config-ts": "^0.39.6",
+    "@antfu/eslint-config": "^0.39.7",
+    "@antfu/eslint-config-ts": "^0.39.7",
     "@nnecec/eslint-config": "workspace:*",
     "@nnecec/tsconfig": "workspace:*",
     "@types/react": "^18.2.14",
