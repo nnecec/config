@@ -1,7 +1,0 @@
-{
-  "type": "minor",
-  "comment": "prettier 3.0",
-  "packageName": "@nnecec/prettier-config",
-  "email": "nnecec@outlook.com",
-  "dependentChangeType": "patch"
-}
