@@ -1,8 +1,16 @@
 # Change Log - @nnecec/prettier-config
 
-This log was last generated on Thu, 06 Jul 2023 03:36:09 GMT and should not be manually modified.
+This log was last generated on Fri, 04 Aug 2023 07:18:44 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 0.3.1
+
+Fri, 04 Aug 2023 07:18:44 GMT
+
+### Patches
+
+- update deps (nnecec@outlook.com)
 
 ## 0.3.0
 
