@@ -19,11 +19,11 @@
     "release": "npm run build && beachball publish"
   },
   "devDependencies": {
-    "beachball": "^2.33.3",
-    "eslint": "^8.44.0",
-    "prettier": "^3.0.0",
+    "beachball": "^2.36.0",
+    "eslint": "^8.46.0",
+    "prettier": "^3.0.1",
     "react": "^18.2.0",
-    "turbo": "^1.10.7",
+    "turbo": "^1.10.12",
     "typescript": "^5.1.6"
   },
   "packageManager": "pnpm@8.0.0"

@@ -4,6 +4,7 @@
   "css.lint.hexColorLength": "ignore",
   "debug.allowBreakpointsEverywhere": true,
   "debug.onTaskErrors": "debugAnyway",
+  "diffEditor.experimental.useVersion2": true,
   "diffEditor.ignoreTrimWhitespace": false,
   "editor.accessibilitySupport": "off",
   "editor.codeActionsOnSave": {
@@ -74,6 +75,7 @@
   "gitlens.codeLens.authors.enabled": false,
   "gitlens.codeLens.recentChange.enabled": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
+  "markdown.editor.pasteUrlAsFormattedLink.enabled": "smart",
   // other
   "scm.diffDecorationsGutterWidth": 2,
   "search.exclude": {
