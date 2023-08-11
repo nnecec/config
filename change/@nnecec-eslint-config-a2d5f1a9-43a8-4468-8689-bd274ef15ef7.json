@@ -1,0 +1,7 @@
+{
+  "type": "patch",
+  "comment": "feat(eslint): disable sort postcss.config.js",
+  "packageName": "@nnecec/eslint-config",
+  "email": "nnecec@outlook.com",
+  "dependentChangeType": "patch"
+}
