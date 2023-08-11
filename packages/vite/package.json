@@ -17,7 +17,7 @@
     "@nnecec/tsconfig": "workspace:*",
     "@vitejs/plugin-react": "^4.0.4",
     "rollup-plugin-visualizer": "^5.9.2",
-    "vite": "^4.4.8",
+    "vite": "^4.4.9",
     "vite-tsconfig-paths": "^4.2.0"
   },
   "publishConfig": {

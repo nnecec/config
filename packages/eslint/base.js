@@ -108,7 +108,10 @@ module.exports = {
     'no-console': 'error',
     'no-multiple-empty-lines': ['error', { max: 1, maxBOF: 0, maxEOF: 0 }],
     // import
+    'perfectionist/sort-exports': 'off',
     'perfectionist/sort-imports': 'off',
+    'perfectionist/sort-named-exports': 'off',
+    'perfectionist/sort-named-imports': 'off',
     'simple-import-sort/exports': 'error',
     'simple-import-sort/imports': 'error',
 
