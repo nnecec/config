@@ -1,8 +1,16 @@
 # Change Log - @nnecec/eslint-config
 
-This log was last generated on Fri, 11 Aug 2023 06:28:13 GMT and should not be manually modified.
+This log was last generated on Fri, 11 Aug 2023 09:35:22 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 0.6.2
+
+Fri, 11 Aug 2023 09:35:22 GMT
+
+### Patches
+
+- feat(eslint): disable sort postcss.config.js (nnecec@outlook.com)
 
 ## 0.6.1
 

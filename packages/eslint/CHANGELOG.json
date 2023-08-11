@@ -2,6 +2,21 @@
   "name": "@nnecec/eslint-config",
   "entries": [
     {
+      "date": "Fri, 11 Aug 2023 09:35:22 GMT",
+      "version": "0.6.2",
+      "tag": "@nnecec/eslint-config_v0.6.2",
+      "comments": {
+        "patch": [
+          {
+            "author": "nnecec@outlook.com",
+            "package": "@nnecec/eslint-config",
+            "commit": "cfd5ba54681732ea7243077f51874958f190f16a",
+            "comment": "feat(eslint): disable sort postcss.config.js"
+          }
+        ]
+      }
+    },
+    {
       "date": "Fri, 11 Aug 2023 06:28:13 GMT",
       "version": "0.6.1",
       "tag": "@nnecec/eslint-config_v0.6.1",
