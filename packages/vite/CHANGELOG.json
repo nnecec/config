@@ -2,6 +2,21 @@
   "name": "@nnecec/preset-vite",
   "entries": [
     {
+      "date": "Fri, 11 Aug 2023 06:28:13 GMT",
+      "version": "0.1.11",
+      "tag": "@nnecec/preset-vite_v0.1.11",
+      "comments": {
+        "patch": [
+          {
+            "author": "nnecec@outlook.com",
+            "package": "@nnecec/preset-vite",
+            "commit": "8feafda10246abd83a44b2ce823094b1242cae85",
+            "comment": "feat(eslint): disabled perfectionist sort imports and exports"
+          }
+        ]
+      }
+    },
+    {
       "date": "Fri, 04 Aug 2023 07:18:44 GMT",
       "version": "0.1.10",
       "tag": "@nnecec/preset-vite_v0.1.10",

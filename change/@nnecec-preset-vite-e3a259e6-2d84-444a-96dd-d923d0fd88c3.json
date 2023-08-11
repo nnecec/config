@@ -1,7 +1,0 @@
-{
-  "type": "patch",
-  "comment": "feat(eslint): disabled perfectionist sort imports and exports",
-  "packageName": "@nnecec/preset-vite",
-  "email": "nnecec@outlook.com",
-  "dependentChangeType": "patch"
-}

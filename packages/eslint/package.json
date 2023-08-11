@@ -1,6 +1,6 @@
 {
   "name": "@nnecec/eslint-config",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "The useful eslint config base on Standard. Support Vanilla JavaScript, TypeScript or React.",
   "license": "MIT",
   "author": "nnecec(https://github.com/nnecec/)",
