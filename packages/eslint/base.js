@@ -88,6 +88,12 @@ module.exports = {
         ],
       },
     },
+    {
+      files: ['postcss.config.js'],
+      rules: {
+        'perfectionist/sort-objects': 'off',
+      },
+    },
   ],
   plugins: ['unicorn', 'simple-import-sort', 'json-files'],
   reportUnusedDisableDirectives: true,
