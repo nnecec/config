@@ -1,3 +1,4 @@
+/* eslint-disable perfectionist/sort-objects */
 /**
  * @type {import('eslint').Linter.Config}
  */
@@ -91,6 +92,7 @@ module.exports = {
     {
       files: ['postcss.config.js'],
       rules: {
+        // prevent plugins call order.
         'perfectionist/sort-objects': 'off',
       },
     },
@@ -98,26 +100,27 @@ module.exports = {
   plugins: ['unicorn', 'simple-import-sort', 'json-files'],
   reportUnusedDisableDirectives: true,
   rules: {
+    // common
     'arrow-parens': ['error', 'as-needed'],
-    // allow unstable_x
     camelcase: ['error', { allow: ['unstable_'] }],
     'comma-dangle': ['error', 'always-multiline'],
+    'no-console': 'error',
+    'no-multiple-empty-lines': ['error', { max: 1, maxBOF: 0, maxEOF: 0 }],
+
+    // import
     'import/first': 'error',
     'import/newline-after-import': 'error',
     'import/no-absolute-path': 'off',
     'import/no-duplicates': 'error',
     'import/no-mutable-exports': 'error',
-
     'import/no-unresolved': 'off',
     'import/order': 'off',
-    // common
-    'no-console': 'error',
-    'no-multiple-empty-lines': ['error', { max: 1, maxBOF: 0, maxEOF: 0 }],
-    // import
+
     'perfectionist/sort-exports': 'off',
     'perfectionist/sort-imports': 'off',
     'perfectionist/sort-named-exports': 'off',
     'perfectionist/sort-named-imports': 'off',
+
     'simple-import-sort/exports': 'error',
     'simple-import-sort/imports': 'error',
 
