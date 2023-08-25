@@ -2,15 +2,15 @@
   "name": "fixture",
   "private": true,
   "devDependencies": {
-    "@antfu/eslint-config": "^0.40.2",
-    "@antfu/eslint-config-ts": "^0.40.2",
+    "@antfu/eslint-config": "^0.41.0",
+    "@antfu/eslint-config-ts": "^0.41.0",
     "@nnecec/eslint-config": "workspace:*",
     "@nnecec/tsconfig": "workspace:*",
-    "@types/react": "^18.2.20",
+    "@types/react": "^18.2.21",
     "@types/react-dom": "^18.2.7",
-    "eslint": "^8.46.0",
+    "eslint": "^8.47.0",
     "tailwindcss": "^3.3.3",
-    "typescript": "^5.1.6"
+    "typescript": "^5.2.2"
   },
   "engines": {
     "node": ">=14.0.0",
