@@ -1,0 +1,7 @@
+{
+  "type": "patch",
+  "comment": "feat: remove simple-import-sort, refactor eslint-typescript",
+  "packageName": "@nnecec/eslint-config",
+  "email": "nnecec@outlook.com",
+  "dependentChangeType": "patch"
+}
