@@ -59,37 +59,6 @@ module.exports = {
       },
     },
     {
-      files: ['*.js', '*.jsx', '*.ts', '*.tsx'],
-      rules: {
-        'simple-import-sort/imports': [
-          'error',
-          {
-            groups: [
-              // Node.js builtins prefixed with `node:`.
-              ['^node:'],
-              // Packages `react` related packages come first.
-              ['^react', '^@?\\w'],
-              // Side effect imports.
-              ['^\\u0000'],
-              // Internal packages.
-              ['^(@|~)(/.*|$)'],
-              ['^(libs|components|pages|types|utils|app)(/.*|$)'],
-              // external lib types
-              ['^node:.*\\u0000$', '^@?\\w.*\\u0000$'],
-              // Parent imports. Put `..` last.
-              ['^\\.\\.(?!/?$)', '^\\.\\./?$'],
-              // Other relative imports. Put same-folder imports and `.` last.
-              ['^\\./(?=.*/)(?!/?$)', '^\\.(?!/?$)', '^\\./?$'],
-              // internal lib types
-              ['^[^.].*\\u0000$', '^\\..*\\u0000$'],
-              // Style imports.
-              ['^.+\\.?(css)$'],
-            ],
-          },
-        ],
-      },
-    },
-    {
       files: ['postcss.config.js'],
       rules: {
         // prevent plugins call order.
@@ -97,7 +66,7 @@ module.exports = {
       },
     },
   ],
-  plugins: ['unicorn', 'simple-import-sort', 'json-files'],
+  plugins: ['unicorn', 'json-files'],
   reportUnusedDisableDirectives: true,
   rules: {
     // common
@@ -116,13 +85,40 @@ module.exports = {
     'import/no-unresolved': 'off',
     'import/order': 'off',
 
-    'perfectionist/sort-exports': 'off',
-    'perfectionist/sort-imports': 'off',
-    'perfectionist/sort-named-exports': 'off',
-    'perfectionist/sort-named-imports': 'off',
-
-    'simple-import-sort/exports': 'error',
-    'simple-import-sort/imports': 'error',
+    // https://eslint-plugin-perfectionist.azat.io/
+    'perfectionist/sort-imports': [
+      'error',
+      {
+        type: 'natural',
+        groups: [
+          'type',
+          'react',
+          'builtin',
+          'external',
+          'external-scope',
+          'internal-type',
+          'internal',
+          ['parent-type', 'sibling-type', 'index-type'],
+          ['parent', 'sibling', 'index'],
+          'side-effect',
+          'style',
+          'object',
+          'unknown',
+        ],
+        'custom-groups': {
+          value: {
+            react: ['react', 'react-*'],
+            'external-scope': ['@*/*'],
+          },
+          type: {
+            react: 'react',
+            'external-scope': 'external-scope',
+          },
+        },
+        'newlines-between': 'always',
+        'internal-pattern': ['@/**', '~/**'],
+      },
+    ],
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn
     'unicorn/no-null': 'off',

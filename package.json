@@ -12,8 +12,8 @@
     "website"
   ],
   "scripts": {
-    "build": "turbo run build",
     "beachball": "beachball",
+    "build": "turbo run build",
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
     "release": "npm run build && beachball publish"

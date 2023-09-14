@@ -1,13 +1,14 @@
+import type { UserConfig } from 'vite'
+
 import { isAbsolute, join } from 'node:path'
 import { cwd, env } from 'node:process'
 
-import reactRefresh from '@vitejs/plugin-react'
 import { visualizer } from 'rollup-plugin-visualizer'
 import tsconfigPaths from 'vite-tsconfig-paths'
 
-import type { UserConfig } from 'vite'
+import reactRefresh from '@vitejs/plugin-react'
 
-export default ({ jsxRuntime = 'automatic' as 'automatic' | 'classic', base = '' } = {}) => {
+export default ({ base = '', jsxRuntime = 'automatic' as 'automatic' | 'classic' } = {}) => {
   return [
     {
       config(userConfig: UserConfig): UserConfig {
