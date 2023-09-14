@@ -1,8 +1,16 @@
 # Change Log - @nnecec/eslint-config
 
-This log was last generated on Wed, 13 Sep 2023 06:20:30 GMT and should not be manually modified.
+This log was last generated on Thu, 14 Sep 2023 09:31:16 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 0.6.4
+
+Thu, 14 Sep 2023 09:31:16 GMT
+
+### Patches
+
+- feat: remove simple-import-sort, refactor eslint-typescript (nnecec@outlook.com)
 
 ## 0.6.3
 

@@ -2,6 +2,21 @@
   "name": "@nnecec/eslint-config",
   "entries": [
     {
+      "date": "Thu, 14 Sep 2023 09:31:16 GMT",
+      "version": "0.6.4",
+      "tag": "@nnecec/eslint-config_v0.6.4",
+      "comments": {
+        "patch": [
+          {
+            "author": "nnecec@outlook.com",
+            "package": "@nnecec/eslint-config",
+            "commit": "cc523bc2fbba846dbc213de44cc299eebaaa569d",
+            "comment": "feat: remove simple-import-sort, refactor eslint-typescript"
+          }
+        ]
+      }
+    },
+    {
       "date": "Wed, 13 Sep 2023 06:20:30 GMT",
       "version": "0.6.3",
       "tag": "@nnecec/eslint-config_v0.6.3",

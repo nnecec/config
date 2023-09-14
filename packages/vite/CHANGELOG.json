@@ -2,6 +2,21 @@
   "name": "@nnecec/preset-vite",
   "entries": [
     {
+      "date": "Thu, 14 Sep 2023 09:31:16 GMT",
+      "version": "0.1.12",
+      "tag": "@nnecec/preset-vite_v0.1.12",
+      "comments": {
+        "none": [
+          {
+            "author": "nnecec@outlook.com",
+            "package": "@nnecec/preset-vite",
+            "commit": "cc523bc2fbba846dbc213de44cc299eebaaa569d",
+            "comment": "fix eslint"
+          }
+        ]
+      }
+    },
+    {
       "date": "Wed, 13 Sep 2023 06:20:30 GMT",
       "version": "0.1.12",
       "tag": "@nnecec/preset-vite_v0.1.12",
