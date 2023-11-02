@@ -1,4 +1,4 @@
-import React, { useMemo, useState, Validator } from 'react'
+import React, { useMemo, Validator, useState } from 'react'
 
 import { searchUp } from './t'
 

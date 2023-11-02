@@ -7,6 +7,7 @@ export const sort = (): Linter.FlatConfig[] => {
       plugins: {
         perfectionist: pluginPerfectionist,
       },
+      ignores: ['**/package.json'],
       rules: {
         ...pluginPerfectionist.configs['recommended-natural'].rules,
         // https://eslint-plugin-perfectionist.azat.io/

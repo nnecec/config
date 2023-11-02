@@ -1,5 +1,5 @@
 {
-  "name": "lint-project",
+  "name": "legacy-project",
   "private": true,
   "devDependencies": {
     "@antfu/eslint-config": "^1.1.0",

@@ -20,13 +20,13 @@
     "release": "npm run build && beachball publish"
   },
   "devDependencies": {
+    "@nnecec/eslint-config": "workspace:*",
     "beachball": "^2.36.0",
     "eslint": "^8.47.0",
     "prettier": "^3.0.2",
     "react": "^18.2.0",
-    "turbo": "^1.10.13",
-    "typescript": "^5.2.2",
-    "@nnecec/eslint-config": "workspace:*"
+    "turbo": "^1.10.16",
+    "typescript": "^5.2.2"
   },
   "packageManager": "pnpm@8.0.0"
 }

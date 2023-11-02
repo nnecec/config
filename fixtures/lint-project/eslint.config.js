@@ -1,6 +1,7 @@
 import nnecec from '@nnecec/eslint-config'
 
 export default nnecec({
-  json: true,
+  react: true,
+  tailwindcss: true,
   typescript: true,
 })

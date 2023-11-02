@@ -16,7 +16,9 @@ export { default as pluginUnicorn } from 'eslint-plugin-unicorn'
 export { default as pluginReact } from 'eslint-plugin-react'
 export { default as pluginReactHooks } from 'eslint-plugin-react-hooks'
 export {default as pluginPromise} from 'eslint-plugin-promise'
+export * as pluginJSON from 'eslint-plugin-jsonc'
 
 // parsers
 export * as parserTypescript from '@typescript-eslint/parser'
 export * as parserYaml from 'yaml-eslint-parser'
+export { default as parserJSON } from 'jsonc-eslint-parser'

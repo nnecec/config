@@ -11,6 +11,7 @@ import {
   unicorn,
   react,
   tailwindcss,
+  json,
 } from './configs'
 import { Linter } from 'eslint'
 
@@ -24,17 +25,20 @@ type Options = {
   typescript?: boolean
   react?: boolean
   tailwindcss?: boolean
+  json?: boolean
 }
 
 export default function (options: Options): Linter.FlatConfig[] {
   const {
+    // default: true
     standard: enableStandard = true,
     prettier: enablePrettier = true,
     unicorn: enableUnicorn = true,
+    json: enableJSON = true,
     'sort-package-json': enableSortPackageJson = true,
-    jsdoc: enableJSDoc = true,
-    sort: enableSort = false,
-    // default false
+    sort: enableSort = true,
+    // default: false
+    jsdoc: enableJSDoc = false,
     typescript: enableTypeScript = false,
     react: enableReact = false,
     tailwindcss: enableTailwindCSS = false,
@@ -44,14 +48,14 @@ export default function (options: Options): Linter.FlatConfig[] {
 
   if (enableStandard) configs.push(...standard())
   if (enablePrettier) configs.push(...prettier())
+  if (enableTypeScript) configs.push(...typescript())
   if (enableUnicorn) configs.push(...unicorn())
-  if (enableSortPackageJson) configs.push(...packagejson())
+  if (enableJSON) configs.push(...json())
   if (enableJSDoc) configs.push(...jsdoc())
   if (enableReact) configs.push(...react())
   if (enableTailwindCSS) configs.push(...tailwindcss())
-  if (enableTypeScript) configs.push(...typescript())
   if (enableSort) configs.push(...sort())
-  if (enableJSDoc) configs.push(...jsdoc())
+  if (enableSortPackageJson) configs.push(...packagejson())
 
   return configs
 }

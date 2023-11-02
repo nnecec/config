@@ -2,44 +2,52 @@
 
 ## Features
 
-- Base on Standard, unicorn.
-- Support Prettier.
-- Less custom rules, extends dependencies:recommended first.
-- Sort package.json.
-- Sort `import` & `export` in js/ts.
-- Optional: Tailwind.css.
-- ESLint flat config.
+- Base on `Standard`, `unicorn`.
+- Work friendly with `Prettier`.
+- Extends `third-party-config:recommended` first.
+- Support `TypeScript`, `React`.
+- Support sort package.json, sort `import` & `export` in js/ts.
+- Optional linter: JSON, JSDoc, Tailwind.css.
+- ESLint flat config (\>=0.7.0).
 
 ## Usage
 
-Edit `eslint.config.js`:
+```shell
+$ npm install --save-dev @nnecec/eslint-config
+# or
+$ pnpm add @nnecec/eslint-config
+```
+
+Create `eslint.config.js` at your project:
 
 ```js
 import nnecec from '@nnecec/eslint-config'
 
-export default [nnecec()]
+export default nnecec()
+// or
+export default [
+  ...nnecec(),
+  {
+    // your configs
+  }
+]
 ```
 
 ### Options
 
 ```ts
 type Options = {
-  // default: true
-  standard: boolean
-  // default: true
-  prettier: boolean
-  // default: true
-  unicorn: boolean
-  // default: true
-  'sort-package-json': boolean
-  // default: true
-  jsdoc: boolean
-  // default: false
-  typescript: boolean
-  // default: false
-  react: boolean
-  // default: false
-  tailwindcss: boolean
+  standard: boolean // default: true
+  prettier: boolean // default: true
+  unicorn: boolean // default: true
+  'sort-package-json': boolean // default: true
+  sort: boolean // default: true
+  json: boolean // default: true
+  // ------
+  jsdoc: boolean // default: false
+  typescript: boolean // default: false
+  react: boolean // default: false
+  tailwindcss: boolean // default: false
 }
 ```
 

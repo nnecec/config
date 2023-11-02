@@ -10,7 +10,8 @@ export const ALL_JS_TS = '**/*.?([cm])[jt]s?(x)'
 
 export const ALL_CSS = '**/*.css'
 
-export const ALL_JSON = '**/*.json'
+export const ALL_JSON = ['**/*.json','**/*.json5','**/*.jsonc']
+
 
 export const ALL_MD = '**/*.md'
 export const ALL_YAML = '**/*.y?(a)ml'
@@ -18,7 +19,7 @@ export const ALL_HTML = '**/*.htm?(l)'
 
 export const ALL_TESTS = [`**/__tests__/**/*.${JS_TS}`, `**/*.spec.${JS_TS}`, `**/*.test.${JS_TS}`]
 
-export const ALL = [ALL_JS_TS, ALL_JSON, ALL_YAML, ALL_HTML]
+export const ALL = [ALL_JS_TS, ...ALL_JSON, ALL_YAML, ALL_HTML]
 
 export const EXCLUDE = [
   '**/node_modules',
