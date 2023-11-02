@@ -4,8 +4,6 @@
   "css.lint.hexColorLength": "ignore",
   "debug.allowBreakpointsEverywhere": true,
   "debug.onTaskErrors": "debugAnyway",
-  "diffEditor.experimental.useVersion2": true,
-  "diffEditor.ignoreTrimWhitespace": false,
   "editor.accessibilitySupport": "off",
   "editor.codeActionsOnSave": {
     "source.fixAll": false,
@@ -110,5 +108,6 @@
   "workbench.preferredDarkColorTheme": "GitHub Dark Default",
   "workbench.preferredLightColorTheme": "GitHub Light",
   "workbench.startupEditor": "none",
-  "workbench.tree.expandMode": "singleClick"
+  "workbench.tree.expandMode": "singleClick",
+  "eslint.experimental.useFlatConfig": true
 }

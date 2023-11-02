@@ -5,6 +5,7 @@
     "type": "git",
     "url": "https://github.com/nnecec/config.git"
   },
+  "type": "module",
   "author": "nnecec(https://github.com/nnecec/)",
   "workspaces": [
     "packages/*",
@@ -24,7 +25,8 @@
     "prettier": "^3.0.2",
     "react": "^18.2.0",
     "turbo": "^1.10.13",
-    "typescript": "^5.2.2"
+    "typescript": "^5.2.2",
+    "@nnecec/eslint-config": "workspace:*"
   },
   "packageManager": "pnpm@8.0.0"
 }

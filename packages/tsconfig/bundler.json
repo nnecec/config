@@ -1,9 +1,8 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
-  "display": "React",
+  "display": "Bundler",
   "extends": "./tsconfig.json",
   "compilerOptions": {
-    "jsx": "react-jsx",
-    "lib": ["DOM", "ES2020"]
+    "moduleResolution": "Bundler"
   }
 }

@@ -6,10 +6,44 @@
 - Support Prettier.
 - Less custom rules, extends dependencies:recommended first.
 - Sort package.json.
-- Sort `import` in js/ts.
-- Optional: Tailwind.css lint.
+- Sort `import` & `export` in js/ts.
+- Optional: Tailwind.css.
+- ESLint flat config.
 
 ## Usage
+
+Edit `eslint.config.js`:
+
+```js
+import nnecec from '@nnecec/eslint-config'
+
+export default [nnecec()]
+```
+
+### Options
+
+```ts
+type Options = {
+  // default: true
+  standard: boolean
+  // default: true
+  prettier: boolean
+  // default: true
+  unicorn: boolean
+  // default: true
+  'sort-package-json': boolean
+  // default: true
+  jsdoc: boolean
+  // default: false
+  typescript: boolean
+  // default: false
+  react: boolean
+  // default: false
+  tailwindcss: boolean
+}
+```
+
+## Usage(legacy)
 
 Install:
 
@@ -21,19 +55,13 @@ Edit `.eslintrc.js`:
 
 ```js
 module.exports = {
+  // Base config, includes Standard, Prettier, ImportSort, unicorn.
   extends: ['@nnecec/eslint-config'],
-  // or
+  // includes **Base** and TypeScript config.
   extends: ['@nnecec/eslint-config/typescript'],
-  // or
+  // includes **TypeScript** config and React config.
   extends: ['@nnecec/eslint-config/react'],
-  // or
+  // includes **React** config and Tailwind.
   extends: ['@nnecec/eslint-config/react-universal'],
 }
 ```
-
-Options
-
-- @nnecec/eslint-config: Base config, includes Standard, Prettier, ImportSort, unicorn.
-- @nnecec/eslint-config/typescript: includes **Base** and TypeScript config.
-- @nnecec/eslint-config/react: includes **TypeScript** config and React config.
-- @nnecec/eslint-config/react-universal: includes **React** config and Tailwind.
