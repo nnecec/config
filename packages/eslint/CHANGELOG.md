@@ -1,8 +1,16 @@
 # Change Log - @nnecec/eslint-config
 
-This log was last generated on Thu, 14 Sep 2023 09:31:16 GMT and should not be manually modified.
+This log was last generated on Mon, 06 Nov 2023 10:05:55 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 0.7.0
+
+Mon, 06 Nov 2023 10:05:55 GMT
+
+### Minor changes
+
+- feat(eslint): flat config (nnecec@outlook.com)
 
 ## 0.6.4
 
