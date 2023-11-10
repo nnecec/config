@@ -8,10 +8,22 @@ export const typescript = (): Linter.FlatConfig[] => {
       files: [ALL_JS_TS],
       languageOptions: {
         parser: parserTypescript as any,
+        parserOptions: {
+          sourceType: 'module',
+        },
       },
       plugins: {
         import: pluginImport,
         '@typescript-eslint': pluginTypescript as any,
+      },
+      settings: {
+        'import/parsers': {
+          espree: ['.js', '.cjs', '.mjs', '.jsx', '.ts', '.tsx', '.mts', '.cts'],
+        },
+        'import/resolver': {
+          typescript: true,
+          node: true,
+        },
       },
       rules: {
         // TODO: Waitting for flat config supported
@@ -36,9 +48,15 @@ export const typescript = (): Linter.FlatConfig[] => {
       },
     },
     {
-      files: ['*.d.ts'],
+      files: ['**/*.d.ts'],
       rules: {
         'import/no-duplicates': 'off',
+      },
+    },
+    {
+      files: ['**/*.{test,spec}.ts?(x)'],
+      rules: {
+        'no-unused-expressions': 'off',
       },
     },
   ]

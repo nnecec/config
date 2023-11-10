@@ -18,10 +18,10 @@ export const javascript = (): Linter.FlatConfig[] => {
           ecmaFeatures: {
             jsx: true,
           },
-          ecmaVersion: 2022,
+          ecmaVersion: 'latest',
           sourceType: 'module',
         },
-        sourceType: 'module'
+        sourceType: 'module',
       },
       linterOptions: {
         reportUnusedDisableDirectives: true,

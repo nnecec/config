@@ -7,6 +7,14 @@ export const imports = (): Linter.FlatConfig[] => {
       plugins: {
         import: pluginImport,
       },
+      settings: {
+        'import/parsers': {
+          espree: ['.js', '.cjs', '.mjs', '.jsx'],
+        },
+        'import/resolver': {
+          node: true,
+        },
+      },
       rules: {
         ...pluginImport.configs.recommended.rules,
         'import/first': 'error',

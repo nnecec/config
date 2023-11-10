@@ -1,4 +1,5 @@
 import { PropsWithChildren } from 'react'
+import { render } from 'react-dom'
 
 export function searchUp(pathName: string) {
   console.log(pathName)

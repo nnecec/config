@@ -44,7 +44,7 @@ export default function (options: Options): Linter.FlatConfig[] {
     tailwindcss: enableTailwindCSS = false,
   } = options
 
-  const configs: Linter.FlatConfig[] = [...javascript(), ...ignore(), ...imports()]
+  const configs: Linter.FlatConfig[] = [...ignore(), ...javascript(), ...imports()]
 
   if (enableStandard) configs.push(...standard())
   if (enablePrettier) configs.push(...prettier())

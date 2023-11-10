@@ -5,13 +5,16 @@
   "license": "MIT",
   "author": "nnecec(https://github.com/nnecec/)",
   "exports": {
+    "./legacy/*": "./legacy/*",
     ".": {
       "types": "./dist/index.d.ts",
       "import": "./dist/index.mjs",
       "require": "./dist/index.cjs"
-    },
-    "./legacy/*": "./legacy/*"
+    }
   },
+  "types": "./dist/index.d.ts",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
   "files": [
     "dist",
     "legacy"
