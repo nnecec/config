@@ -1,8 +1,16 @@
 # Change Log - @nnecec/eslint-config
 
-This log was last generated on Fri, 10 Nov 2023 02:56:51 GMT and should not be manually modified.
+This log was last generated on Fri, 10 Nov 2023 10:14:23 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 0.7.2
+
+Fri, 10 Nov 2023 10:14:23 GMT
+
+### Patches
+
+- fix(eslint): import/namespace (nnecec@outlook.com)
 
 ## 0.7.1
 
