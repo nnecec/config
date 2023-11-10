@@ -4,7 +4,7 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "lib": ["ES2020"],
-    "module": "NodeNext",
+    "module": "CommonJS",
     "target": "ES2020"
   }
 }

@@ -109,5 +109,8 @@
   "workbench.preferredLightColorTheme": "GitHub Light",
   "workbench.startupEditor": "none",
   "workbench.tree.expandMode": "singleClick",
-  "eslint.experimental.useFlatConfig": true
+  "eslint.experimental.useFlatConfig": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }

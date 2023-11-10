@@ -1,12 +1,12 @@
 {
-  "name": "@nnecec/config",
   "private": true,
+  "name": "@nnecec/config",
   "repository": {
     "type": "git",
     "url": "https://github.com/nnecec/config.git"
   },
-  "type": "module",
   "author": "nnecec(https://github.com/nnecec/)",
+  "type": "module",
   "workspaces": [
     "packages/*",
     "fixtures/*",
@@ -22,7 +22,6 @@
   "devDependencies": {
     "@nnecec/eslint-config": "workspace:*",
     "beachball": "^2.36.0",
-    "eslint": "^8.47.0",
     "prettier": "^3.0.2",
     "react": "^18.2.0",
     "turbo": "^1.10.16",

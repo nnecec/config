@@ -6,7 +6,7 @@ export const packagejson = (): Linter.FlatConfig[] => {
     {
       files: ['**/package.json'],
       plugins: {
-        'json-files': pluginJSONFiles,
+        'json-files': pluginJSONFiles.default,
       },
       rules: {
         'json-files/require-unique-dependency-names': 'error',

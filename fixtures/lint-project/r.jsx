@@ -21,7 +21,9 @@ export function App() {
     <div>
       <div {...useDiv()} />
       <button onClick={printEvent}>Click me</button>
-      <a href="www.baidu.com">baidu</a>
+      <a href="www.baidu.com" className="text-red-500 p-2 text-sm text-3xl">
+        baidu
+      </a>
       {countPlus ? <div>{countPlus}</div> : null}
       <div>
         {count}
