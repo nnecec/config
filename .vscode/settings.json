@@ -10,7 +10,7 @@
     "source.fixAll.eslint": true // this allows ESLint to auto fix on save
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.fontFamily": "Geist Mono, JetBrains Mono, Iosevka, Roboto Mono, LXGW WenKai Mono, Fira Code, Menlo",
+  "editor.fontFamily": "JetBrains Mono, Iosevka, Roboto Mono, LXGW WenKai Mono, Fira Code, Menlo",
   "editor.fontLigatures": true,
   "editor.fontSize": 14,
   "editor.formatOnSave": true,

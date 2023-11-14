@@ -1,5 +1,11 @@
 import nnecec from '@nnecec/eslint-config'
 
-export default nnecec({
-  typescript: true,
-})
+/** @type {import('eslint').Linter.FlatConfig}  */
+export default [
+  ...nnecec({
+    typescript: true,
+  }),
+  {
+    ignores: ['fixtures/**'],
+  },
+]

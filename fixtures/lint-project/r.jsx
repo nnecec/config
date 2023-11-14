@@ -1,4 +1,4 @@
-import React, { useMemo, Validator, useState } from 'react'
+import React, { Validator, useMemo, useState } from 'react'
 
 import { searchUp } from './t'
 
@@ -21,7 +21,7 @@ export function App() {
     <div>
       <div {...useDiv()} />
       <button onClick={printEvent}>Click me</button>
-      <a href="www.baidu.com" className="text-red-500 p-2 text-sm text-3xl">
+      <a className="text-red-500 p-2 text-sm text-3xl" href="www.baidu.com">
         baidu
       </a>
       {countPlus ? <div>{countPlus}</div> : null}

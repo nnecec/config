@@ -1,4 +1,5 @@
-import { Linter } from 'eslint'
+import type { Linter } from 'eslint'
+
 import { pluginImport } from '../externals'
 
 export const imports = (): Linter.FlatConfig[] => {
@@ -6,14 +7,6 @@ export const imports = (): Linter.FlatConfig[] => {
     {
       plugins: {
         import: pluginImport,
-      },
-      settings: {
-        'import/parsers': {
-          espree: ['.js', '.cjs', '.mjs', '.jsx'],
-        },
-        'import/resolver': {
-          node: true,
-        },
       },
       rules: {
         ...pluginImport.configs.recommended.rules,
@@ -26,6 +19,14 @@ export const imports = (): Linter.FlatConfig[] => {
         'import/no-self-import': 'error',
         'import/no-unresolved': 'off',
         'import/order': 'off',
+      },
+      settings: {
+        'import/parsers': {
+          espree: ['.js', '.cjs', '.mjs', '.jsx'],
+        },
+        'import/resolver': {
+          node: true,
+        },
       },
     },
   ]

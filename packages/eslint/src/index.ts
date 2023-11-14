@@ -1,47 +1,46 @@
+import type { Linter } from 'eslint'
+
 import {
-  standard,
-  prettier,
   ignore,
   imports,
   javascript,
   jsdoc,
+  json,
   packagejson,
+  prettier,
+  react,
   sort,
+  standard,
+  tailwindcss,
   typescript,
   unicorn,
-  react,
-  tailwindcss,
-  json,
 } from './configs'
-import { Linter } from 'eslint'
 
 type Options = {
-  standard?: boolean
-  prettier?: boolean
-  unicorn?: boolean
-  'sort-package-json'?: boolean
-  sort?: boolean
   jsdoc?: boolean
-  typescript?: boolean
-  react?: boolean
-  tailwindcss?: boolean
   json?: boolean
+  prettier?: boolean
+  react?: boolean
+  sort?: boolean
+  'sort-package-json'?: boolean
+  standard?: boolean
+  tailwindcss?: boolean
+  typescript?: boolean
+  unicorn?: boolean
 }
 
 export default function (options: Options): Linter.FlatConfig[] {
   const {
-    // default: true
-    standard: enableStandard = true,
-    prettier: enablePrettier = true,
-    unicorn: enableUnicorn = true,
-    json: enableJSON = true,
-    'sort-package-json': enableSortPackageJson = true,
-    sort: enableSort = true,
-    // default: false
     jsdoc: enableJSDoc = false,
-    typescript: enableTypeScript = false,
+    json: enableJSON = true,
+    prettier: enablePrettier = true,
     react: enableReact = false,
+    sort: enableSort = true,
+    'sort-package-json': enableSortPackageJson = true,
+    standard: enableStandard = true,
     tailwindcss: enableTailwindCSS = false,
+    typescript: enableTypeScript = false,
+    unicorn: enableUnicorn = true,
   } = options
 
   const configs: Linter.FlatConfig[] = [...ignore(), ...javascript(), ...imports()]

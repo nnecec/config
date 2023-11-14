@@ -1,4 +1,5 @@
-import { Linter } from 'eslint'
+import type { Linter } from 'eslint'
+
 import { pluginJSONFiles } from '../externals'
 
 export const packagejson = (): Linter.FlatConfig[] => {

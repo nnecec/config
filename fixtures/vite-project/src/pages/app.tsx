@@ -1,5 +1,4 @@
 import { useState } from 'react'
-
 import type { ReactElement } from 'react'
 
 import reactLogo from './react.svg'
@@ -11,11 +10,11 @@ function App(): ReactElement {
     <div>
       <header className="pt-header">header</header>
       <div>
-        <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
-          <img src="/vite.svg" className="logo" alt="Vite logo" />
+        <a href="https://vitejs.dev" rel="noreferrer" target="_blank">
+          <img alt="Vite logo" className="logo" src="/vite.svg" />
         </a>
-        <a href="https://reactjs.org" target="_blank" rel="noreferrer">
-          <img src={reactLogo} className="logo react" alt="React logo" />
+        <a href="https://reactjs.org" rel="noreferrer" target="_blank">
+          <img alt="React logo" className="logo react" src={reactLogo} />
         </a>
       </div>
       <h1 className="text-9xl">Vite + React</h1>

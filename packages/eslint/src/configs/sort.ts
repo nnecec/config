@@ -1,20 +1,30 @@
-import { Linter } from 'eslint'
+import type { Linter } from 'eslint'
+
 import { pluginPerfectionist } from '../externals'
 
 export const sort = (): Linter.FlatConfig[] => {
   return [
     {
+      ignores: ['**/package.json'],
       plugins: {
         perfectionist: pluginPerfectionist,
       },
-      ignores: ['**/package.json'],
       rules: {
         ...pluginPerfectionist.configs['recommended-natural'].rules,
         // https://eslint-plugin-perfectionist.azat.io/
         'perfectionist/sort-imports': [
           'error',
           {
-            type: 'natural',
+            'custom-groups': {
+              type: {
+                'external-scope': 'external-scope',
+                react: 'react',
+              },
+              value: {
+                'external-scope': ['@*/*'],
+                react: ['react', 'react-*'],
+              },
+            },
             groups: [
               'type',
               'react',
@@ -30,18 +40,9 @@ export const sort = (): Linter.FlatConfig[] => {
               'object',
               'unknown',
             ],
-            'custom-groups': {
-              value: {
-                react: ['react', 'react-*'],
-                'external-scope': ['@*/*'],
-              },
-              type: {
-                react: 'react',
-                'external-scope': 'external-scope',
-              },
-            },
-            'newlines-between': 'always',
             'internal-pattern': ['@/**', '~/**'],
+            'newlines-between': 'always',
+            type: 'natural',
           },
         ],
       },

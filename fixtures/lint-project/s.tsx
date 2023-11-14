@@ -1,12 +1,12 @@
-import { Button } from 'antd'
 import React, { useState } from 'react'
+import type { ChangeEvent, PropsWithChildren } from 'react'
 import { Router } from 'react-router-dom'
 
-import type { ChangeEvent, PropsWithChildren } from 'react'
-
-import { searchUp } from './t'
+import { Button } from 'antd'
 
 import type { Test } from './t'
+
+import { searchUp } from './t'
 
 interface Props {
   defaultValue: number

@@ -1,5 +1,6 @@
+import type { Linter } from 'eslint'
+
 import { parserTypescript, pluginImport, pluginTypescript } from '../externals'
-import { Linter } from 'eslint'
 import { ALL_JS_TS } from '../files'
 
 export const typescript = (): Linter.FlatConfig[] => {
@@ -13,22 +14,13 @@ export const typescript = (): Linter.FlatConfig[] => {
         },
       },
       plugins: {
-        import: pluginImport,
         '@typescript-eslint': pluginTypescript as any,
-      },
-      settings: {
-        'import/parsers': {
-          espree: ['.js', '.cjs', '.mjs', '.jsx', '.ts', '.tsx', '.mts', '.cts'],
-        },
-        'import/resolver': {
-          typescript: true,
-          node: true,
-        },
+        import: pluginImport,
       },
       rules: {
         // TODO: Waitting for flat config supported
-        ...pluginTypescript.configs['eslint-recommended']!.overrides![0]!.rules!,
-        ...pluginTypescript.configs['strict']!.rules!,
+        ...pluginTypescript.configs['eslint-recommended'].overrides[0].rules,
+        ...pluginTypescript.configs.strict.rules,
         ...pluginImport.configs.typescript.rules,
 
         '@typescript-eslint/ban-ts-comment': ['error', { 'ts-ignore': 'allow-with-description' }],

@@ -1,4 +1,5 @@
-import { Linter } from 'eslint'
+import type { Linter } from 'eslint'
+
 import { pluginReact, pluginReactHooks } from '../externals'
 
 export const react = (): Linter.FlatConfig[] => {

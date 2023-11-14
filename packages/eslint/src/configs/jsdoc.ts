@@ -1,4 +1,5 @@
-import { Linter } from 'eslint'
+import type { Linter } from 'eslint'
+
 import { pluginJSDoc } from '../externals'
 
 export const jsdoc = (): Linter.FlatConfig[] => {
