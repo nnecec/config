@@ -31,9 +31,11 @@ $ pnpm add -D @nnecec/eslint-config
 $ bun add -D @nnecec/eslint-config
 ```
 
-Then create `eslint.config.js` at your project's root path:
-
 :::
+
+## Configuration
+
+Then create `eslint.config.js` at your project's root path:
 
 ```js
 import nnecec from '@nnecec/eslint-config'

@@ -23,7 +23,10 @@ export default defineConfig({
     outline: [2, 3],
     sidebar: [
       {
-        items: [{ link: '/docs/eslint', text: '@nnecec/eslint-config' }],
+        items: [
+          { link: '/docs/eslint', text: '@nnecec/eslint-config' },
+          { link: '/docs/prettier', text: '@nnecec/prettier-config' },
+        ],
         text: 'Configs',
       },
     ],

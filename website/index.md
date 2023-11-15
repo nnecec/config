@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: View configurations
-      link: /docs
+      link: /docs/
 
 features:
   - title: Simple

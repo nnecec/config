@@ -4,6 +4,7 @@
 module.exports = {
   $schema: 'https://json.schemastore.org/prettierrc',
   arrowParens: 'avoid',
+  experimentalTernaries: true,
   jsxSingleQuote: false,
   overrides: [
     {
