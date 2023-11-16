@@ -42,11 +42,13 @@ export default function (options: Options): Linter.FlatConfig[] {
     typescript: enableTypeScript = false,
     unicorn: enableUnicorn = true,
   } = options
-
-  const configs: Linter.FlatConfig[] = [...ignore(), ...javascript(), ...imports()]
+  const configs: Linter.FlatConfig[] = [...ignore()]
 
   if (enableStandard) configs.push(...standard())
   if (enablePrettier) configs.push(...prettier())
+
+  configs.push(...imports(), ...javascript())
+
   if (enableTypeScript) configs.push(...typescript())
   if (enableUnicorn) configs.push(...unicorn())
   if (enableJSON) configs.push(...json())

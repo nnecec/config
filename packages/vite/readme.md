@@ -1,4 +1,4 @@
-# `@nnecec/preset-vite`
+# `@nnecec/vite-preset`
 
 ## Features
 
@@ -12,13 +12,13 @@
 Install:
 
 ```bash
-$ npm install --save-dev vite @nnecec/preset-vite
+$ npm install --save-dev vite @nnecec/vite-preset
 ```
 
 Edit `vite.config.js`:
 
 ```js
-import preset from '@nnecec/preset-vite'
+import preset from '@nnecec/vite-preset'
 import { defineConfig } from 'vite'
 
 export default defineConfig({

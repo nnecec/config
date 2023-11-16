@@ -1,15 +1,15 @@
 {
-  "name": "@nnecec/preset-vite",
+  "name": "@nnecec/vite-preset",
   "entries": [
     {
       "date": "Mon, 06 Nov 2023 10:05:55 GMT",
       "version": "0.1.13",
-      "tag": "@nnecec/preset-vite_v0.1.13",
+      "tag": "@nnecec/vite-preset_v0.1.13",
       "comments": {
         "patch": [
           {
             "author": "nnecec@outlook.com",
-            "package": "@nnecec/preset-vite",
+            "package": "@nnecec/vite-preset",
             "commit": "2186c6cf49eccac79df996d9575b554d5599cf42",
             "comment": "update deps"
           }
@@ -19,12 +19,12 @@
     {
       "date": "Thu, 14 Sep 2023 09:31:16 GMT",
       "version": "0.1.12",
-      "tag": "@nnecec/preset-vite_v0.1.12",
+      "tag": "@nnecec/vite-preset_v0.1.12",
       "comments": {
         "none": [
           {
             "author": "nnecec@outlook.com",
-            "package": "@nnecec/preset-vite",
+            "package": "@nnecec/vite-preset",
             "commit": "cc523bc2fbba846dbc213de44cc299eebaaa569d",
             "comment": "fix eslint"
           }
@@ -34,12 +34,12 @@
     {
       "date": "Wed, 13 Sep 2023 06:20:30 GMT",
       "version": "0.1.12",
-      "tag": "@nnecec/preset-vite_v0.1.12",
+      "tag": "@nnecec/vite-preset_v0.1.12",
       "comments": {
         "patch": [
           {
             "author": "nnecec@outlook.com",
-            "package": "@nnecec/preset-vite",
+            "package": "@nnecec/vite-preset",
             "commit": "c646540ab821bc822be513fa84e6f08113eb95db",
             "comment": "feat: update deps"
           }
@@ -49,12 +49,12 @@
     {
       "date": "Fri, 11 Aug 2023 06:28:13 GMT",
       "version": "0.1.11",
-      "tag": "@nnecec/preset-vite_v0.1.11",
+      "tag": "@nnecec/vite-preset_v0.1.11",
       "comments": {
         "patch": [
           {
             "author": "nnecec@outlook.com",
-            "package": "@nnecec/preset-vite",
+            "package": "@nnecec/vite-preset",
             "commit": "8feafda10246abd83a44b2ce823094b1242cae85",
             "comment": "feat(eslint): disabled perfectionist sort imports and exports"
           }
@@ -64,12 +64,12 @@
     {
       "date": "Fri, 04 Aug 2023 07:18:44 GMT",
       "version": "0.1.10",
-      "tag": "@nnecec/preset-vite_v0.1.10",
+      "tag": "@nnecec/vite-preset_v0.1.10",
       "comments": {
         "patch": [
           {
             "author": "nnecec@outlook.com",
-            "package": "@nnecec/preset-vite",
+            "package": "@nnecec/vite-preset",
             "commit": "1fb1f894a6a9833e02cc5c6fca35c899b7c7788f",
             "comment": "update deps"
           }
@@ -78,13 +78,13 @@
     },
     {
       "date": "Sun, 25 Jun 2023 02:20:13 GMT",
-      "tag": "@nnecec/preset-vite_v0.1.8",
+      "tag": "@nnecec/vite-preset_v0.1.8",
       "version": "0.1.8",
       "comments": {
         "patch": [
           {
             "author": "nnecec@outlook.com",
-            "package": "@nnecec/preset-vite",
+            "package": "@nnecec/vite-preset",
             "commit": "76fb8fac6750fae33ad914fc2606f34de5daf971",
             "comment": "upldate"
           }
@@ -93,13 +93,13 @@
     },
     {
       "date": "Mon, 29 May 2023 05:26:05 GMT",
-      "tag": "@nnecec/preset-vite_v0.1.6",
+      "tag": "@nnecec/vite-preset_v0.1.6",
       "version": "0.1.6",
       "comments": {
         "patch": [
           {
             "author": "nnecec@outlook.com",
-            "package": "@nnecec/preset-vite",
+            "package": "@nnecec/vite-preset",
             "commit": "04dcbf4417e2d12ffe73a2825c68ebc11a6a35ae",
             "comment": "update vite"
           }
@@ -108,13 +108,13 @@
     },
     {
       "date": "Tue, 09 May 2023 02:11:55 GMT",
-      "tag": "@nnecec/preset-vite_v0.1.5",
+      "tag": "@nnecec/vite-preset_v0.1.5",
       "version": "0.1.5",
       "comments": {
         "patch": [
           {
             "author": "nnecec@outlook.com",
-            "package": "@nnecec/preset-vite",
+            "package": "@nnecec/vite-preset",
             "commit": "ffe44e00bd7998790cfe7c2190d266f4f5eaabc3",
             "comment": "update deps"
           }
@@ -123,13 +123,13 @@
     },
     {
       "date": "Tue, 28 Mar 2023 07:10:52 GMT",
-      "tag": "@nnecec/preset-vite_v0.1.4",
+      "tag": "@nnecec/vite-preset_v0.1.4",
       "version": "0.1.4",
       "comments": {
         "patch": [
           {
             "author": "nnecec@outlook.com",
-            "package": "@nnecec/preset-vite",
+            "package": "@nnecec/vite-preset",
             "commit": "67619ce765c1396f59a9569532f284fee55e84bf",
             "comment": "exclude dependencies at library mode"
           }
@@ -138,13 +138,13 @@
     },
     {
       "date": "Wed, 08 Mar 2023 03:31:55 GMT",
-      "tag": "@nnecec/preset-vite_v0.1.1",
+      "tag": "@nnecec/vite-preset_v0.1.1",
       "version": "0.1.1",
       "comments": {
         "patch": [
           {
             "author": "nnecec@outlook.com",
-            "package": "@nnecec/preset-vite",
+            "package": "@nnecec/vite-preset",
             "commit": "4bcf4d6697f34f1cf37dce08656b3cc48145a8d6",
             "comment": "fix build"
           }
@@ -153,13 +153,13 @@
     },
     {
       "date": "Tue, 07 Mar 2023 03:52:12 GMT",
-      "tag": "@nnecec/preset-vite_v0.1.0",
+      "tag": "@nnecec/vite-preset_v0.1.0",
       "version": "0.1.0",
       "comments": {
         "minor": [
           {
             "author": "nnecec@outlook.com",
-            "package": "@nnecec/preset-vite",
+            "package": "@nnecec/vite-preset",
             "commit": "8dea43894838a569c6094cdca6f1fa7731907553",
             "comment": "move to ts"
           }

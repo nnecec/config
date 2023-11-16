@@ -15,7 +15,8 @@
   },
   "devDependencies": {
     "@nnecec/eslint-config": "workspace:*",
-    "@nnecec/preset-vite": "workspace:*",
+    "@nnecec/vite-preset": "workspace:*",
+    "@nnecec/tsconfig": "workspace:*",
     "@types/react": "^18.2.37",
     "@types/react-dom": "^18.2.15",
     "autoprefixer": "^10.4.16",

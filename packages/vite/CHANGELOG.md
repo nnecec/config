@@ -1,4 +1,4 @@
-# Change Log - @nnecec/preset-vite
+# Change Log - @nnecec/vite-preset
 
 This log was last generated on Mon, 06 Nov 2023 10:05:55 GMT and should not be manually modified.
 

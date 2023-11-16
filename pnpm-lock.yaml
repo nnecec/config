@@ -72,7 +72,10 @@ importers:
       '@nnecec/eslint-config':
         specifier: workspace:*
         version: link:../../packages/eslint
-      '@nnecec/preset-vite':
+      '@nnecec/tsconfig':
+        specifier: workspace:*
+        version: link:../../packages/tsconfig
+      '@nnecec/vite-preset':
         specifier: workspace:*
         version: link:../../packages/vite
       '@types/react':

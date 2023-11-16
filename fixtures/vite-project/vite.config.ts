@@ -1,6 +1,6 @@
 import type { UserConfig } from 'vite'
 
-import preset from '@nnecec/preset-vite'
+import preset from '@nnecec/vite-preset'
 
 export default {
   plugins: [preset()],

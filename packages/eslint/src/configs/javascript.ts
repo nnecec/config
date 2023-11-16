@@ -31,6 +31,7 @@ export const javascript = (): Linter.FlatConfig[] => {
         // common
         camelcase: ['error', { allow: ['unstable_'] }],
         'comma-dangle': ['error', 'always-multiline'],
+        'dot-notation': 'off',
         'no-console': 'error',
         'no-multiple-empty-lines': ['error', { max: 1, maxBOF: 0, maxEOF: 0 }],
       },

@@ -1,5 +1,5 @@
 {
-  "name": "@nnecec/preset-vite",
+  "name": "@nnecec/vite-preset",
   "version": "0.1.14",
   "description": "Basic Vite configuration, includes React and some default configurations",
   "author": "nnecec(https://github.com/nnecec/)",

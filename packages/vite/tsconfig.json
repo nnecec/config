@@ -1,8 +1,7 @@
 {
-  "extends": "@nnecec/tsconfig",
+  "extends": "@nnecec/tsconfig/commonjs",
   "compilerOptions": {
-    "outDir": "dist",
-    "module": "CommonJS"
+    "outDir": "dist"
   },
   "exclude": ["dist/**/*"]
 }

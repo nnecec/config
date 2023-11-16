@@ -27,18 +27,17 @@ export default ({ base = '', jsxRuntime = 'automatic' as 'automatic' | 'classic'
               },
             },
             sourcemap: userConfig.build?.sourcemap ?? 'hidden',
-            target: 'es2020',
           },
           resolve: {
             alias: [{ find: '~', replacement: join(cwd(), './src') }],
           },
         }
       },
-      name: '@nnecec/preset-vite:config',
+      name: '@nnecec/vite-preset:config',
     },
     tsconfigPaths(),
     reactRefresh({ jsxRuntime }),
-    env.BUILD_ANALYSE === 'true' &&
+    env['BUILD_ANALYSE'] === 'true' &&
       visualizer({
         filename: './build/stats.html',
       }),

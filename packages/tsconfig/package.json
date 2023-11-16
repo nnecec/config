@@ -2,12 +2,13 @@
   "name": "@nnecec/tsconfig",
   "version": "0.1.8",
   "main": "tsconfig.json",
-  "files": [
-    "tsconfig.json",
-    "commonjs.json",
-    "react.json",
-    "readme.md"
-  ],
+  "exports": {
+    ".": "./tsconfig.json",
+    "./commonjs": "./commonjs.json",
+    "./node": "./node.json",
+    "./react": "./react.json",
+    "./bundler": "./bundler.json"
+  },
   "publishConfig": {
     "access": "public"
   }

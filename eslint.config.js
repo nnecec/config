@@ -5,7 +5,4 @@ export default [
   ...nnecec({
     typescript: true,
   }),
-  {
-    ignores: ['fixtures/**'],
-  },
 ]
