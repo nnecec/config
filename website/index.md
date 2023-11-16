@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: Collection of configurations
-  text: A collection of front-end development configurations.
-  tagline: All simple, useful configrations in one collection.
+  name: configurations curation
+  text: A curation of front-end development configurations.
+  tagline: All simple, useful configrations in one curation.
   actions:
     - theme: brand
       text: View configurations
