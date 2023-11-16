@@ -1,6 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
-  "display": "CommonJS",
+  "display": "Node",
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "lib": ["ES2022"],
