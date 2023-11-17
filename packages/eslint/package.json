@@ -1,8 +1,8 @@
 {
   "version": "0.7.2",
-  "name": "@nnecec/eslint-config",
   "description": "A useful eslint config friendly with Prettier. Work with JavaScript, TypeScript and React Opional.",
   "license": "MIT",
+  "name": "@nnecec/eslint-config",
   "author": "nnecec(https://github.com/nnecec/)",
   "exports": {
     "./legacy/*": "./legacy/*",
@@ -27,7 +27,6 @@
     "@typescript-eslint/eslint-plugin": "^6.11.0",
     "@typescript-eslint/parser": "^6.11.0",
     "eslint": "^8.53.0",
-    "eslint-config-prettier": "^9.0.0",
     "eslint-config-standard": "^17.1.0",
     "eslint-plugin-html": "^7.1.0",
     "eslint-plugin-i": "^2.29.0",
@@ -35,7 +34,8 @@
     "eslint-plugin-json-files": "^4.1.0",
     "eslint-plugin-jsonc": "^2.10.0",
     "eslint-plugin-n": "^16.3.1",
-    "eslint-plugin-perfectionist": "^2.3.0",
+    "eslint-plugin-perfectionist": "^2.4.0",
+    "eslint-plugin-prettier": "^5.0.1",
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-react": "7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",

@@ -48,7 +48,6 @@ export default function (options: Options): Linter.FlatConfig[] {
   if (enablePrettier) configs.push(...prettier())
 
   configs.push(...imports(), ...javascript())
-
   if (enableTypeScript) configs.push(...typescript())
   if (enableUnicorn) configs.push(...unicorn())
   if (enableJSON) configs.push(...json())

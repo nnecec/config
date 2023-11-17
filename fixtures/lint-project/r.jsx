@@ -17,13 +17,13 @@ export function App() {
     searchUp(e, count)
   }
 
-  const animalName = pet.canBark()
-    ? pet.isScary()
-      ? 'wolf'
+  const animalName =
+    pet.canBark() ?
+      pet.isScary() ?
+        'wolf'
       : 'dog'
-    : pet.canMeow()
-    ? 'cat'
-    : 'probably a bunny'
+    : pet.canMeow() ? 'cat'
+        : 'probably a bunny'
 
   return (
     <div>
@@ -32,13 +32,20 @@ export function App() {
       <a className="text-red-500 text-sm p-2" href="www.baidu.com">
         baidu
       </a>
-      {countPlus ? (
-        <div>{countPlus}</div>
-      ) : count > 5 ? (
-        <div>more than 5</div>
-      ) : (
-        <div>less than 5</div>
-      )}
+      {countPlus
+        ? <div>{countPlus}</div>
+      : count > 5 ?
+            ? <div>more than 5</div>
+      : <div>less than 5</div>}
+
+      <a className="text-red-500 p-2 text-sm" href="www.baidu.com">
+        baidu
+      </a>
+      {countPlus
+        ? <div>{countPlus}</div>
+      : count > 5 ?
+            ? <div>more than 5</div>
+      : <div>less than 5</div>}
       <div>
         {count}
         <button onClick={() => setCount(count + 1)}>+1</button>

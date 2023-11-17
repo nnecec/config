@@ -38,7 +38,7 @@ export function App(props: PropsWithChildren<Props>) {
       <a href="www.baidu.com">baidu</a>
       <div>
         {count}
-        <Button onClick={() => setCount(count + 1)}>+1</Button>
+        <Button onClick={() => setCount(Number(count) + 1)}>+1</Button>
       </div>
     </div>
   )

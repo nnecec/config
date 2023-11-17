@@ -1,6 +1,6 @@
 export function App() {
   return (
-    <div className="h-2 w-2 p-2 text-3xl text-red-500">
+    <div className="h-2 text-3xl p-2 text-red-500 w-2">
       For readability we recommend against using more than 80 characters: In code styleguides, maximum line length rules
       are often set to 100 or 120. However, when humans write code, they don’t strive to reach the maximum number of
       columns on every line. Developers often use whitespace to break up long lines for readability. In practice, the

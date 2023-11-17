@@ -1,10 +1,12 @@
 import type { Linter } from 'eslint'
 
 import { pluginReact, pluginReactHooks } from '../externals'
+import { ALL_JS_TS } from '../files'
 
 export const react = (): Linter.FlatConfig[] => {
   return [
     {
+      files: [ALL_JS_TS],
       plugins: {
         react: pluginReact,
         'react-hooks': pluginReactHooks,
@@ -22,6 +24,11 @@ export const react = (): Linter.FlatConfig[] => {
             html: true,
           },
         ],
+      },
+      settings: {
+        react: {
+          version: 'detect',
+        },
       },
     },
   ]

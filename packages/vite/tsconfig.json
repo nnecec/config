@@ -1,5 +1,5 @@
 {
-  "extends": "@nnecec/tsconfig/commonjs",
+  "extends": "@nnecec/tsconfig/bundler",
   "compilerOptions": {
     "outDir": "dist"
   },

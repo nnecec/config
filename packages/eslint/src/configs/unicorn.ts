@@ -9,8 +9,9 @@ export const unicorn = (): Linter.FlatConfig[] => {
         unicorn: pluginUnicorn,
       },
       rules: {
-        ...pluginUnicorn.configs.recommended.rules,
         // https://github.com/sindresorhus/eslint-plugin-unicorn
+        ...pluginUnicorn.configs.recommended.rules,
+        'unicorn/nested-ternary': 'off',
         'unicorn/no-null': 'off',
         'unicorn/prefer-module': 'off',
         'unicorn/prevent-abbreviations': 'off',

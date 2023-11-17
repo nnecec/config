@@ -3,15 +3,19 @@
   "version": "0.1.14",
   "description": "Basic Vite configuration, includes React and some default configurations",
   "author": "nnecec(https://github.com/nnecec/)",
-  "main": "dist/index.js",
+  "": "dist/index.js",
   "types": "dist/index.d.ts",
+  "exports": {
+    "types": "./dist/index.d.ts",
+    "import": "./dist/index.mjs",
+    "require": "./dist/index.cjs"
+  },
   "files": [
-    "index.js",
-    "readme.md"
+    "dist"
   ],
   "scripts": {
-    "build": "tsc",
-    "dev": "tsc -w"
+    "build": "bunchee",
+    "dev": "bunchee -w"
   },
   "dependencies": {
     "@nnecec/tsconfig": "workspace:*",
@@ -19,6 +23,9 @@
     "rollup-plugin-visualizer": "^5.9.2",
     "vite": "^4.5.0",
     "vite-tsconfig-paths": "^4.2.1"
+  },
+  "devDependencies": {
+    "bunchee": "^3.9.2"
   },
   "publishConfig": {
     "access": "public"
