@@ -3,8 +3,8 @@
   "display": "Node",
   "extends": "./tsconfig.json",
   "compilerOptions": {
-    "lib": ["ES2022"],
+    "lib": ["ESNext"],
     "module": "NodeNext",
-    "target": "ES2022"
+    "moduleResolution": "NodeNext"
   }
 }

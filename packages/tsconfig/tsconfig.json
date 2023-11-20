@@ -9,6 +9,7 @@
     "isolatedModules": true,
     "module": "ESNext",
     "moduleDetection": "force",
+    "moduleResolution": "Bundler",
     "noEmitOnError": true,
     "noErrorTruncation": true,
     "noFallthroughCasesInSwitch": true,

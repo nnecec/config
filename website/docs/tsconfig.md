@@ -44,6 +44,6 @@ Then extends the config:
   // or
   "extends": "@nnecec/tsconfig/react",
   // or
-  "extends": "@nnecec/tsconfig/bundler",
+  "extends": "@nnecec/tsconfig/next",
 }
 ```
