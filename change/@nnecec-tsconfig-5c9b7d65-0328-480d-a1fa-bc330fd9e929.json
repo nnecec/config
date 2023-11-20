@@ -1,0 +1,7 @@
+{
+  "type": "minor",
+  "comment": "feat(tsconfig): stable",
+  "packageName": "@nnecec/tsconfig",
+  "email": "nnecec@outlook.com",
+  "dependentChangeType": "patch"
+}
