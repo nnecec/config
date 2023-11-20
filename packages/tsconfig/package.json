@@ -1,6 +1,6 @@
 {
   "name": "@nnecec/tsconfig",
-  "version": "0.1.8",
+  "version": "0.2.0",
   "main": "tsconfig.json",
   "exports": {
     ".": "./tsconfig.json",

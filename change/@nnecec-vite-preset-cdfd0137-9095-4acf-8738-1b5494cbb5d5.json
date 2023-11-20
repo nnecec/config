@@ -1,7 +1,0 @@
-{
-  "type": "minor",
-  "comment": "new package name",
-  "packageName": "@nnecec/vite-preset",
-  "email": "nnecec@outlook.com",
-  "dependentChangeType": "patch"
-}

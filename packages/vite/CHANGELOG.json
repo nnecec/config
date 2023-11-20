@@ -2,6 +2,29 @@
   "name": "@nnecec/vite-preset",
   "entries": [
     {
+      "date": "Mon, 20 Nov 2023 09:25:36 GMT",
+      "version": "0.2.0",
+      "tag": "@nnecec/vite-preset_v0.2.0",
+      "comments": {
+        "none": [
+          {
+            "author": "nnecec@outlook.com",
+            "package": "@nnecec/vite-preset",
+            "commit": "7b1ff082bbe35fb784e4de1d6eaad4a96fd2c0b0",
+            "comment": "fix affected"
+          }
+        ],
+        "minor": [
+          {
+            "author": "nnecec@outlook.com",
+            "package": "@nnecec/vite-preset",
+            "commit": "6a64e5abbc31312c19b3058a816714fcf461d20c",
+            "comment": "new package name"
+          }
+        ]
+      }
+    },
+    {
       "date": "Mon, 06 Nov 2023 10:05:55 GMT",
       "version": "0.1.13",
       "tag": "@nnecec/vite-preset_v0.1.13",
