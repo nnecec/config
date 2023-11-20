@@ -1,6 +1,7 @@
 {
-  "private": true,
   "name": "lint-project",
+  "private": true,
+  "type": "module",
   "devDependencies": {
     "@antfu/eslint-config": "^1.1.1",
     "@antfu/eslint-config-ts": "^0.43.1",
@@ -15,6 +16,5 @@
   "engines": {
     "node": ">=14.0.0",
     "npm": ">=7.0.0"
-  },
-  "type": "module"
+  }
 }

@@ -1,6 +1,6 @@
 {
-  "private": true,
   "name": "@nnecec/config",
+  "private": true,
   "repository": {
     "type": "git",
     "url": "https://github.com/nnecec/config.git"

@@ -5,10 +5,11 @@ import { pluginJSONFiles } from '../externals'
 export const packagejson = (): Linter.FlatConfig[] => {
   return [
     {
-      // files: ['**/package.json'],
+      files: ['**/package.json'],
       plugins: {
         'json-files': pluginJSONFiles,
       },
+      processor: pluginJSONFiles.processors['.json'],
       rules: {
         'json-files/require-unique-dependency-names': 'error',
         'json-files/sort-package-json': 'error',

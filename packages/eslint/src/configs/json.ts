@@ -7,6 +7,7 @@ export const json = (): Linter.FlatConfig[] => {
   return [
     {
       files: ALL_JSON,
+      ignores: ['**/package.json'],
       languageOptions: {
         parser: parserJSON as any,
       },
@@ -18,6 +19,7 @@ export const json = (): Linter.FlatConfig[] => {
         'no-unused-vars': 'off',
         strict: 'off',
         ...(pluginJSON.configs['recommended-with-jsonc'].rules as any),
+        ...(pluginJSON.configs.prettier.rules as any),
       },
     },
   ]
