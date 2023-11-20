@@ -1,8 +1,16 @@
 # Change Log - @nnecec/eslint-config
 
-This log was last generated on Mon, 20 Nov 2023 09:25:36 GMT and should not be manually modified.
+This log was last generated on Mon, 20 Nov 2023 10:26:51 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 0.7.4
+
+Mon, 20 Nov 2023 10:26:51 GMT
+
+### Patches
+
+- fix(eslint): indent (nnecec@outlook.com)
 
 ## 0.7.3
 
