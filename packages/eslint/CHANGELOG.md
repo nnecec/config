@@ -1,8 +1,16 @@
 # Change Log - @nnecec/eslint-config
 
-This log was last generated on Mon, 20 Nov 2023 10:26:51 GMT and should not be manually modified.
+This log was last generated on Tue, 21 Nov 2023 14:36:44 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 0.7.5
+
+Tue, 21 Nov 2023 14:36:44 GMT
+
+### Patches
+
+- fix nested-ternary (nnecec@outlook.com)
 
 ## 0.7.4
 

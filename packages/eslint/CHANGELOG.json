@@ -2,6 +2,21 @@
   "name": "@nnecec/eslint-config",
   "entries": [
     {
+      "date": "Tue, 21 Nov 2023 14:36:44 GMT",
+      "version": "0.7.5",
+      "tag": "@nnecec/eslint-config_v0.7.5",
+      "comments": {
+        "patch": [
+          {
+            "author": "nnecec@outlook.com",
+            "package": "@nnecec/eslint-config",
+            "commit": "d4f42bb94e3ad9c6b857e4ff3b1ad4cddf8bbb51",
+            "comment": "fix nested-ternary"
+          }
+        ]
+      }
+    },
+    {
       "date": "Mon, 20 Nov 2023 10:26:51 GMT",
       "version": "0.7.4",
       "tag": "@nnecec/eslint-config_v0.7.4",
