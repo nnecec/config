@@ -3,8 +3,6 @@
   "version": "0.2.0",
   "description": "Basic Vite configuration, includes React and some default configurations",
   "author": "nnecec(https://github.com/nnecec/)",
-  "": "dist/index.js",
-  "types": "dist/index.d.ts",
   "exports": {
     "types": "./dist/index.d.ts",
     "import": "./dist/index.mjs",
@@ -19,9 +17,9 @@
   },
   "dependencies": {
     "@nnecec/tsconfig": "workspace:*",
-    "@vitejs/plugin-react": "^4.1.1",
+    "@vitejs/plugin-react": "^4.2.0",
     "rollup-plugin-visualizer": "^5.9.2",
-    "vite": "^4.5.0",
+    "vite": "^5.0.2",
     "vite-tsconfig-paths": "^4.2.1"
   },
   "devDependencies": {

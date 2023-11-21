@@ -17,11 +17,11 @@
     "@nnecec/eslint-config": "workspace:*",
     "@nnecec/vite-preset": "workspace:*",
     "@nnecec/tsconfig": "workspace:*",
-    "@types/react": "^18.2.37",
-    "@types/react-dom": "^18.2.15",
+    "@types/react": "^18.2.38",
+    "@types/react-dom": "^18.2.16",
     "autoprefixer": "^10.4.16",
     "postcss": "^8.4.31",
-    "typescript": "^5.2.2",
-    "vite": "^4.5.0"
+    "typescript": "^5.3.2",
+    "vite": "^5.0.2"
   }
 }

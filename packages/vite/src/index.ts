@@ -8,7 +8,7 @@ import tsconfigPaths from 'vite-tsconfig-paths'
 
 import reactRefresh from '@vitejs/plugin-react'
 
-export default ({ base = '', jsxRuntime = 'automatic' as 'automatic' | 'classic' } = {}) => {
+export default function ({ base = '', jsxRuntime = 'automatic' as 'automatic' | 'classic' } = {}) {
   return [
     {
       config(userConfig: UserConfig): UserConfig {
