@@ -1,8 +1,16 @@
 # Change Log - @nnecec/tsconfig
 
-This log was last generated on Mon, 20 Nov 2023 09:25:36 GMT and should not be manually modified.
+This log was last generated on Mon, 27 Nov 2023 07:37:20 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 0.2.1
+
+Mon, 27 Nov 2023 07:37:20 GMT
+
+### Patches
+
+- fix(tsconfig): build (nnecec@outlook.com)
 
 ## 0.2.0
 

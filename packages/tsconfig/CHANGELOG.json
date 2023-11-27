@@ -2,6 +2,21 @@
   "name": "@nnecec/tsconfig",
   "entries": [
     {
+      "date": "Mon, 27 Nov 2023 07:37:20 GMT",
+      "version": "0.2.1",
+      "tag": "@nnecec/tsconfig_v0.2.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "nnecec@outlook.com",
+            "package": "@nnecec/tsconfig",
+            "commit": "b346994298d10e2c8422178479b89d9be2828ca8",
+            "comment": "fix(tsconfig): build"
+          }
+        ]
+      }
+    },
+    {
       "date": "Mon, 20 Nov 2023 09:25:36 GMT",
       "version": "0.2.0",
       "tag": "@nnecec/tsconfig_v0.2.0",
