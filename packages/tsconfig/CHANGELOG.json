@@ -2,6 +2,21 @@
   "name": "@nnecec/tsconfig",
   "entries": [
     {
+      "date": "Tue, 28 Nov 2023 13:54:55 GMT",
+      "version": "0.2.1",
+      "tag": "@nnecec/tsconfig_v0.2.1",
+      "comments": {
+        "none": [
+          {
+            "author": "nnecec@outlook.com",
+            "package": "@nnecec/tsconfig",
+            "commit": "4d6eaba89acc89980c71a3af77390b37c4002d80",
+            "comment": "feat(eslint): remove standard again"
+          }
+        ]
+      }
+    },
+    {
       "date": "Mon, 27 Nov 2023 07:37:20 GMT",
       "version": "0.2.1",
       "tag": "@nnecec/tsconfig_v0.2.1",

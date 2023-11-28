@@ -2,6 +2,21 @@
   "name": "@nnecec/eslint-config",
   "entries": [
     {
+      "date": "Tue, 28 Nov 2023 13:54:55 GMT",
+      "version": "0.8.0",
+      "tag": "@nnecec/eslint-config_v0.8.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "nnecec@outlook.com",
+            "package": "@nnecec/eslint-config",
+            "commit": "4d6eaba89acc89980c71a3af77390b37c4002d80",
+            "comment": "feat(eslint): remove standard again"
+          }
+        ]
+      }
+    },
+    {
       "date": "Tue, 21 Nov 2023 14:36:44 GMT",
       "version": "0.7.5",
       "tag": "@nnecec/eslint-config_v0.7.5",
