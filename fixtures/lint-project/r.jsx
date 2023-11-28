@@ -19,9 +19,9 @@ export function App() {
 
   const animalName =
     pet.canBark() ?
-      (pet.isScary() ?
+      pet.isScary() ?
         'wolf'
-      : 'dog')
+      : 'dog'
     : pet.canMeow() ? 'cat'
     : 'probably a bunny'
 
@@ -29,16 +29,16 @@ export function App() {
     <div>
       <div {...useDiv()} />
       <button onClick={printEvent}>Click me</button>
-      <a className="text-red-500 text-sm p-2" href="www.baidu.com">
+      <a className="p-2 text-sm text-red-500" href="www.baidu.com">
         baidu
       </a>
       {countPlus ?
         <div>{countPlus}</div>
       : count > 5 ?
-            ? <div>more than 5</div>
+        <div>more than 5</div>
       : <div>less than 5</div>}
 
-      <a className="text-red-500 p-2 text-sm" href="www.baidu.com">
+      <a className="p-2 text-sm text-red-500" href="www.baidu.com">
         baidu
       </a>
       {countPlus ?

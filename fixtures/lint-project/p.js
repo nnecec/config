@@ -38,3 +38,16 @@ const reactRouterResult =
     : render ? render(props)
     : null
   : null
+
+const StorybookLoader = ({ match }) =>
+  match.params.storyId === 'button' ? <ButtonStorybook />
+  : match.params.storyId === 'color' ? <ColorBook />
+  : match.params.storyId === 'typography' ? <TypographyBook />
+  : match.params.storyId === 'loading' ? <LoaderStorybook />
+  : match.params.storyId === 'deal-list' ? <DealListStory />
+  : <Message>
+      <Title>{'Missing story book'}</Title>
+      <Content>
+        <BackButton />
+      </Content>
+    </Message>

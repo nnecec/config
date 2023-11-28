@@ -6,13 +6,10 @@ outline: 'deep'
 
 ## Features
 
-- Base on `Standard`.
 - Work friendly with `Prettier`.
-- Extends `third-party-eslint-config:recommended` firstly.
-- Support `TypeScript`, `React`.
-- Support sort package.json
-- Support sort `import` & `export`.
-- Optional: JSDoc, TailwindCSS.
+- Extends `third-party-config:recommended` firstly.
+- Default enabled linter: `unicorn`, `sort-package-json`, sort `import` & `export`, `json`.
+- Optional linter: `TypeScript`, `React`, `Tailwind.CSS`, `jsdoc`.
 - ESLint flat config (\>=0.7.0).
 
 ## Usage
@@ -60,7 +57,6 @@ export default nnecec({
 ```ts
 type Options = {
   // default: true
-  standard: boolean
   prettier: boolean
   unicorn: boolean
   'sort-package-json': boolean

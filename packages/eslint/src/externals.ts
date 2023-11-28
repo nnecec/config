@@ -1,14 +1,11 @@
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-nocheck
 
-// parsers
+// plugins
 export { default as pluginTypescript } from '@typescript-eslint/eslint-plugin'
+
 // parsers
 export * as parserTypescript from '@typescript-eslint/parser'
-
-// configs
-export { default as configStandard } from 'eslint-config-standard'
-// plugins
 export * as pluginImport from 'eslint-plugin-i'
 export { default as pluginJSDoc } from 'eslint-plugin-jsdoc'
 export { default as pluginJSONFiles } from 'eslint-plugin-json-files'

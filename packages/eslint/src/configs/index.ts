@@ -14,5 +14,4 @@ export * from './json'
 
 // configs
 export * from './unicorn'
-export * from './standard'
 export * from './prettier'

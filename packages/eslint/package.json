@@ -1,8 +1,8 @@
 {
+  "name": "@nnecec/eslint-config",
   "version": "0.7.6",
   "description": "A useful eslint config friendly with Prettier. Work with JavaScript, TypeScript and React Opional.",
   "license": "MIT",
-  "name": "@nnecec/eslint-config",
   "author": "nnecec(https://github.com/nnecec/)",
   "exports": {
     "./legacy/*": "./legacy/*",
@@ -12,9 +12,9 @@
       "require": "./dist/index.cjs"
     }
   },
-  "types": "./dist/index.d.ts",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
   "files": [
     "dist",
     "legacy"
@@ -24,17 +24,16 @@
     "dev": "bunchee -w"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^6.12.0",
-    "@typescript-eslint/parser": "^6.12.0",
+    "@typescript-eslint/eslint-plugin": "^6.13.1",
+    "@typescript-eslint/parser": "^6.13.1",
     "eslint": "^8.54.0",
-    "eslint-config-standard": "^17.1.0",
     "eslint-plugin-html": "^7.1.0",
     "eslint-plugin-i": "^2.29.0",
     "eslint-plugin-jsdoc": "^46.9.0",
     "eslint-plugin-json-files": "^4.1.0",
     "eslint-plugin-jsonc": "^2.10.0",
     "eslint-plugin-n": "^16.3.1",
-    "eslint-plugin-perfectionist": "^2.4.0",
+    "eslint-plugin-perfectionist": "^2.5.0",
     "eslint-plugin-prettier": "^5.0.1",
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-react": "7.33.2",

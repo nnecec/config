@@ -12,10 +12,10 @@ export const unicorn = (): Linter.FlatConfig[] => {
         // https://github.com/sindresorhus/eslint-plugin-unicorn
         ...pluginUnicorn.configs.recommended.rules,
         'unicorn/nested-ternary': 'off',
+        'unicorn/no-nested-ternary': 'off',
         'unicorn/no-null': 'off',
         'unicorn/prefer-module': 'off',
         'unicorn/prevent-abbreviations': 'off',
-        'unicorn/no-nested-ternary': 'off',
       },
     },
   ]

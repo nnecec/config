@@ -1,10 +1,10 @@
 {
   "scripts": {
-    "dev": "vitepress dev",
     "build": "vitepress build",
+    "dev": "vitepress dev",
     "preview": "vitepress preview"
   },
   "devDependencies": {
-    "vitepress": "1.0.0-rc.29"
+    "vitepress": "1.0.0-rc.31"
   }
 }

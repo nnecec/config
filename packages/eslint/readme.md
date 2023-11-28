@@ -2,12 +2,10 @@
 
 ## Features
 
-- Base on `Standard`, `unicorn`.
 - Work friendly with `Prettier`.
 - Extends `third-party-config:recommended` first.
-- Support `TypeScript`, `React`.
-- Support sort package.json, sort `import` & `export` in js/ts.
-- Optional linter: JSON, JSDoc, Tailwind.css.
+- Default enabled: `unicorn`, `sort-package-json`, sort `import` & `export`, `json`.
+- Optional: `TypeScript`, `React`, `Tailwind.CSS`, `jsdoc`.
 - ESLint flat config (\>=0.7.0).
 
 ## Usage
@@ -37,7 +35,6 @@ export default [
 
 ```ts
 type Options = {
-  standard: boolean // default: true
   prettier: boolean // default: true
   unicorn: boolean // default: true
   'sort-package-json': boolean // default: true

@@ -10,7 +10,6 @@ import {
   prettier,
   react,
   sort,
-  standard,
   tailwindcss,
   typescript,
   unicorn,
@@ -23,7 +22,6 @@ type Options = {
   react?: boolean
   sort?: boolean
   'sort-package-json'?: boolean
-  standard?: boolean
   tailwindcss?: boolean
   typescript?: boolean
   unicorn?: boolean
@@ -37,14 +35,12 @@ export default function (options: Options): Linter.FlatConfig[] {
     react: enableReact = false,
     sort: enableSort = true,
     'sort-package-json': enableSortPackageJson = true,
-    standard: enableStandard = true,
     tailwindcss: enableTailwindCSS = false,
     typescript: enableTypeScript = false,
     unicorn: enableUnicorn = true,
   } = options
   const configs: Linter.FlatConfig[] = [...ignore()]
 
-  if (enableStandard) configs.push(...standard())
   if (enablePrettier) configs.push(...prettier())
 
   configs.push(...imports(), ...javascript())

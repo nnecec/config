@@ -1,7 +1,6 @@
 {
   "name": "@nnecec/tsconfig",
   "version": "0.2.1",
-  "main": "tsconfig.json",
   "exports": {
     ".": "./tsconfig.json",
     "./commonjs": "./commonjs.json",
@@ -9,6 +8,7 @@
     "./react": "./react.json",
     "./bundler": "./bundler.json"
   },
+  "main": "tsconfig.json",
   "publishConfig": {
     "access": "public"
   }
