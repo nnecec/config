@@ -48,7 +48,7 @@ export const sort = (): Linter.FlatConfig[] => {
       },
     },
     {
-      files: ['postcss.config.js'],
+      files: ['postcss.config.*'],
       rules: {
         // prevent plugins call order.
         'perfectionist/sort-objects': 'off',
