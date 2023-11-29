@@ -1,8 +1,16 @@
 # Change Log - @nnecec/eslint-config
 
-This log was last generated on Wed, 29 Nov 2023 02:44:29 GMT and should not be manually modified.
+This log was last generated on Wed, 29 Nov 2023 10:30:51 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 0.8.2
+
+Wed, 29 Nov 2023 10:30:51 GMT
+
+### Patches
+
+- fix jsonc-eslint-parser (nnecec@outlook.com)
 
 ## 0.8.1
 

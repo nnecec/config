@@ -2,6 +2,21 @@
   "name": "@nnecec/eslint-config",
   "entries": [
     {
+      "date": "Wed, 29 Nov 2023 10:30:51 GMT",
+      "version": "0.8.2",
+      "tag": "@nnecec/eslint-config_v0.8.2",
+      "comments": {
+        "patch": [
+          {
+            "author": "nnecec@outlook.com",
+            "package": "@nnecec/eslint-config",
+            "commit": "1dc4f122ae393aa53e6f9ae6efccbfef692b14f0",
+            "comment": "fix jsonc-eslint-parser"
+          }
+        ]
+      }
+    },
+    {
       "date": "Wed, 29 Nov 2023 02:44:29 GMT",
       "version": "0.8.1",
       "tag": "@nnecec/eslint-config_v0.8.1",
