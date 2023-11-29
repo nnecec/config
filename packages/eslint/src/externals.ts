@@ -19,5 +19,5 @@ export { default as pluginReactHooks } from 'eslint-plugin-react-hooks'
 export { default as pluginTailwindcss } from 'eslint-plugin-tailwindcss'
 
 export { default as pluginUnicorn } from 'eslint-plugin-unicorn'
-export { default as parserJSON } from 'jsonc-eslint-parser'
+export * as parserJSON from 'jsonc-eslint-parser'
 export * as parserYaml from 'yaml-eslint-parser'

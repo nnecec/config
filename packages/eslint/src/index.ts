@@ -27,7 +27,7 @@ type Options = {
   unicorn?: boolean
 }
 
-export default function (options: Options): Linter.FlatConfig[] {
+export default function (options: Options = {}): Linter.FlatConfig[] {
   const {
     jsdoc: enableJSDoc = false,
     json: enableJSON = true,
