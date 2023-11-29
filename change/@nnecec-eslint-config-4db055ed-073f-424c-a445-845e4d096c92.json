@@ -1,7 +1,0 @@
-{
-  "type": "patch",
-  "comment": "fix(eslint): ignore postcss.config.*",
-  "packageName": "@nnecec/eslint-config",
-  "email": "nnecec@outlook.com",
-  "dependentChangeType": "patch"
-}

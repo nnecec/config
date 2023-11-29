@@ -2,6 +2,21 @@
   "name": "@nnecec/eslint-config",
   "entries": [
     {
+      "date": "Wed, 29 Nov 2023 02:44:29 GMT",
+      "version": "0.8.1",
+      "tag": "@nnecec/eslint-config_v0.8.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "nnecec@outlook.com",
+            "package": "@nnecec/eslint-config",
+            "commit": "8d63e139b4929111f1a67624fb724d27693da865",
+            "comment": "fix(eslint): ignore postcss.config.*"
+          }
+        ]
+      }
+    },
+    {
       "date": "Tue, 28 Nov 2023 13:54:55 GMT",
       "version": "0.8.0",
       "tag": "@nnecec/eslint-config_v0.8.0",
