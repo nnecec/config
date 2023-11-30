@@ -1,12 +1,12 @@
 import type { Linter } from 'eslint'
 
 import { parserTypescript, pluginImport, pluginTypescript } from '../externals'
-import { ALL_JS_TS } from '../files'
+import { ALL_TS, ALL_TSX } from '../files'
 
 export const typescript = (): Linter.FlatConfig[] => {
   return [
     {
-      files: [ALL_JS_TS],
+      files: [ALL_TS, ALL_TSX],
       languageOptions: {
         parser: parserTypescript as any,
         parserOptions: {
