@@ -1,0 +1,7 @@
+{
+  "type": "patch",
+  "comment": "feat(eslint): off react/prop-types",
+  "packageName": "@nnecec/eslint-config",
+  "email": "nnecec@outlook.com",
+  "dependentChangeType": "patch"
+}
