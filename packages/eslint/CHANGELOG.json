@@ -2,6 +2,21 @@
   "name": "@nnecec/eslint-config",
   "entries": [
     {
+      "date": "Fri, 01 Dec 2023 08:50:14 GMT",
+      "version": "0.8.5",
+      "tag": "@nnecec/eslint-config_v0.8.5",
+      "comments": {
+        "patch": [
+          {
+            "author": "nnecec@outlook.com",
+            "package": "@nnecec/eslint-config",
+            "commit": "a5865f77fe5bf9c35e3a33f2677a19b488a57b3d",
+            "comment": "feat(eslint): off react/prop-types"
+          }
+        ]
+      }
+    },
+    {
       "date": "Thu, 30 Nov 2023 03:57:10 GMT",
       "version": "0.8.3",
       "tag": "@nnecec/eslint-config_v0.8.3",

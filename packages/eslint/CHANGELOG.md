@@ -1,8 +1,16 @@
 # Change Log - @nnecec/eslint-config
 
-This log was last generated on Thu, 30 Nov 2023 03:57:10 GMT and should not be manually modified.
+This log was last generated on Fri, 01 Dec 2023 08:50:14 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 0.8.5
+
+Fri, 01 Dec 2023 08:50:14 GMT
+
+### Patches
+
+- feat(eslint): off react/prop-types (nnecec@outlook.com)
 
 ## 0.8.3
 
