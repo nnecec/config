@@ -16,6 +16,7 @@ export const react = (): Linter.FlatConfig[] => {
         ...pluginReactHooks.configs.recommended.rules,
         'jsx-quotes': ['error', 'prefer-double'],
         'react/jsx-no-leaked-render': 'error',
+        'react/prop-types': 'off',
         'react/react-in-jsx-scope': 'off',
         'react/self-closing-comp': [
           'error',

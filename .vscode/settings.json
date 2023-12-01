@@ -10,7 +10,7 @@
     "source.fixAll.eslint": true // this allows ESLint to auto fix on save
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.fontFamily": "JetBrains Mono, Iosevka, Roboto Mono, LXGW WenKai Mono, Fira Code, Menlo",
+  "editor.fontFamily": "Monaspace Neon, JetBrains Mono, Iosevka, Roboto Mono, LXGW WenKai Mono, Fira Code, Menlo",
   "editor.fontLigatures": true,
   "editor.fontSize": 14,
   "editor.formatOnSave": true,
@@ -27,7 +27,6 @@
   "emmet.triggerExpansionOnTab": false,
   "errorLens.exclude": ["Unknown word"],
   "errorLens.excludeBySource": [],
-  // ESLint config: https://github.com/antfu/eslint-config
   "eslint.codeAction.showDocumentation": {
     "enable": true
   },
@@ -109,8 +108,5 @@
   "workbench.preferredLightColorTheme": "GitHub Light",
   "workbench.startupEditor": "none",
   "workbench.tree.expandMode": "singleClick",
-  "eslint.experimental.useFlatConfig": true,
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  "eslint.experimental.useFlatConfig": true
 }
