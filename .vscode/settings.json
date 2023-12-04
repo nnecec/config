@@ -4,6 +4,7 @@
   "css.lint.hexColorLength": "ignore",
   "debug.allowBreakpointsEverywhere": true,
   "debug.onTaskErrors": "debugAnyway",
+  "diffEditor.experimental.useVersion2": true,
   "editor.accessibilitySupport": "off",
   "editor.codeActionsOnSave": {
     "source.fixAll": false,
@@ -11,13 +12,17 @@
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontFamily": "Monaspace Neon, JetBrains Mono, Iosevka, Roboto Mono, LXGW WenKai Mono, Fira Code, Menlo",
-  "editor.fontLigatures": true,
+  // "editor.fontLigatures": true,
+  // adjust Monaspace https://monaspace.githubnext.com/
+  "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'calt', 'dlig'",
   "editor.fontSize": 14,
+  "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "editor.guides.bracketPairs": "active",
   "editor.hover.sticky": true,
   "editor.inlineSuggest.enabled": true,
   "editor.lineNumbers": "interval",
+  "editor.linkedEditing": true,
   "editor.stickyScroll.enabled": true,
   "editor.suggestSelection": "first",
   "editor.tabSize": 2,
@@ -30,6 +35,7 @@
   "eslint.codeAction.showDocumentation": {
     "enable": true
   },
+  "eslint.experimental.useFlatConfig": true,
   "eslint.format.enable": true,
   "eslint.ignoreUntitled": true,
   "eslint.validate": [
@@ -65,6 +71,7 @@
   "files.eol": "\n",
   "files.insertFinalNewline": true,
   "files.simpleDialog.enable": true,
+  "files.trimTrailingWhitespace": true,
   "git.autofetch": true,
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
@@ -72,8 +79,9 @@
   "gitlens.codeLens.authors.enabled": false,
   "gitlens.codeLens.recentChange.enabled": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "markdown.editor.pasteUrlAsFormattedLink.enabled": "smart",
   // other
+  "markdown.editor.pasteUrlAsFormattedLink.enabled": "smart",
+  "markdown.marp.enableHtml": true,
   "scm.diffDecorationsGutterWidth": 2,
   "search.exclude": {
     "**/.git": true,
@@ -90,22 +98,25 @@
     "**/tmp": true,
     "**/yarn.lock": true
   },
-  // Tailwind CSS IntelliSense + clsx
   "tailwindCSS.experimental.classRegex": [["clsx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]],
   "terminal.external.osxExec": "Warp.app",
   "terminal.integrated.tabs.enabled": true,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "window.autoDetectColorScheme": true, // this is great, macOS only
   "window.restoreWindows": "folders",
+  "workbench.activityBar.location": "top",
   "workbench.colorTheme": "GitHub Dark Default",
   "workbench.editor.closeOnFileDelete": true,
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.editor.limit.enabled": true,
   "workbench.editor.limit.perEditorGroup": true,
+  "workbench.editor.sharedViewState": true,
+  "workbench.editor.tabCloseButton": "left",
+  "workbench.editor.tabSizing": "shrink",
   "workbench.iconTheme": "vscode-icons",
   "workbench.list.smoothScrolling": true,
   "workbench.preferredDarkColorTheme": "GitHub Dark Default",
   "workbench.preferredLightColorTheme": "GitHub Light",
   "workbench.startupEditor": "none",
-  "eslint.experimental.useFlatConfig": true
+  "workbench.tree.expandMode": "singleClick"
 }

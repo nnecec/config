@@ -1,12 +1,16 @@
 {
   "recommendations": [
+    "aaron-bond.better-comments",
+    "bradlc.vscode-tailwindcss",
+    "Codeium.codeium",
     "dbaeumer.vscode-eslint",
-    "GitHub.github-vscode-theme",
     "eamodio.gitlens",
     "esbenp.prettier-vscode",
-    "bradlc.vscode-tailwindcss",
-    "vscode-icons-team.vscode-icons",
+    "formulahendry.code-runner",
+    "GitHub.github-vscode-theme",
     "streetsidesoftware.code-spell-checker",
-    "aaron-bond.better-comments"
+    "vscode-icons-team.vscode-icons",
+    "yoavbls.pretty-ts-errors",
+    "yzhang.markdown-all-in-one"
   ]
 }
