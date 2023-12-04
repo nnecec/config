@@ -42,5 +42,8 @@ jobs:
       - name: Install deps
         run: pnpm install
 
+      - name: Build
+        run: pnpm build
+
       - name: Run ESLint
-        run: pnpm eslint . --config .eslintrc.json --ext .js,.jsx,.ts,.tsx
+        run: pnpm eslint packages/**

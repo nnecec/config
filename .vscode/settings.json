@@ -107,6 +107,5 @@
   "workbench.preferredDarkColorTheme": "GitHub Dark Default",
   "workbench.preferredLightColorTheme": "GitHub Light",
   "workbench.startupEditor": "none",
-  "workbench.tree.expandMode": "singleClick",
   "eslint.experimental.useFlatConfig": true
 }
