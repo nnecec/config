@@ -7,8 +7,8 @@
   "diffEditor.experimental.useVersion2": true,
   "editor.accessibilitySupport": "off",
   "editor.codeActionsOnSave": {
-    "source.fixAll": false,
-    "source.fixAll.eslint": true // this allows ESLint to auto fix on save
+    "source.fixAll": "never",
+    "source.fixAll.eslint": "explicit"
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontFamily": "Monaspace Neon, JetBrains Mono, Iosevka, Roboto Mono, LXGW WenKai Mono, Fira Code, Menlo",
@@ -118,5 +118,6 @@
   "workbench.preferredDarkColorTheme": "GitHub Dark Default",
   "workbench.preferredLightColorTheme": "GitHub Light",
   "workbench.startupEditor": "none",
-  "workbench.tree.expandMode": "singleClick"
+  "workbench.tree.expandMode": "singleClick",
+  "workbench.editor.tabActionLocation": "left"
 }
