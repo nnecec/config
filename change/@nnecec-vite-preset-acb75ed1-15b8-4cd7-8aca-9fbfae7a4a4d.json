@@ -1,0 +1,7 @@
+{
+  "type": "patch",
+  "comment": "feat: update deps",
+  "packageName": "@nnecec/vite-preset",
+  "email": "nnecec@outlook.com",
+  "dependentChangeType": "patch"
+}
