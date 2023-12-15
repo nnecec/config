@@ -1,6 +1,6 @@
 {
   "name": "@nnecec/eslint-config",
-  "version": "0.8.5",
+  "version": "0.8.6",
   "description": "A useful eslint config friendly with Prettier. Work with JavaScript, TypeScript and React Opional.",
   "license": "MIT",
   "author": "nnecec(https://github.com/nnecec/)",
