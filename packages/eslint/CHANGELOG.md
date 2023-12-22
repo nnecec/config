@@ -1,8 +1,16 @@
 # Change Log - @nnecec/eslint-config
 
-This log was last generated on Fri, 15 Dec 2023 09:25:04 GMT and should not be manually modified.
+This log was last generated on Fri, 22 Dec 2023 07:33:02 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 0.8.7
+
+Fri, 22 Dec 2023 07:33:02 GMT
+
+### Patches
+
+- fix lint promise, node (nnecec@outlook.com)
 
 ## 0.8.6
 

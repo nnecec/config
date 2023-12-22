@@ -1,7 +1,0 @@
-{
-  "type": "patch",
-  "comment": "fix lint promise, node",
-  "packageName": "@nnecec/eslint-config",
-  "email": "nnecec@outlook.com",
-  "dependentChangeType": "patch"
-}

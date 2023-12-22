@@ -2,6 +2,21 @@
   "name": "@nnecec/eslint-config",
   "entries": [
     {
+      "date": "Fri, 22 Dec 2023 07:33:02 GMT",
+      "version": "0.8.7",
+      "tag": "@nnecec/eslint-config_v0.8.7",
+      "comments": {
+        "patch": [
+          {
+            "author": "nnecec@outlook.com",
+            "package": "@nnecec/eslint-config",
+            "commit": "22ed28ca75d4cd3d8196a29b978ab8dd84bc40f1",
+            "comment": "fix lint promise, node"
+          }
+        ]
+      }
+    },
+    {
       "date": "Fri, 15 Dec 2023 09:25:04 GMT",
       "version": "0.8.6",
       "tag": "@nnecec/eslint-config_v0.8.6",
