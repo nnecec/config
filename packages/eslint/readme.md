@@ -45,6 +45,7 @@ type Options = {
   typescript: boolean // default: false
   react: boolean // default: false
   tailwindcss: boolean // default: false
+  node: boolean // default: false
 }
 ```
 

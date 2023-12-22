@@ -2,6 +2,8 @@ import type { Linter } from 'eslint'
 
 import globals from 'globals'
 
+import { pluginPromise } from '../externals'
+
 export const javascript = (): Linter.FlatConfig[] => {
   return [
     {
@@ -27,7 +29,11 @@ export const javascript = (): Linter.FlatConfig[] => {
       linterOptions: {
         reportUnusedDisableDirectives: true,
       },
+      plugins: {
+        promise: pluginPromise,
+      },
       rules: {
+        ...pluginPromise.configs.recommended.rules,
         // common
         camelcase: ['error', { allow: ['unstable_'] }],
         'comma-dangle': ['error', 'always-multiline'],

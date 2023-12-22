@@ -6,6 +6,7 @@ import {
   javascript,
   jsdoc,
   json,
+  node,
   packagejson,
   prettier,
   react,
@@ -18,6 +19,7 @@ import {
 type Options = {
   jsdoc?: boolean
   json?: boolean
+  node?: boolean
   prettier?: boolean
   react?: boolean
   sort?: boolean
@@ -31,6 +33,7 @@ export default function (options: Options = {}): Linter.FlatConfig[] {
   const {
     jsdoc: enableJSDoc = false,
     json: enableJSON = true,
+    node: enableNode = false,
     prettier: enablePrettier = true,
     react: enableReact = false,
     sort: enableSort = true,
@@ -44,6 +47,7 @@ export default function (options: Options = {}): Linter.FlatConfig[] {
   if (enablePrettier) configs.push(...prettier())
 
   configs.push(...imports(), ...javascript())
+  if (enableNode) configs.push(...node())
   if (enableTypeScript) configs.push(...typescript())
   if (enableUnicorn) configs.push(...unicorn())
   if (enableJSON) configs.push(...json())
