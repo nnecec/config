@@ -2,6 +2,21 @@
   "name": "@nnecec/eslint-config",
   "entries": [
     {
+      "date": "Wed, 03 Jan 2024 10:19:23 GMT",
+      "version": "0.8.8",
+      "tag": "@nnecec/eslint-config_v0.8.8",
+      "comments": {
+        "patch": [
+          {
+            "author": "nnecec@outlook.com",
+            "package": "@nnecec/eslint-config",
+            "commit": "e9a19c890cb837a17cb55a9090556173f420341b",
+            "comment": "off @typescript-eslint/no-non-null-assertion"
+          }
+        ]
+      }
+    },
+    {
       "date": "Fri, 22 Dec 2023 07:33:02 GMT",
       "version": "0.8.7",
       "tag": "@nnecec/eslint-config_v0.8.7",

@@ -1,8 +1,16 @@
 # Change Log - @nnecec/vite-preset
 
-This log was last generated on Fri, 22 Dec 2023 07:33:02 GMT and should not be manually modified.
+This log was last generated on Wed, 03 Jan 2024 10:19:23 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 0.2.7
+
+Wed, 03 Jan 2024 10:19:23 GMT
+
+### Patches
+
+- update deps (nnecec@outlook.com)
 
 ## 0.2.6
 
