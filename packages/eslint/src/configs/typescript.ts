@@ -30,6 +30,7 @@ export const typescript = (): Linter.FlatConfig[] => {
             prefer: 'type-imports',
           },
         ],
+        '@typescript-eslint/no-non-null-assertion': 'off',
         '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
         '@typescript-eslint/no-use-before-define': ['error', { classes: false, functions: false, variables: true }],
         'no-unused-vars': 'off',
