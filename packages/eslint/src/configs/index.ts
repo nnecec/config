@@ -12,6 +12,8 @@ export * from './jsdoc'
 export * from './react'
 export * from './tailwindcss'
 export * from './json'
+export * from './a11y'
+export * from './jest'
 
 // configs
 export * from './unicorn'
