@@ -1,0 +1,7 @@
+{
+  "type": "minor",
+  "comment": "update to prettier@3.2.0",
+  "packageName": "@nnecec/prettier-config",
+  "email": "nnecec@outlook.com",
+  "dependentChangeType": "patch"
+}
