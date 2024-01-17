@@ -7,10 +7,10 @@ outline: 'deep'
 ## Features
 
 - Work friendly with `Prettier`.
-- Extends `third-party-config:recommended` firstly.
-- Default enabled linter: `unicorn`, `sort-package-json`, sort `import` & `export`, `json`.
-- Optional linter: `TypeScript`, `React`, `Tailwind.CSS`, `jsdoc`, `node`.
-- ESLint flat config (\>=0.7.0).
+- Extends `eslint-plugin-*:recommended` firstly.
+- Enabled: `unicorn`, `sort-package-json`, `perfectionist`, `json`.
+- Optional: `TypeScript`, `React`, `Tailwind.CSS`, `jsdoc`, `node`, `jsx-a11y`, `jest`.
+- Support ESLint flat config (\>=0.7.0).
 
 ## Usage
 
@@ -69,5 +69,7 @@ type Options = {
   react: boolean
   tailwindcss: boolean
   node: boolean
+  jest: boolean
+  'jsx-a11y': boolean
 }
 ```

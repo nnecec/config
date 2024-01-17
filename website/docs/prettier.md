@@ -2,11 +2,12 @@
 
 ## Features
 
-- No semi
-- Single quote.
+- No semi.(`semi: false`)
+- avoid parentheses around a sole arrow function parameter.(`arrowParens: 'avoid'`)
+- Single quote.(`jsxSingleQuote: false` `singleQuote: true`)
 - Enable proseWrap, but never wrap in markdown.
-- 2 tab width.
-- [New ternary formatting](https://prettier.io/docs/en/options#experimental-ternaries)
+- 2 tab width.(`tabWidth: 2`)
+- [New ternary formatting](https://prettier.io/docs/en/options#experimental-ternaries).(`experimentalTernaries: true`)
 
 ## Usage
 

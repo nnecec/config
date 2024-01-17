@@ -22,7 +22,7 @@ type Options = {
   jest?: boolean
   jsdoc?: boolean
   json?: boolean
-  jsxA11y?: boolean
+  'jsx-a11y'?: boolean
   node?: boolean
   prettier?: boolean
   react?: boolean
@@ -38,7 +38,7 @@ export default function (options: Options = {}): Linter.FlatConfig[] {
     jest: enableJest = false,
     jsdoc: enableJSDoc = false,
     json: enableJSON = true,
-    jsxA11y: enableJsxA11y = false,
+    'jsx-a11y': enableJsxA11y = false,
     node: enableNode = false,
     prettier: enablePrettier = true,
     react: enableReact = false,

@@ -4,7 +4,7 @@
 
 - **Very strict** rules.
 - Target: ESNext or NodeNext.
-- Multiple targets: CommonJS, Node, React, Bundler.
+- Multiple configs: CommonJS, Node, React, Bundler, Next.js.
 
 ## Usage
 
