@@ -2,6 +2,29 @@
   "name": "@nnecec/prettier-config",
   "entries": [
     {
+      "date": "Wed, 17 Jan 2024 15:19:11 GMT",
+      "version": "0.4.0",
+      "tag": "@nnecec/prettier-config_v0.4.0",
+      "comments": {
+        "patch": [
+          {
+            "author": "nnecec@outlook.com",
+            "package": "@nnecec/prettier-config",
+            "commit": "3e2e78d9f2d698b5e187695a6ed7dc70f9fe02ba",
+            "comment": "Remove configurations with the same default value"
+          }
+        ],
+        "minor": [
+          {
+            "author": "nnecec@outlook.com",
+            "package": "@nnecec/prettier-config",
+            "commit": "36f02d2f667cd6cccd58e8b858d7e7b8ebf7a8c7",
+            "comment": "update to prettier@3.2.0"
+          }
+        ]
+      }
+    },
+    {
       "date": "Fri, 15 Dec 2023 09:25:04 GMT",
       "version": "0.3.3",
       "tag": "@nnecec/prettier-config_v0.3.3",

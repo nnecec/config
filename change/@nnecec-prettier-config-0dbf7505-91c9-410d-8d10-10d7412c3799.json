@@ -1,7 +1,0 @@
-{
-  "type": "patch",
-  "comment": "Remove configurations with the same default value",
-  "packageName": "@nnecec/prettier-config",
-  "email": "nnecec@outlook.com",
-  "dependentChangeType": "patch"
-}
