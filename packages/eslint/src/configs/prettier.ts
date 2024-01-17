@@ -1,18 +1,7 @@
 import type { Linter } from 'eslint'
 
-import { pluginPrettier } from '../externals'
+import PrettierRecommended from 'eslint-plugin-prettier/recommended'
 
 export const prettier = (): Linter.FlatConfig[] => {
-  return [
-    {
-      plugins: {
-        prettier: pluginPrettier,
-      },
-      rules: {
-        'arrow-body-style': 'off',
-        'prefer-arrow-callback': 'off',
-        'prettier/prettier': 'error',
-      },
-    },
-  ]
+  return [PrettierRecommended]
 }

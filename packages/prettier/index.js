@@ -19,6 +19,15 @@ module.exports = {
         proseWrap: 'never',
       },
     },
+    {
+      files: ['*.json', '*.json5', '*.jsonc'],
+      options: {
+        parser: 'json5',
+        quoteProps: 'preserve',
+        singleQuote: false,
+        trailingComma: 'none',
+      },
+    },
   ],
   printWidth: 100,
   proseWrap: 'always',
@@ -26,4 +35,5 @@ module.exports = {
   semi: false,
   singleQuote: true,
   tabWidth: 2,
+  trailingComma: 'all',
 }

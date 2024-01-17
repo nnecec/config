@@ -67,7 +67,7 @@ Wed, 29 Nov 2023 02:44:29 GMT
 
 ### Patches
 
-- fix(eslint): ignore postcss.config.* (nnecec@outlook.com)
+- fix(eslint): ignore postcss.config.\* (nnecec@outlook.com)
 
 ## 0.8.0
 
