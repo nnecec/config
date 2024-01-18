@@ -4,7 +4,6 @@
   "css.lint.hexColorLength": "ignore",
   "debug.allowBreakpointsEverywhere": true,
   "debug.onTaskErrors": "debugAnyway",
-  "diffEditor.experimental.useVersion2": true,
   "editor.accessibilitySupport": "off",
   "editor.codeActionsOnSave": {
     "source.fixAll": "never",
@@ -13,7 +12,6 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontFamily": "Monaspace Neon, JetBrains Mono, Iosevka, Roboto Mono, LXGW WenKai Mono, Fira Code, Menlo",
   // "editor.fontLigatures": true,
-  // adjust Monaspace https://monaspace.githubnext.com/
   "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'calt', 'dlig'",
   "editor.fontSize": 14,
   "editor.formatOnPaste": true,
@@ -79,9 +77,21 @@
   "gitlens.codeLens.authors.enabled": false,
   "gitlens.codeLens.recentChange.enabled": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
+  "leetcode-problem-rating.workspaceFolder": "/Users/nnecec/Github/imrich/leetcode",
   // other
+  "leetcode.endpoint": "leetcode-cn",
+  "leetcode.hint.setDefaultLanguage": false,
+  "leetcode.problems.sortStrategy": "None",
+  "leetcode.workspaceFolder": "/Users/nnecec/Github/imrich/leetcode",
   "markdown.editor.pasteUrlAsFormattedLink.enabled": "smart",
   "markdown.marp.enableHtml": true,
+  // prettier
+  "prettier.arrowParens": "avoid",
+  "prettier.jsxSingleQuote": true,
+  "prettier.proseWrap": "always",
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "all",
   "scm.diffDecorationsGutterWidth": 2,
   "search.exclude": {
     "**/.git": true,
@@ -103,6 +113,7 @@
   "terminal.integrated.tabs.enabled": true,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "window.autoDetectColorScheme": true, // this is great, macOS only
+  "window.commandCenter": false,
   "window.restoreWindows": "folders",
   "workbench.activityBar.location": "top",
   "workbench.colorTheme": "GitHub Dark Default",
@@ -111,13 +122,14 @@
   "workbench.editor.limit.enabled": true,
   "workbench.editor.limit.perEditorGroup": true,
   "workbench.editor.sharedViewState": true,
-  "workbench.editor.tabCloseButton": "left",
+  "workbench.editor.showTabs": "none",
+  "workbench.editor.tabActionLocation": "left",
   "workbench.editor.tabSizing": "shrink",
   "workbench.iconTheme": "vscode-icons",
   "workbench.list.smoothScrolling": true,
   "workbench.preferredDarkColorTheme": "GitHub Dark Default",
   "workbench.preferredLightColorTheme": "GitHub Light",
   "workbench.startupEditor": "none",
-  "workbench.tree.expandMode": "singleClick",
-  "workbench.editor.tabActionLocation": "left"
+  "workbench.tree.enableStickyScroll": true,
+  "workbench.tree.expandMode": "singleClick"
 }
