@@ -2,19 +2,17 @@ import type { Linter } from 'eslint'
 
 import { pluginUnicorn } from '../externals'
 
+// https://github.com/sindresorhus/eslint-plugin-unicorn
 export const unicorn = (): Linter.FlatConfig[] => {
   return [
+    pluginUnicorn.configs['flat/recommended'],
     {
-      plugins: {
-        unicorn: pluginUnicorn,
-      },
       rules: {
-        // https://github.com/sindresorhus/eslint-plugin-unicorn
-        ...pluginUnicorn.configs.recommended.rules,
+        // use prettier
         'unicorn/nested-ternary': 'off',
         'unicorn/no-nested-ternary': 'off',
+
         'unicorn/no-null': 'off',
-        'unicorn/prefer-module': 'off',
         'unicorn/prevent-abbreviations': 'off',
       },
     },

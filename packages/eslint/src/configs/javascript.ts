@@ -12,7 +12,6 @@ export const javascript = (): Linter.FlatConfig[] => {
         globals: {
           ...globals.browser,
           ...globals.es2021,
-          ...globals.node,
           document: 'readonly',
           navigator: 'readonly',
           window: 'readonly',
