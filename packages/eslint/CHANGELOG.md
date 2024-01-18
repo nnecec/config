@@ -1,8 +1,16 @@
 # Change Log - @nnecec/eslint-config
 
-This log was last generated on Wed, 17 Jan 2024 15:19:11 GMT and should not be manually modified.
+This log was last generated on Thu, 18 Jan 2024 07:43:31 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 0.8.10
+
+Thu, 18 Jan 2024 07:43:31 GMT
+
+### Patches
+
+- update to unicorn flat (nnecec@outlook.com)
 
 ## 0.8.9
 

@@ -2,6 +2,21 @@
   "name": "@nnecec/eslint-config",
   "entries": [
     {
+      "date": "Thu, 18 Jan 2024 07:43:31 GMT",
+      "version": "0.8.10",
+      "tag": "@nnecec/eslint-config_v0.8.10",
+      "comments": {
+        "patch": [
+          {
+            "author": "nnecec@outlook.com",
+            "package": "@nnecec/eslint-config",
+            "commit": "eb9d14b70d2092ceecc5d519f3c245f5b26674eb",
+            "comment": "update to unicorn flat"
+          }
+        ]
+      }
+    },
+    {
       "date": "Wed, 17 Jan 2024 15:19:11 GMT",
       "version": "0.8.9",
       "tag": "@nnecec/eslint-config_v0.8.9",
