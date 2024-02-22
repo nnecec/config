@@ -10,16 +10,16 @@ export const typescript = (): Linter.FlatConfig[] => {
       languageOptions: {
         parser: parserTypescript as any,
         parserOptions: {
+          project: true,
           sourceType: 'module',
         },
       },
       plugins: {
-        '@typescript-eslint': pluginTypescript as any,
+        '@typescript-eslint': pluginTypescript,
         import: pluginImport,
       },
       rules: {
-        // TODO: Waitting for flat config supported
-        ...pluginTypescript.configs['eslint-recommended'].overrides[0].rules,
+        ...pluginTypescript.configs.recommended,
         ...pluginTypescript.configs.strict.rules,
         ...pluginImport.configs.typescript.rules,
 
