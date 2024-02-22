@@ -1,8 +1,17 @@
 # Change Log - @nnecec/prettier-config
 
-This log was last generated on Wed, 17 Jan 2024 15:19:11 GMT and should not be manually modified.
+This log was last generated on Thu, 22 Feb 2024 02:27:47 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 0.4.1
+
+Thu, 22 Feb 2024 02:27:47 GMT
+
+### Patches
+
+- update deps (nnecec@outlook.com)
+- fix format json (nnecec@outlook.com)
 
 ## 0.4.0
 
