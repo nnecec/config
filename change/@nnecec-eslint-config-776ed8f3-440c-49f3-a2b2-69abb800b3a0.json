@@ -1,7 +1,0 @@
-{
-  "type": "patch",
-  "comment": "fix(eslint): typescript-eslint",
-  "packageName": "@nnecec/eslint-config",
-  "email": "nnecec@outlook.com",
-  "dependentChangeType": "patch"
-}
