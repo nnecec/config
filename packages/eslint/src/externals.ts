@@ -1,5 +1,4 @@
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-nocheck
 
 export * as pluginImport from 'eslint-plugin-i'
 export { default as pluginJest } from 'eslint-plugin-jest'
@@ -16,5 +15,5 @@ export { default as pluginReactHooks } from 'eslint-plugin-react-hooks'
 export { default as pluginTailwindcss } from 'eslint-plugin-tailwindcss'
 export { default as pluginUnicorn } from 'eslint-plugin-unicorn'
 export * as parserJSON from 'jsonc-eslint-parser'
-export { parser as parserTypescript, plugin as pluginTypescript } from 'typescript-eslint'
+export { default as tseslint } from 'typescript-eslint'
 export * as parserYaml from 'yaml-eslint-parser'
