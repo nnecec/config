@@ -1,7 +1,0 @@
-{
-  "type": "patch",
-  "comment": "fix: typescript-eslint will change json's parser",
-  "packageName": "@nnecec/eslint-config",
-  "email": "nnecec@outlook.com",
-  "dependentChangeType": "patch"
-}

@@ -1,8 +1,16 @@
 # Change Log - @nnecec/eslint-config
 
-This log was last generated on Fri, 23 Feb 2024 10:10:50 GMT and should not be manually modified.
+This log was last generated on Thu, 29 Feb 2024 08:15:11 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 0.9.2
+
+Thu, 29 Feb 2024 08:15:11 GMT
+
+### Patches
+
+- fix: typescript-eslint will change json's parser (nnecec@outlook.com)
 
 ## 0.9.1
 

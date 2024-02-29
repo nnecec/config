@@ -2,6 +2,21 @@
   "name": "@nnecec/vite-preset",
   "entries": [
     {
+      "date": "Thu, 29 Feb 2024 08:15:11 GMT",
+      "version": "0.2.10",
+      "tag": "@nnecec/vite-preset_v0.2.10",
+      "comments": {
+        "none": [
+          {
+            "author": "nnecec@outlook.com",
+            "package": "@nnecec/vite-preset",
+            "commit": "29f48415f71a3cce0e739a699d93339ffd6224f3",
+            "comment": "fix: typescript-eslint will change json's parser"
+          }
+        ]
+      }
+    },
+    {
       "date": "Thu, 22 Feb 2024 02:27:47 GMT",
       "version": "0.2.10",
       "tag": "@nnecec/vite-preset_v0.2.10",

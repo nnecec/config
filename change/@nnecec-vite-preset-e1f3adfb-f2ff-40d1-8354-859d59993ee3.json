@@ -1,7 +1,0 @@
-{
-  "type": "none",
-  "comment": "fix: typescript-eslint will change json's parser",
-  "packageName": "@nnecec/vite-preset",
-  "email": "nnecec@outlook.com",
-  "dependentChangeType": "none"
-}
