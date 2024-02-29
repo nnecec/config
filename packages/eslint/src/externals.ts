@@ -1,5 +1,3 @@
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-
 export * as pluginImport from 'eslint-plugin-i'
 export { default as pluginJest } from 'eslint-plugin-jest'
 export { default as pluginJSDoc } from 'eslint-plugin-jsdoc'

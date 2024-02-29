@@ -11,6 +11,10 @@ export default [
     rules: {
       '@typescript-eslint/no-explicit-any': 'off',
       'unicorn/filename-case': 'off',
+      'unicorn/prefer-module': 'off',
     },
+  },
+  {
+    ignores: ['**/fixtures/**'],
   },
 ]
