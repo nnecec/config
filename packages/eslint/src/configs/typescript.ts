@@ -1,13 +1,10 @@
 import type { Linter } from 'eslint'
 
-import { pluginImport, tseslint } from '../externals'
+import { parserTypescript, pluginImport, pluginTypescript } from '../externals'
 import { ALL_TS, ALL_TSX } from '../files'
-
-const { configs, parser: parserTypescript, plugin: pluginTypescript } = tseslint
 
 export const typescript = (): Linter.FlatConfig[] => {
   return [
-    ...configs.recommended,
     {
       files: [ALL_TS, ALL_TSX],
       languageOptions: {
@@ -18,11 +15,12 @@ export const typescript = (): Linter.FlatConfig[] => {
         },
       },
       plugins: {
-        '@typescript-eslint': pluginTypescript,
+        '@typescript-eslint': pluginTypescript as any,
         import: pluginImport,
       },
       rules: {
         ...pluginImport.configs.typescript.rules,
+        ...pluginTypescript.configs['recommended']!.rules,
         '@typescript-eslint/ban-ts-comment': ['error', { 'ts-ignore': 'allow-with-description' }],
         '@typescript-eslint/consistent-type-imports': [
           'error',

@@ -26,11 +26,13 @@
     "dev": "bunchee -w"
   },
   "dependencies": {
-    "eslint": "^8.56.0",
+    "@typescript-eslint/eslint-plugin": "^7.1.0",
+    "@typescript-eslint/parser": "^7.1.0",
+    "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-jest": "^27.9.0",
     "eslint-plugin-i": "^2.29.1",
-    "eslint-plugin-jsdoc": "^48.1.0",
+    "eslint-plugin-jest": "^27.9.0",
+    "eslint-plugin-jsdoc": "^48.2.0",
     "eslint-plugin-json-files": "^4.1.0",
     "eslint-plugin-jsonc": "^2.13.0",
     "eslint-plugin-jsx-a11y": "^6.8.0",
@@ -44,12 +46,11 @@
     "eslint-plugin-unicorn": "^51.0.1",
     "globals": "^14.0.0",
     "jsonc-eslint-parser": "^2.4.0",
-    "typescript-eslint": "^7.0.2",
     "yaml-eslint-parser": "^1.2.2"
   },
   "devDependencies": {
     "@nnecec/tsconfig": "workspace:*",
-    "@types/eslint": "^8.56.2",
+    "@types/eslint": "^8.56.5",
     "bunchee": "^4.4.8",
     "typescript": "^5.3.3"
   },
