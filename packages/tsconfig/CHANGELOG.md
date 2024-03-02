@@ -1,8 +1,16 @@
 # Change Log - @nnecec/tsconfig
 
-This log was last generated on Thu, 30 Nov 2023 06:02:36 GMT and should not be manually modified.
+This log was last generated on Sat, 02 Mar 2024 08:58:39 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 0.2.3
+
+Sat, 02 Mar 2024 08:58:39 GMT
+
+### Patches
+
+- fix(tsconfig): react lib (nnecec@outlook.com)
 
 ## 0.2.2
 

@@ -1,7 +1,0 @@
-{
-  "type": "patch",
-  "comment": "fix(tsconfig): react lib",
-  "packageName": "@nnecec/tsconfig",
-  "email": "nnecec@outlook.com",
-  "dependentChangeType": "patch"
-}
