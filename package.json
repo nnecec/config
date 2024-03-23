@@ -22,10 +22,10 @@
   "devDependencies": {
     "@nnecec/eslint-config": "workspace:*",
     "@nnecec/prettier-config": "workspace:*",
-    "beachball": "^2.40.0",
     "@nnecec/tsconfig": "workspace:*",
-    "turbo": "^1.12.4",
-    "typescript": "^5.3.3"
+    "beachball": "^2.41.0",
+    "turbo": "^1.13.0",
+    "typescript": "^5.4.3"
   },
   "packageManager": "pnpm@8.0.0"
 }
