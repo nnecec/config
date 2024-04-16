@@ -17,6 +17,7 @@ import {
   typescript,
   unicorn,
 } from './configs'
+import { tseslint } from './externals'
 
 type Options = {
   jest?: boolean
@@ -54,7 +55,6 @@ export default function (options: Options = {}): Linter.FlatConfig[] {
 
   configs.push(...imports(), ...javascript())
   if (enableNode) configs.push(...node())
-  if (enableTypeScript) configs.push(...typescript())
   if (enableUnicorn) configs.push(...unicorn())
   if (enableJSON) configs.push(...json())
   if (enableJSDoc) configs.push(...jsdoc())
@@ -64,6 +64,10 @@ export default function (options: Options = {}): Linter.FlatConfig[] {
   if (enableTailwindCSS) configs.push(...tailwindcss())
   if (enableSort) configs.push(...sort())
   if (enableSortPackageJson) configs.push(...packagejson())
+
+  if (enableTypeScript) {
+    tseslint.config(...configs, ...tseslint.configs.recommended, ...typescript())
+  }
 
   return configs
 }
