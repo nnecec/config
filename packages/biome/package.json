@@ -1,6 +1,6 @@
 {
   "name": "@nnecec/biome-config",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "nnecec(https://github.com/nnecec/)",
   "main": "biome.json",
   "exports": {
