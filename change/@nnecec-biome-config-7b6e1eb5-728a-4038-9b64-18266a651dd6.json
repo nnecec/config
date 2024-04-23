@@ -1,0 +1,7 @@
+{
+  "type": "patch",
+  "comment": "fix(biome): package.json exports",
+  "packageName": "@nnecec/biome-config",
+  "email": "nnecec@outlook.com",
+  "dependentChangeType": "patch"
+}
