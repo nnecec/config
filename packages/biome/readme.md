@@ -12,6 +12,6 @@ create `biome.json`
 
 ```json
 {
-  "extends": "@nnecec/biome-config"
+  "extends": ["@nnecec/biome-config"]
 }
 ```
