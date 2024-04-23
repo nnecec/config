@@ -1,7 +1,0 @@
-{
-  "type": "minor",
-  "comment": "create biome config",
-  "packageName": "@nnecec/biome-config",
-  "email": "nnecec@outlook.com",
-  "dependentChangeType": "patch"
-}
