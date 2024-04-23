@@ -26,6 +26,7 @@ export default defineConfig({
         items: [
           { link: '/docs/eslint', text: '@nnecec/eslint-config' },
           { link: '/docs/prettier', text: '@nnecec/prettier-config' },
+          { link: '/docs/biome', text: '@nnecec/biome-config' },
           { link: '/docs/tsconfig', text: '@nnecec/tsconfig' },
           { link: '/docs/vite', text: '@nnecec/vite-preset' },
         ],
