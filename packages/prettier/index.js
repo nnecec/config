@@ -13,12 +13,6 @@ module.exports = {
         printWidth: 120,
       },
     },
-    {
-      files: ['*.md'],
-      options: {
-        proseWrap: 'never',
-      },
-    },
   ],
   printWidth: 100,
   proseWrap: 'always',
