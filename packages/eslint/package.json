@@ -26,9 +26,9 @@
     "dev": "bunchee -w"
   },
   "dependencies": {
+    "@eslint/compat": "^1.1.0",
     "@typescript-eslint/eslint-plugin": "rc-v8",
     "@typescript-eslint/parser": "rc-v8",
-    "typescript-eslint": "rc-v8",
     "eslint": "^9.6.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-i": "^2.29.1",
@@ -47,17 +47,19 @@
     "eslint-plugin-unicorn": "^54.0.0",
     "globals": "^15.7.0",
     "jsonc-eslint-parser": "^2.4.0",
+    "typescript-eslint": "rc-v8",
     "yaml-eslint-parser": "^1.2.3"
   },
   "devDependencies": {
     "@nnecec/tsconfig": "workspace:*",
+    "@types/node": "^20.14.9",
     "bunchee": "^5.2.2",
     "typescript": "^5.5.2"
   },
-  "overrides": {
-    "eslint": "^9.6.0"
-  },
   "publishConfig": {
     "access": "public"
+  },
+  "overrides": {
+    "eslint": "^9.6.0"
   }
 }

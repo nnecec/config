@@ -1,12 +1,13 @@
 import type { Linter } from 'eslint'
 
 import { pluginImport } from '../externals'
+import { fixupPluginRules } from '@eslint/compat'
 
 export const imports = (): Linter.FlatConfig[] => {
   return [
     {
       plugins: {
-        import: pluginImport,
+        import: fixupPluginRules(pluginImport),
       },
       rules: {
         ...pluginImport.configs.recommended.rules,
