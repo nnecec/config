@@ -1,0 +1,7 @@
+{
+  "type": "patch",
+  "comment": "update dep versions",
+  "packageName": "@nnecec/prettier-config",
+  "email": "nnecec@outlook.com",
+  "dependentChangeType": "patch"
+}
