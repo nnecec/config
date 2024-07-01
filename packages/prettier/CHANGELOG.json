@@ -2,6 +2,27 @@
   "name": "@nnecec/prettier-config",
   "entries": [
     {
+      "date": "Mon, 01 Jul 2024 08:13:43 GMT",
+      "version": "0.4.2",
+      "tag": "@nnecec/prettier-config_v0.4.2",
+      "comments": {
+        "patch": [
+          {
+            "author": "nnecec@outlook.com",
+            "package": "@nnecec/prettier-config",
+            "commit": "f66d681eb4023c7012df75aea5791595002384c8",
+            "comment": "update dep versions"
+          },
+          {
+            "author": "nnecec@outlook.com",
+            "package": "@nnecec/prettier-config",
+            "commit": "2a7cb3bc5b71ce3e130bebfcd9dd83388394a521",
+            "comment": "proseWrap: always for .md files"
+          }
+        ]
+      }
+    },
+    {
       "date": "Thu, 22 Feb 2024 02:27:47 GMT",
       "version": "0.4.1",
       "tag": "@nnecec/prettier-config_v0.4.1",

@@ -2,6 +2,21 @@
   "name": "@nnecec/biome-config",
   "entries": [
     {
+      "date": "Mon, 01 Jul 2024 08:13:43 GMT",
+      "version": "0.1.2",
+      "tag": "@nnecec/biome-config_v0.1.2",
+      "comments": {
+        "patch": [
+          {
+            "author": "nnecec@outlook.com",
+            "package": "@nnecec/biome-config",
+            "commit": "f66d681eb4023c7012df75aea5791595002384c8",
+            "comment": "update deps version"
+          }
+        ]
+      }
+    },
+    {
       "date": "Tue, 23 Apr 2024 07:03:45 GMT",
       "version": "0.1.1",
       "tag": "@nnecec/biome-config_v0.1.1",

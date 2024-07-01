@@ -1,8 +1,17 @@
 # Change Log - @nnecec/prettier-config
 
-This log was last generated on Thu, 22 Feb 2024 02:27:47 GMT and should not be manually modified.
+This log was last generated on Mon, 01 Jul 2024 08:13:43 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 0.4.2
+
+Mon, 01 Jul 2024 08:13:43 GMT
+
+### Patches
+
+- update dep versions (nnecec@outlook.com)
+- proseWrap: always for .md files (nnecec@outlook.com)
 
 ## 0.4.1
 
