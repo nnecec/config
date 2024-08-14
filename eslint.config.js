@@ -15,6 +15,6 @@ export default [
     },
   },
   {
-    ignores: ['**/fixtures/**', 'website/.vitepress'],
+    ignores: ['**/fixtures/**', 'website/.vitepress', '**/.turbo/**'],
   },
 ]
