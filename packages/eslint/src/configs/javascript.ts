@@ -11,7 +11,7 @@ export const javascript = (): Linter.FlatConfig[] => {
         ecmaVersion: 2022,
         globals: {
           ...globals.browser,
-          ...globals.es2021,
+          ...globals.es2024,
           document: 'readonly',
           navigator: 'readonly',
           window: 'readonly',

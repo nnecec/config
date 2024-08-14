@@ -7,7 +7,7 @@ export const sort = (): Linter.FlatConfig[] => {
     {
       ignores: ['**/package.json'],
       plugins: {
-        perfectionist: pluginPerfectionist,
+        perfectionist: pluginPerfectionist as any,
       },
       rules: {
         ...pluginPerfectionist.configs['recommended-natural'].rules,
@@ -15,14 +15,14 @@ export const sort = (): Linter.FlatConfig[] => {
         'perfectionist/sort-imports': [
           'error',
           {
-            'custom-groups': {
+            customGroups: {
               type: {
                 'external-scope': 'external-scope',
                 react: 'react',
               },
               value: {
                 'external-scope': ['@*/*'],
-                react: ['react', 'react-*'],
+                react: ['react', 'react-*', '@*/react-*'],
               },
             },
             groups: [
@@ -40,8 +40,8 @@ export const sort = (): Linter.FlatConfig[] => {
               'object',
               'unknown',
             ],
-            'internal-pattern': ['@/**', '~/**'],
-            'newlines-between': 'always',
+            internalPattern: ['@/**', '~/**'],
+            newlinesBetween: 'always',
             type: 'natural',
           },
         ],
@@ -50,7 +50,7 @@ export const sort = (): Linter.FlatConfig[] => {
     {
       files: ['postcss.config.*'],
       rules: {
-        // prevent plugins call order.
+        // ensure plugins executed in order.
         'perfectionist/sort-objects': 'off',
       },
     },
