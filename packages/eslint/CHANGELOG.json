@@ -2,6 +2,21 @@
   "name": "@nnecec/eslint-config",
   "entries": [
     {
+      "date": "Wed, 14 Aug 2024 02:32:34 GMT",
+      "version": "0.10.1",
+      "tag": "@nnecec/eslint-config_v0.10.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "nnecec@outlook.com",
+            "package": "@nnecec/eslint-config",
+            "commit": "5975c05ed78e0d31a3e5e68619b5d32c7882898b",
+            "comment": "fix(eslint): sort-imports"
+          }
+        ]
+      }
+    },
+    {
       "date": "Mon, 01 Jul 2024 08:13:43 GMT",
       "version": "0.10.0",
       "tag": "@nnecec/eslint-config_v0.10.0",
