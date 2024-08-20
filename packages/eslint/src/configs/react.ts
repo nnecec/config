@@ -3,7 +3,7 @@ import type { Linter } from 'eslint'
 import { pluginReact, pluginReactHooks } from '../externals'
 import { ALL_JS_TS } from '../files'
 
-export const react = (): Linter.FlatConfig[] => {
+export const react = (): Linter.Config[] => {
   return [
     {
       files: [ALL_JS_TS],

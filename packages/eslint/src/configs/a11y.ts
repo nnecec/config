@@ -2,7 +2,7 @@ import type { Linter } from 'eslint'
 
 import { pluginJsxA11y } from '../externals'
 
-export const jsxA11y = (): Linter.FlatConfig[] => {
+export const jsxA11y = (): Linter.Config[] => {
   return [
     {
       languageOptions: {

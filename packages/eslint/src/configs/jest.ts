@@ -4,7 +4,7 @@ import globals from 'globals'
 
 import { pluginJest } from '../externals'
 
-export const jest = (): Linter.FlatConfig[] => {
+export const jest = (): Linter.Config[] => {
   return [
     {
       languageOptions: {

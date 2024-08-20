@@ -33,7 +33,6 @@
   "eslint.codeAction.showDocumentation": {
     "enable": true
   },
-  "eslint.experimental.useFlatConfig": true,
   "eslint.format.enable": true,
   "eslint.ignoreUntitled": true,
   "eslint.validate": [
@@ -125,9 +124,9 @@
   "workbench.editor.showTabs": "none",
   "workbench.editor.tabActionLocation": "left",
   "workbench.editor.tabSizing": "shrink",
-  "workbench.iconTheme": "vscode-icons",
+  "workbench.iconTheme": "material-icon-theme",
   "workbench.list.smoothScrolling": true,
-  "workbench.preferredDarkColorTheme": "GitHub Dark Default",
+  "workbench.preferredDarkColorTheme": "Andromeda",
   "workbench.preferredLightColorTheme": "GitHub Light",
   "workbench.startupEditor": "none",
   "workbench.tree.enableStickyScroll": true,

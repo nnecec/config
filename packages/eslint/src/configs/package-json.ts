@@ -2,7 +2,7 @@ import type { Linter } from 'eslint'
 
 import { pluginJSONFiles } from '../externals'
 
-export const packagejson = (): Linter.FlatConfig[] => {
+export const packagejson = (): Linter.Config[] => {
   return [
     {
       files: ['**/package.json'],

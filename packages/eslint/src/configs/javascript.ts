@@ -4,7 +4,7 @@ import globals from 'globals'
 
 import { pluginPromise } from '../externals'
 
-export const javascript = (): Linter.FlatConfig[] => {
+export const javascript = (): Linter.Config[] => {
   return [
     {
       languageOptions: {

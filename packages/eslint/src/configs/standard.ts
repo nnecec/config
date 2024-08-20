@@ -4,7 +4,7 @@ import globals from 'globals'
 
 import { pluginImport, pluginNode, pluginPromise } from '../externals'
 
-export const standard = (): Linter.FlatConfig[] => [
+export const standard = (): Linter.Config[] => [
   {
     languageOptions: {
       ecmaVersion: 2022,

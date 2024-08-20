@@ -1,17 +1,25 @@
 import type { Linter } from 'eslint'
 
-import { tseslint, pluginImport, pluginTypescript } from '../externals'
+import { parserTypescript, pluginImport, pluginTypescript, tseslint } from '../externals'
 import { ALL_TS, ALL_TSX } from '../files'
 
-export const typescript = (): Linter.FlatConfig[] => {
+export const typescript = (): Linter.Config[] => {
   return [
     {
       files: [ALL_TS, ALL_TSX],
+      languageOptions: {
+        parser: parserTypescript,
+        parserOptions: {
+          projectService: true,
+          sourceType: 'module',
+          tsconfigRootDir: process.cwd(),
+        },
+      },
       plugins: {
         '@typescript-eslint': tseslint.plugin as any,
       },
       rules: {
-        ...pluginTypescript.configs['recommended']!.rules,
+        ...pluginTypescript.configs['recommended-type-checked']?.rules,
         '@typescript-eslint/ban-ts-comment': ['error', { 'ts-ignore': 'allow-with-description' }],
         '@typescript-eslint/consistent-type-imports': [
           'error',

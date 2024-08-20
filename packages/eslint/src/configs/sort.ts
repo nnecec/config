@@ -2,7 +2,7 @@ import type { Linter } from 'eslint'
 
 import { pluginPerfectionist } from '../externals'
 
-export const sort = (): Linter.FlatConfig[] => {
+export const sort = (): Linter.Config[] => {
   return [
     {
       ignores: ['**/package.json'],

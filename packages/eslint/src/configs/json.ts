@@ -3,7 +3,7 @@ import type { Linter } from 'eslint'
 import { parserJSON, pluginJSON } from '../externals'
 import { ALL_JSON } from '../files'
 
-export const json = (): Linter.FlatConfig[] => {
+export const json = (): Linter.Config[] => {
   return [
     {
       files: ALL_JSON,
