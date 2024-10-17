@@ -1,0 +1,7 @@
+{
+  "type": "minor",
+  "comment": "support v1.9",
+  "packageName": "@nnecec/biome-config",
+  "email": "nnecec@outlook.com",
+  "dependentChangeType": "patch"
+}
