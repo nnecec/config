@@ -2,6 +2,21 @@
   "name": "@nnecec/eslint-config",
   "entries": [
     {
+      "date": "Thu, 17 Oct 2024 08:23:18 GMT",
+      "version": "0.11.0",
+      "tag": "@nnecec/eslint-config_v0.11.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "nnecec@outlook.com",
+            "package": "@nnecec/eslint-config",
+            "commit": "f54ea07fff0c207d0770bdb239c381fbdbb13843",
+            "comment": "fix: typescript"
+          }
+        ]
+      }
+    },
+    {
       "date": "Wed, 14 Aug 2024 02:32:34 GMT",
       "version": "0.10.1",
       "tag": "@nnecec/eslint-config_v0.10.1",

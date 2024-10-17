@@ -1,8 +1,16 @@
 # Change Log - @nnecec/eslint-config
 
-This log was last generated on Wed, 14 Aug 2024 02:32:34 GMT and should not be manually modified.
+<!-- This log was last generated on Thu, 17 Oct 2024 08:23:18 GMT and should not be manually modified. -->
 
 <!-- Start content -->
+
+## 0.11.0
+
+Thu, 17 Oct 2024 08:23:18 GMT
+
+### Minor changes
+
+- fix: typescript (nnecec@outlook.com)
 
 ## 0.10.1
 
