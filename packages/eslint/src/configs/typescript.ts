@@ -1,6 +1,6 @@
-import type { Linter } from 'eslint'
+import type { ESLint, Linter } from 'eslint'
 
-import { parserTypescript, pluginImport, pluginTypescript, tseslint } from '../externals'
+import { parserTypescript, pluginImportX, pluginTypescript, tseslint } from '../externals'
 import { ALL_TS, ALL_TSX } from '../files'
 
 export const typescript = (): Linter.Config[] => {
@@ -16,7 +16,7 @@ export const typescript = (): Linter.Config[] => {
         },
       },
       plugins: {
-        '@typescript-eslint': tseslint.plugin as any,
+        '@typescript-eslint': tseslint.plugin as ESLint.Plugin,
       },
       rules: {
         ...pluginTypescript.configs['recommended-type-checked']?.rules,
@@ -33,7 +33,7 @@ export const typescript = (): Linter.Config[] => {
         'no-use-before-define': 'off',
       },
       settings: {
-        ...pluginImport.configs.typescript.settings,
+        ...pluginImportX.configs.typescript.settings,
       },
     },
     {

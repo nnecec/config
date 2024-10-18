@@ -1,4 +1,4 @@
-import type { Linter } from 'eslint'
+import type { ESLint, Linter } from 'eslint'
 
 import { parserJSON, pluginJSON } from '../externals'
 import { ALL_JSON } from '../files'
@@ -9,17 +9,14 @@ export const json = (): Linter.Config[] => {
       files: ALL_JSON,
       ignores: ['**/package.json'],
       languageOptions: {
-        parser: parserJSON as any,
+        parser: parserJSON as Linter.Parser,
       },
       plugins: {
-        jsonc: pluginJSON as any,
+        jsonc: pluginJSON as ESLint.Plugin,
       },
       rules: {
-        'no-unused-expressions': 'off',
-        'no-unused-vars': 'off',
-        strict: 'off',
-        ...(pluginJSON.configs['recommended-with-jsonc'].rules as any),
-        ...(pluginJSON.configs.prettier.rules as any),
+        ...pluginJSON.configs['recommended-with-jsonc'].rules,
+        ...pluginJSON.configs.prettier.rules,
       },
     },
   ]

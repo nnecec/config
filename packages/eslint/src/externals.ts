@@ -1,10 +1,12 @@
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-nocheck
 export { default as pluginTypescript } from '@typescript-eslint/eslint-plugin'
 export * as parserTypescript from '@typescript-eslint/parser'
-export * as pluginImport from 'eslint-plugin-i'
+export { default as pluginImportX } from 'eslint-plugin-import-x'
 export { default as pluginJest } from 'eslint-plugin-jest'
 export { default as pluginJSDoc } from 'eslint-plugin-jsdoc'
 export { default as pluginJSONFiles } from 'eslint-plugin-json-files'
-export * as pluginJSON from 'eslint-plugin-jsonc'
+export { default as pluginJSON } from 'eslint-plugin-jsonc'
 export { default as pluginJsxA11y } from 'eslint-plugin-jsx-a11y'
 export { default as pluginNode } from 'eslint-plugin-n'
 export { default as pluginPerfectionist } from 'eslint-plugin-perfectionist'
