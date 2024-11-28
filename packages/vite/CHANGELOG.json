@@ -2,6 +2,21 @@
   "name": "@nnecec/vite-preset",
   "entries": [
     {
+      "date": "Thu, 28 Nov 2024 15:33:59 GMT",
+      "version": "0.2.16",
+      "tag": "@nnecec/vite-preset_v0.2.16",
+      "comments": {
+        "patch": [
+          {
+            "author": "nnecec@outlook.com",
+            "package": "@nnecec/vite-preset",
+            "commit": "0b37a80327eeb6d3f7578511dd8a18d483321605",
+            "comment": "feat: upgrade deps"
+          }
+        ]
+      }
+    },
+    {
       "date": "Thu, 17 Oct 2024 08:23:18 GMT",
       "version": "0.2.15",
       "tag": "@nnecec/vite-preset_v0.2.15",
