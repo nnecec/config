@@ -1,12 +1,10 @@
 import type { UserConfig } from 'vite'
 
+import reactRefresh from '@vitejs/plugin-react'
 import { isAbsolute, join } from 'node:path'
 import { cwd, env } from 'node:process'
-
 import { visualizer } from 'rollup-plugin-visualizer'
 import tsconfigPaths from 'vite-tsconfig-paths'
-
-import reactRefresh from '@vitejs/plugin-react'
 
 export default function ({ base = '', jsxRuntime = 'automatic' as 'automatic' | 'classic' } = {}) {
   return [

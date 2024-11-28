@@ -1,8 +1,7 @@
 import type { Linter } from 'eslint'
 
-import globals from 'globals'
-
 import { pluginJest } from '../externals'
+import globals from 'globals'
 
 export const jest = (): Linter.Config[] => {
   return [

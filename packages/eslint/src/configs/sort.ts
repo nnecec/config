@@ -40,7 +40,7 @@ export const sort = (): Linter.Config[] => {
               'object',
               'unknown',
             ],
-            internalPattern: ['@/**', '~/**'],
+            internalPattern: ['^~/.*', '^@/.*'],
             newlinesBetween: 'always',
             type: 'natural',
           },

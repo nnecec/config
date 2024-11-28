@@ -1,8 +1,7 @@
 import type { Linter } from 'eslint'
 
-import globals from 'globals'
-
 import { pluginPromise } from '../externals'
+import globals from 'globals'
 
 export const javascript = (): Linter.Config[] => {
   return [

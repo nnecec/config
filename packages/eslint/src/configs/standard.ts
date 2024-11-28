@@ -1,8 +1,7 @@
+import { pluginImport, pluginNode, pluginPromise } from '../externals'
 // forked from https://github.com/standard/eslint-config-standard/blob/master/src/index.ts
 import { type Linter } from 'eslint'
 import globals from 'globals'
-
-import { pluginImport, pluginNode, pluginPromise } from '../externals'
 
 export const standard = (): Linter.Config[] => [
   {

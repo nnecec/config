@@ -1,20 +1,20 @@
-// base
-export * from './javascript'
-export * from './typescript'
-export * from './ingore'
-export * from './node'
-
+export * from './a11y'
 // extends
 export * from './imports'
-export * from './sort'
-export * from './package-json'
-export * from './jsdoc'
-export * from './react'
-export * from './tailwindcss'
-export * from './json'
-export * from './a11y'
-export * from './jest'
+export * from './ingore'
+// base
+export * from './javascript'
 
+export * from './jest'
+export * from './jsdoc'
+export * from './json'
+export * from './node'
+export * from './package-json'
+export * from './prettier'
+export * from './react'
+export * from './sort'
+export * from './tailwindcss'
+
+export * from './typescript'
 // configs
 export * from './unicorn'
-export * from './prettier'
