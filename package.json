@@ -25,9 +25,9 @@
     "@nnecec/tsconfig": "workspace:*",
     "beachball": "^2.51.0",
     "turbo": "^2.3.3",
-    "typescript": "^5.7.2"
+    "typescript": "^5.7.3"
   },
-  "packageManager": "pnpm@9.14.2",
+  "packageManager": "pnpm@9.15.4",
   "beachball": {
     "access": "public"
   }
