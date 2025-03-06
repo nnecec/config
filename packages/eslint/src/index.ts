@@ -33,7 +33,7 @@ type Options = {
   unicorn?: boolean
 }
 
-export default function (options: Options = {}): Linter.Config[] {
+export default function nnecec(options: Options = {}): Linter.Config[] {
   const {
     jest: enableJest = false,
     jsdoc: enableJSDoc = false,

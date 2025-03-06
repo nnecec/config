@@ -115,7 +115,7 @@
   "window.commandCenter": false,
   "window.restoreWindows": "folders",
   "workbench.activityBar.location": "top",
-  "workbench.colorTheme": "GitHub Dark Default",
+  "workbench.colorTheme": "Dark",
   "workbench.editor.closeOnFileDelete": true,
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.editor.limit.enabled": true,

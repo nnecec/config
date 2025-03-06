@@ -1,4 +1,7 @@
 packages:
-  - 'packages/*'
-  - 'fixtures/*'
-  - 'website'
+  - packages/*
+  - fixtures/*
+  - website
+onlyBuiltDependencies:
+  - '@swc/core'
+  - esbuild
