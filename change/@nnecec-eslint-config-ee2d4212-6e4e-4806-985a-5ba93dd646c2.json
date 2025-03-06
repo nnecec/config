@@ -1,7 +1,0 @@
-{
-  "type": "minor",
-  "comment": "feat: minor updates",
-  "packageName": "@nnecec/eslint-config",
-  "email": "nnecec@outlook.com",
-  "dependentChangeType": "patch"
-}

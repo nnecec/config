@@ -1,8 +1,16 @@
 # Change Log - @nnecec/prettier-config
 
-<!-- This log was last generated on Thu, 28 Nov 2024 15:33:59 GMT and should not be manually modified. -->
+<!-- This log was last generated on Thu, 06 Mar 2025 17:23:21 GMT and should not be manually modified. -->
 
 <!-- Start content -->
+
+## 0.5.0
+
+Thu, 06 Mar 2025 17:23:21 GMT
+
+### Minor changes
+
+- feat: minor updates (nnecec@outlook.com)
 
 ## 0.4.4
 
