@@ -8,6 +8,8 @@
 - Enable proseWrap, but never wrap in markdown.
 - 2 tab width.(`tabWidth: 2`)
 - [New ternary formatting](https://prettier.io/docs/en/options#experimental-ternaries).(`experimentalTernaries: true`)
+- [Operator Position](https://prettier.io/docs/options#experimental-operator-position)(`experimentalOperatorPosition: 'start'`)
+- [Object Wrap](https://prettier.io/docs/options#object-wrap): Fit to a single line when possible.(`objectWrap: 'collapse'`)
 
 ## Usage
 
