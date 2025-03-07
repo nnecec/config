@@ -10,6 +10,8 @@ export default [
   {
     rules: {
       '@typescript-eslint/no-explicit-any': 'off',
+      '@typescript-eslint/no-unsafe-assignment': 'off',
+      '@typescript-eslint/no-unsafe-member-access': 'off',
       'unicorn/filename-case': 'off',
       'unicorn/prefer-module': 'off',
     },

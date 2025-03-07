@@ -1,12 +1,12 @@
 import type { UserConfig } from 'vite'
 
 import reactRefresh from '@vitejs/plugin-react'
-import { isAbsolute, join } from 'node:path'
+import path from 'node:path'
 import { cwd, env } from 'node:process'
 import { visualizer } from 'rollup-plugin-visualizer'
 import tsconfigPaths from 'vite-tsconfig-paths'
 
-export default function ({ base = '', jsxRuntime = 'automatic' as 'automatic' | 'classic' } = {}) {
+export default function vitePreset({ base = '', jsxRuntime = 'automatic' as 'automatic' | 'classic' } = {}) {
   return [
     {
       config(userConfig: UserConfig): UserConfig {
@@ -21,13 +21,13 @@ export default function ({ base = '', jsxRuntime = 'automatic' as 'automatic' | 
                 if (userConfig.build?.lib !== undefined) {
                   return false
                 }
-                return !id.startsWith('.') && !isAbsolute(id)
+                return !id.startsWith('.') && !path.isAbsolute(id)
               },
             },
             sourcemap: userConfig.build?.sourcemap ?? 'hidden',
           },
           resolve: {
-            alias: [{ find: '~', replacement: join(cwd(), './src') }],
+            alias: [{ find: '~', replacement: path.join(cwd(), './src') }],
           },
         }
       },
