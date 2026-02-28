@@ -11,7 +11,7 @@
     "README.md"
   ],
   "dependencies": {
-    "@biomejs/biome": "^1.9.4"
+    "@biomejs/biome": "^2.4.4"
   },
   "publishConfig": {
     "access": "public"

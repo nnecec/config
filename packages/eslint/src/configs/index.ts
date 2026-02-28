@@ -13,7 +13,6 @@ export * from './package-json'
 export * from './prettier'
 export * from './react'
 export * from './sort'
-export * from './tailwindcss'
 
 export * from './typescript'
 // configs

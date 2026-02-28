@@ -5,7 +5,7 @@
 - Work friendly with `Prettier`.
 - Extends `third-party-config:recommended` first.
 - Default enabled: `unicorn`, `sort-package-json`, sort `import` & `export`, `json`.
-- Optional: `TypeScript`, `React`, `Tailwind.CSS`, `jsdoc`.
+- Optional: `TypeScript`, `React`, `jsdoc`.
 - ESLint flat config (\>=0.7.0).
 
 ## Usage
@@ -44,7 +44,6 @@ type Options = {
   jsdoc: boolean // default: false
   typescript: boolean // default: false
   react: boolean // default: false
-  tailwindcss: boolean // default: false
   node: boolean // default: false
 }
 ```
@@ -67,7 +66,7 @@ module.exports = {
   extends: ['@nnecec/eslint-config/typescript'],
   // includes **TypeScript** config and React config.
   extends: ['@nnecec/eslint-config/react'],
-  // includes **React** config and Tailwind.
+  // includes **React** config.
   extends: ['@nnecec/eslint-config/react-universal'],
 }
 ```

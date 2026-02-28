@@ -13,7 +13,6 @@ import {
   prettier,
   react,
   sort,
-  tailwindcss,
   typescript,
   unicorn,
 } from './configs'
@@ -28,7 +27,6 @@ type Options = {
   react?: boolean
   sort?: boolean
   'sort-package-json'?: boolean
-  tailwindcss?: boolean
   typescript?: boolean
   unicorn?: boolean
 }
@@ -44,7 +42,6 @@ export default function nnecec(options: Options = {}): Linter.Config[] {
     react: enableReact = false,
     sort: enableSort = true,
     'sort-package-json': enableSortPackageJson = true,
-    tailwindcss: enableTailwindCSS = false,
     typescript: enableTypeScript = false,
     unicorn: enableUnicorn = true,
   } = options
@@ -60,7 +57,6 @@ export default function nnecec(options: Options = {}): Linter.Config[] {
   if (enableReact) configs.push(...react())
   if (enableJsxA11y) configs.push(...jsxA11y())
   if (enableJest) configs.push(...jest())
-  if (enableTailwindCSS) configs.push(...tailwindcss())
   if (enableSort) configs.push(...sort())
   if (enableSortPackageJson) configs.push(...packagejson())
 
