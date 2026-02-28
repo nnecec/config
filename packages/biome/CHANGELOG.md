@@ -1,8 +1,16 @@
 # Change Log - @nnecec/biome-config
 
-<!-- This log was last generated on Thu, 28 Nov 2024 15:33:59 GMT and should not be manually modified. -->
+<!-- This log was last generated on Sat, 28 Feb 2026 10:54:38 GMT and should not be manually modified. -->
 
 <!-- Start content -->
+
+## 0.2.2
+
+Sat, 28 Feb 2026 10:54:38 GMT
+
+### Patches
+
+- update deps (nnecec@outlook.com)
 
 ## 0.2.1
 

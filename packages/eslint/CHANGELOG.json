@@ -2,6 +2,21 @@
   "name": "@nnecec/eslint-config",
   "entries": [
     {
+      "date": "Sat, 28 Feb 2026 10:54:38 GMT",
+      "version": "0.13.0",
+      "tag": "@nnecec/eslint-config_v0.13.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "nnecec@outlook.com",
+            "package": "@nnecec/eslint-config",
+            "commit": "64105199f1d4d90888b43dee7bfaa383acd7d53f",
+            "comment": "eslint10 remove tailwind plugin"
+          }
+        ]
+      }
+    },
+    {
       "date": "Thu, 06 Mar 2025 17:23:21 GMT",
       "version": "0.12.0",
       "tag": "@nnecec/eslint-config_v0.12.0",

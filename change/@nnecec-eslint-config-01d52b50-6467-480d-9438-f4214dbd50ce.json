@@ -1,7 +1,0 @@
-{
-  "type": "minor",
-  "comment": "eslint10 remove tailwind plugin",
-  "packageName": "@nnecec/eslint-config",
-  "email": "nnecec@outlook.com",
-  "dependentChangeType": "patch"
-}
