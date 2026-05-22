@@ -1,0 +1,24 @@
+{
+  "name": "@nnecec/oxlint-config",
+  "version": "0.0.1",
+  "author": "nnecec(https://github.com/nnecec/)",
+  "exports": {
+    ".": {
+      "import": "./index.mjs",
+      "require": "./base.json",
+      "default": "./base.json"
+    }
+  },
+  "main": "base.json",
+  "files": [
+    "base.json",
+    "index.mjs",
+    "README.md"
+  ],
+  "dependencies": {
+    "oxlint": "^1.58.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "./node_modules/oxfmt/configuration_schema.json",
+  "ignorePatterns": [
+    "**/node_modules/**",
+    "**/dist/**",
+    "**/build/**",
+    "**/coverage/**",
+    "**/logs/**",
+    "**/temp/**",
+    "**/tmp/**",
+    "**/cache/**"
+  ],
+  "semi": false,
+  "singleQuote": true,
+  "jsxSingleQuote": false,
+  "sortImports": true,
+  "sortPackageJson": {
+    "sortScripts": true
+  }
+}
