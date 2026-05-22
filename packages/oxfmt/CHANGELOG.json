@@ -1,0 +1,20 @@
+{
+  "name": "@nnecec/oxfmt-config",
+  "entries": [
+    {
+      "date": "Fri, 22 May 2026 05:49:06 GMT",
+      "version": "0.0.1",
+      "tag": "@nnecec/oxfmt-config_v0.0.1",
+      "comments": {
+        "none": [
+          {
+            "author": "nnecec@outlook.com",
+            "package": "@nnecec/oxfmt-config",
+            "commit": "f59247551f053762c97c0307b52ee80a39438e7c",
+            "comment": "new oxfmt config"
+          }
+        ]
+      }
+    }
+  ]
+}
